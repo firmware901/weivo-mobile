@@ -1,0 +1,133 @@
+/* ============================================================
+ * mobile.css —— 威沃报价 手机版样式
+ * 复用桌面版报价引擎 app.js，仅替换布局与触屏样式。
+ * 主色与桌面版一致：蓝 #0f4c81 / 红(限价) #c0392b / 绿(平台价) #1e8e5a
+ * ============================================================ */
+:root{
+  --blue:#0f4c81; --blue-d:#0b3a63; --red:#c0392b; --green:#1e8e5a;
+  --ink:#24292f; --sub:#57606a; --line:#d0d7de; --bg:#eef1f5; --card:#ffffff;
+}
+*{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+html,body{margin:0; padding:0;}
+body{
+  font-family:"Microsoft YaHei","PingFang SC",-apple-system,Arial,sans-serif;
+  background:var(--bg); color:var(--ink); font-size:15px; line-height:1.5;
+  padding-bottom:88px; /* 给底部固定价格条留位 */
+}
+
+/* ---------- 顶栏 ---------- */
+.m-head{
+  position:sticky; top:0; z-index:50;
+  background:var(--blue); color:#fff;
+  padding:10px 14px calc(10px + env(safe-area-inset-top,0)) 14px;
+  padding-top:calc(10px + env(safe-area-inset-top,0));
+  box-shadow:0 2px 8px rgba(0,0,0,.18);
+}
+.m-brand{font-size:18px; font-weight:800; letter-spacing:.5px;}
+.m-brand small{font-size:11px; font-weight:400; opacity:.8; margin-left:4px;}
+.m-ver{display:flex; flex-wrap:wrap; gap:6px; margin-top:8px;}
+.ver-badge{
+  border:1px solid rgba(255,255,255,.5); border-radius:12px;
+  padding:2px 9px; font-size:10px; line-height:1.5; color:#fff; opacity:.92;
+  background:rgba(255,255,255,.10);
+}
+.ver-badge b{font-weight:700;}
+.ver-badge.active{border-color:#7ee2b0; background:rgba(46,204,133,.22); color:#eafff5;}
+.m-src{display:flex; gap:8px; margin-top:8px;}
+.m-src button{
+  flex:1; border:1px solid rgba(255,255,255,.55); background:transparent;
+  color:#fff; font-size:13px; padding:7px 0; border-radius:8px; cursor:pointer;
+  font-family:inherit;
+}
+.m-src button.active{background:#fff; color:var(--blue); font-weight:700; border-color:#fff;}
+.m-srcecho{display:block; font-size:11px; opacity:.8; margin-top:6px; min-height:14px;}
+
+/* ---------- 主体 ---------- */
+.m-main{max-width:560px; margin:0 auto; padding:12px;}
+.m-card{
+  background:var(--card); border-radius:12px; padding:14px; margin-bottom:12px;
+  box-shadow:0 1px 3px rgba(0,0,0,.06);
+}
+.m-step{font-size:15px; font-weight:700; margin-bottom:10px; display:flex; align-items:center; gap:8px; flex-wrap:wrap;}
+.m-step i{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:22px; height:22px; border-radius:50%; background:var(--blue); color:#fff;
+  font-size:12px; font-style:normal; font-weight:700;
+}
+.m-tip{font-size:11px; font-weight:400; color:var(--sub);}
+
+/* ---------- 下拉选择（全部触屏化） ---------- */
+.sel{
+  width:100%; height:46px; padding:0 12px; font-size:16px; /* 16px 防 iOS 聚焦缩放 */
+  border:1px solid var(--line); border-radius:9px; background:#fff; color:var(--ink);
+  appearance:none; -webkit-appearance:none;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' fill='none' stroke='%2357606a' stroke-width='2' stroke-linecap='round'/></svg>");
+  background-repeat:no-repeat; background-position:right 14px center; padding-right:36px;
+  cursor:pointer; font-family:inherit;
+}
+.sel:focus{outline:none; border-color:var(--blue); box-shadow:0 0 0 3px rgba(15,76,129,.15);}
+.sel option{font-size:16px; padding:6px;}
+.sel option.opt-ban, .sel option:disabled{color:#b3b3b3; text-decoration:line-through;}
+
+/* 配置类别网格：手机上单列铺满 */
+.sel-grid{display:flex; flex-direction:column; gap:12px;}
+.sel-cell .cat-name{font-size:13px; font-weight:700; color:var(--sub); margin-bottom:5px;}
+.sel-grid select:disabled{background:#f1f1f1; color:#9a9a9a; cursor:not-allowed;}
+
+.empty-tip{color:var(--sub); font-size:13px; padding:6px 2px;}
+
+/* ---------- 报价明细 / 面价构成 ---------- */
+.spec-box{
+  border:1px dashed var(--blue); border-radius:10px; background:#f4f8fc;
+  padding:12px; font-size:14px; line-height:1.8; word-break:break-all;
+}
+.spec-box .k{font-weight:700; color:var(--blue);}
+.breakdown{font-size:13px; color:var(--sub); line-height:1.7; word-break:break-all;}
+
+/* ---------- 更新日志 ---------- */
+.m-log details{font-size:13px;}
+.m-log summary{cursor:pointer; color:var(--blue); font-weight:700; outline:none;}
+.log-date{font-weight:700; font-size:12px; color:var(--sub); margin-top:8px;}
+.log-group ul{margin:4px 0 0 18px; color:var(--ink); line-height:1.7; font-size:12px;}
+
+/* ---------- 底部固定价格条 ---------- */
+.m-bar{
+  position:fixed; left:0; right:0; bottom:0; z-index:60;
+  background:#fff; border-top:1px solid var(--line);
+  box-shadow:0 -3px 12px rgba(0,0,0,.10);
+  display:flex; align-items:center; gap:10px;
+  padding:10px 14px calc(10px + env(safe-area-inset-bottom,0)) 14px;
+}
+.m-bar-prices{flex:1; display:flex; align-items:center; gap:12px; min-width:0;}
+.m-bar-big{display:flex; align-items:baseline; gap:6px; min-width:0;}
+.m-bar-lab{font-size:12px; color:var(--sub); white-space:nowrap;}
+.m-bar-val{font-size:26px; font-weight:800; color:var(--green); line-height:1; white-space:nowrap;}
+.m-bar-sm{display:flex; flex-direction:column; gap:2px; font-size:12px; color:var(--sub);}
+.m-bar-sm div{display:flex; gap:5px; white-space:nowrap;}
+.m-bar-sm b{color:var(--ink); font-weight:700;}
+.m-bar-sm div:last-child b{color:var(--red);}
+.m-bar-btns{display:flex; gap:8px; flex-shrink:0;}
+.m-btn-copy{
+  border:0; background:var(--blue); color:#fff; font-size:15px; font-weight:700;
+  border-radius:9px; padding:0 18px; height:44px; cursor:pointer; font-family:inherit;
+}
+.m-btn-copy:active{background:var(--blue-d);}
+.m-btn-reset{
+  border:1px solid var(--line); background:#fff; color:var(--sub);
+  font-size:13px; border-radius:9px; padding:0 12px; height:44px; cursor:pointer; font-family:inherit;
+}
+.m-btn-reset:active{background:#f1f3f5;}
+
+/* ---------- 提示条 ---------- */
+#toast{
+  position:fixed; left:50%; bottom:100px; transform:translateX(-50%);
+  background:rgba(0,0,0,.8); color:#fff; padding:9px 22px; border-radius:20px;
+  font-size:14px; opacity:0; pointer-events:none; transition:opacity .25s; z-index:99; max-width:86vw; text-align:center;
+}
+#toast.show{opacity:1;}
+
+/* 小屏微调 */
+@media (max-width:360px){
+  .m-bar-val{font-size:22px;}
+  .m-bar-lab{font-size:11px;}
+}

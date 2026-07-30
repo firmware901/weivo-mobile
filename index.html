@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>威沃报价 · 手机版</title>
+<link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+
+<header class="m-head">
+  <div class="m-brand">威沃报价 <small>手机版</small></div>
+  <div class="m-ver" id="versionBadges"></div>
+  <div class="m-src" id="srcSwitch"></div>
+  <span id="srcEcho" class="m-srcecho"></span>
+</header>
+
+<main class="m-main">
+  <section class="m-card">
+    <div class="m-step"><i>①</i>选择产品</div>
+    <select class="sel" id="productSelect"></select>
+  </section>
+
+  <section class="m-card">
+    <div class="m-step"><i>②</i>选择系列</div>
+    <div id="seriesList"></div>
+  </section>
+
+  <section class="m-card">
+    <div class="m-step"><i>③</i>选择尺寸 / 型号</div>
+    <div id="sizeList"></div>
+  </section>
+
+  <section class="m-card">
+    <div class="m-step"><i>④</i>选择配置 <span class="m-tip">下拉选择，选"（不选）"表示该项不计价</span></div>
+    <div id="catList"></div>
+  </section>
+
+  <section class="m-card">
+    <div class="m-step"><i>⑤</i>正版系统 / 软件 <span class="m-tip">计入总价打折</span></div>
+    <div id="osList"></div>
+  </section>
+
+  <section class="m-card">
+    <div class="m-step"><i>⑥</i>报价明细</div>
+    <div class="spec-box" id="specLine">请先选择系列与尺寸。</div>
+  </section>
+
+  <section class="m-card">
+    <div class="m-step">面价构成</div>
+    <div class="breakdown" id="breakdown"></div>
+  </section>
+
+  <section class="m-card m-log" id="logPanel"></section>
+</main>
+
+<!-- 底部固定价格条 -->
+<div class="m-bar">
+  <div class="m-bar-prices">
+    <div class="m-bar-big">
+      <span class="m-bar-lab">平台价</span>
+      <span class="m-bar-val" id="pPlat">—</span>
+    </div>
+    <div class="m-bar-sm">
+      <div><span>面价</span><b id="pFace">—</b></div>
+      <div><span>限价</span><b id="pLimit">—</b></div>
+    </div>
+  </div>
+  <div class="m-bar-btns">
+    <button class="m-btn-copy" id="btnCopy">复制</button>
+    <button class="m-btn-reset" id="btnReset">重置</button>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<!-- 复用桌面版报价引擎：只依赖 biz-data.js 提供的 QUOTE_DATA 全局 -->
+<script src="biz-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
