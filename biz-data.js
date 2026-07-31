@@ -5,14 +5,14 @@
 // 业务员本地客户记忆与合同序号存于浏览器 localStorage，不在此文件内，更新本文件不会冲掉。
 // ============================================================
 
-var QUOTE_DATA ={
-  "generatedAt": "2026-07-30 23:29:44",
+var QUOTE_DATA = {
+  "generatedAt": "2026-07-31 18:27:16",
   "sources": [
     {
       "key": "primary",
       "label": "主推",
-      "version": "2026.07.29",
-      "validUntil": "7月30",
+      "version": "2026.07.31",
+      "validUntil": "7月31",
       "fileName": "主推产品报价表（7月27更新）有效期7月30.xlsx",
       "series": [
         {
@@ -371,7 +371,7 @@ var QUOTE_DATA ={
                   "price": 780
                 },
                 {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
+                  "name": "公板RK3288(2+32)+WIFI/BT单网",
                   "price": 790
                 },
                 {
@@ -404,7 +404,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -523,7 +523,7 @@ var QUOTE_DATA ={
               "name": "CPU",
               "options": [
                 {
-                  "name": "3代i5-3317U双网(1*D3/8/MS)",
+                  "name": "3代i5-3317U双网 for SE(1*D3/8/MS)",
                   "price": 620
                 },
                 {
@@ -750,7 +750,7 @@ var QUOTE_DATA ={
                   "price": 780
                 },
                 {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
+                  "name": "公板RK3288(2+32)+WIFI/BT单网",
                   "price": 790
                 },
                 {
@@ -783,7 +783,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -1828,7 +1828,7 @@ var QUOTE_DATA ={
                   "price": 780
                 },
                 {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
+                  "name": "公板RK3288(2+32)+WIFI/BT单网",
                   "price": 790
                 },
                 {
@@ -1861,7 +1861,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -1956,16 +1956,16 @@ var QUOTE_DATA ={
               "name": "CPU",
               "options": [
                 {
-                  "name": "3代i5-3317U双网(1*D3/8/MS)",
-                  "price": 670
+                  "name": "3代i5-3317U双网 for SE(1*D3/8/MS)",
+                  "price": 620
                 },
                 {
                   "name": "5代i3-5005U双网(1*D3/8/M2)",
-                  "price": 700
+                  "price": 640
                 },
                 {
                   "name": "5代i5-5350U双网(1*D3/8/M2)",
-                  "price": 950
+                  "price": 860
                 },
                 {
                   "name": "6代i5-6200U双网(1*D4/16/M2)",
@@ -2167,11 +2167,11 @@ var QUOTE_DATA ={
                 },
                 {
                   "name": "4G模块",
-                  "price": 250
+                  "price": 290
                 },
                 {
                   "name": "5G模块（8代及以上）",
-                  "price": 1400
+                  "price": 1000
                 },
                 {
                   "name": "宽压模块",
@@ -2255,7 +2255,7 @@ var QUOTE_DATA ={
                   "price": 780
                 },
                 {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
+                  "name": "公板RK3288(2+32)+WIFI/BT单网",
                   "price": 790
                 },
                 {
@@ -2288,7 +2288,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -2714,7 +2714,7 @@ var QUOTE_DATA ={
                   "price": 780
                 },
                 {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
+                  "name": "公板RK3288(2+32)+WIFI/BT单网",
                   "price": 790
                 },
                 {
@@ -2744,7 +2744,7 @@ var QUOTE_DATA ={
               "options": []
             },
             {
-              "name": "WIFI",
+              "name": "WIFI 安卓",
               "options": [
                 {
                   "name": "WIFI6",
@@ -3380,7 +3380,7 @@ var QUOTE_DATA ={
                   "price": 780
                 },
                 {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
+                  "name": "公板RK3288(2+32)+WIFI/BT单网",
                   "price": 790
                 },
                 {
@@ -3413,7 +3413,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -3856,7 +3856,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -4105,11 +4105,11 @@ var QUOTE_DATA ={
                   "price": 400
                 },
                 {
-                  "name": "8G(D4)",
+                  "name": "8G(D4)台式机",
                   "price": 600
                 },
                 {
-                  "name": "16G(D4)",
+                  "name": "16G(D4)台式机",
                   "price": 1200
                 }
               ]
@@ -4206,7 +4206,7 @@ var QUOTE_DATA ={
                   "price": 780
                 },
                 {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
+                  "name": "公板RK3288(2+32)+WIFI/BT单网",
                   "price": 790
                 },
                 {
@@ -4254,7 +4254,7 @@ var QUOTE_DATA ={
                   "price": 400
                 },
                 {
-                  "name": "J1900双网(1*D3/8/MS)",
+                  "name": "J1900双网 for NANO(1*D3/8/MS)",
                   "price": 620
                 },
                 {
@@ -4527,7 +4527,7 @@ var QUOTE_DATA ={
                   "price": 900
                 },
                 {
-                  "name": "I5-5200U双网(2*D3/16/MS)",
+                  "name": "I5-5200U双网 for GW100(2*D3/16/MS)",
                   "price": 1030
                 },
                 {
@@ -4561,6 +4561,10 @@ var QUOTE_DATA ={
                 {
                   "name": "I5-7200U双网(2*D4/16/M2)",
                   "price": 1400
+                },
+                {
+                  "name": "I5-5200U双网(2*D3/16/MS)",
+                  "price": 950
                 }
               ]
             },
@@ -4685,6 +4689,14 @@ var QUOTE_DATA ={
                   "price": 120
                 }
               ]
+            },
+            {
+              "name": "新配置类",
+              "options": []
+            },
+            {
+              "name": "新配置类",
+              "options": []
             }
           ]
         },
@@ -5760,11 +5772,11 @@ var QUOTE_DATA ={
                   "price": 400
                 },
                 {
-                  "name": "8G(D4)",
+                  "name": "8G(D4)台式机",
                   "price": 600
                 },
                 {
-                  "name": "16G(D4)",
+                  "name": "16G(D4)台式机",
                   "price": 1200
                 }
               ]
@@ -5962,11 +5974,11 @@ var QUOTE_DATA ={
                   "price": 400
                 },
                 {
-                  "name": "8G(D4)",
+                  "name": "8G(D4)台式机",
                   "price": 600
                 },
                 {
-                  "name": "16G(D4)",
+                  "name": "16G(D4)台式机",
                   "price": 1200
                 }
               ]
@@ -6289,8 +6301,8 @@ var QUOTE_DATA ={
     {
       "key": "secondary",
       "label": "非主推",
-      "version": "2026.07.21",
-      "validUntil": "7月30",
+      "version": "2026.07.31",
+      "validUntil": "7月31",
       "fileName": "非主推产品报价表（7月21更新）有效期7月30V1.xlsx",
       "series": [
         {
@@ -6718,7 +6730,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -6900,7 +6912,7 @@ var QUOTE_DATA ={
                 },
                 {
                   "name": "1T(SATA)",
-                  "price": 1800
+                  "price": 1710
                 }
               ]
             },
@@ -7133,7 +7145,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -7951,7 +7963,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -8047,7 +8059,7 @@ var QUOTE_DATA ={
               "options": [
                 {
                   "name": "4代i3-4005U双网(1*D3/8/MS)",
-                  "price": 690
+                  "price": 620
                 },
                 {
                   "name": "7代i5-7300U 双网(1*D3/8/M2)",
@@ -8229,11 +8241,11 @@ var QUOTE_DATA ={
                 },
                 {
                   "name": "4G模块",
-                  "price": 250
+                  "price": 290
                 },
                 {
                   "name": "5G模块（8代及以上）",
-                  "price": 1400
+                  "price": 1000
                 },
                 {
                   "name": "宽压模块",
@@ -8402,7 +8414,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -8901,7 +8913,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -9380,7 +9392,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -9852,11 +9864,11 @@ var QUOTE_DATA ={
               "name": "内存",
               "options": [
                 {
-                  "name": "8G(D4)",
+                  "name": "8G(D4)台式机",
                   "price": 600
                 },
                 {
-                  "name": "16G(D4)",
+                  "name": "16G(D4)台式机",
                   "price": 1200
                 }
               ]
@@ -10058,7 +10070,7 @@ var QUOTE_DATA ={
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6",
+                  "name": "WIFI6 安卓",
                   "price": 30
                 }
               ]
@@ -10155,7 +10167,7 @@ var QUOTE_DATA ={
                   "price": 2460
                 },
                 {
-                  "name": "N100双网(1*D4/16/M2)",
+                  "name": "N100双网 for NANO(1*D4/16/M2)",
                   "price": 1880
                 },
                 {
@@ -11264,11 +11276,11 @@ var QUOTE_DATA ={
               "name": "内存",
               "options": [
                 {
-                  "name": "8G(D4)",
+                  "name": "8G(D4)台式机",
                   "price": 600
                 },
                 {
-                  "name": "16G(D4)",
+                  "name": "16G(D4)台式机",
                   "price": 1200
                 }
               ]
@@ -11621,6 +11633,19 @@ var QUOTE_DATA ={
   "updateLogs": {
     "primary": [
       {
+        "date": 46234,
+        "items": [
+          "FWS(X86) 其他 4G模块 价格 250→290",
+          "FWS(X86) 其他 5G模块（8代及以上） 价格 1400→1000",
+          "上架式工控机 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
+          "上架式工控机 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）",
+          "GPS(台式系列) 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
+          "GPS(台式系列) 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）",
+          "IPS系列 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
+          "IPS系列 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）"
+        ]
+      },
+      {
         "date": "46232",
         "items": [
           "1.GW-100下架I5-10310U双网、I5-10310U四网",
@@ -11631,7 +11656,7 @@ var QUOTE_DATA ={
       {
         "date": "46230",
         "items": [
-          "1.更正DMBYH(安卓)选择RK3566/2/16价格不变问题"
+          "更正DMBYH(安卓)选择RK3566/2/16价格不变问题"
         ]
       },
       {
@@ -11640,33 +11665,22 @@ var QUOTE_DATA ={
           "1.更正RK3588安卓主板存储大小",
           "2.DSMB02增加安卓主板报价"
         ]
-      },
-      {
-        "date": "46216",
-        "items": [
-          "1.增加AirMax一体机报价",
-          "2.DSMB02默认无摄像头，调整为可选项",
-          "3.更新一体机、IPRO-SE、安卓、UNO、NANO主板价格",
-          "4.更新GW-100、三防平板库存数据"
-        ]
-      },
-      {
-        "date": "46181",
-        "items": [
-          "1.更新I3 8代、1T固态、i3-5005u(IPRO-SE)价格",
-          "2.下架UNO N95、下架IPRO-SE I3-6100U，上架I3 7100U",
-          "3.调整桌面式CPU价格",
-          "4.增加新品GW-200、DSMB02、DMBYH、IBOOKHY价格"
-        ]
-      },
-      {
-        "date": "46151",
-        "items": [
-          "1.更新内存价格"
-        ]
       }
     ],
     "secondary": [
+      {
+        "date": 46234,
+        "items": [
+          "IPRO-SE(x86) 固态硬盘 1T(SATA) 价格 1800→1710",
+          "FWS(X86) CPU 4代i3-4005U双网(1*D3/8/MS) 价格 690→620",
+          "FWS(X86) 其他 4G模块 价格 250→290",
+          "FWS(X86) 其他 5G模块（8代及以上） 价格 1400→1000",
+          "上架式工控机 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
+          "上架式工控机 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）",
+          "GPS(台式系列) 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
+          "GPS(台式系列) 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）"
+        ]
+      },
       {
         "date": "46224",
         "items": [
@@ -11685,21 +11699,7 @@ var QUOTE_DATA ={
       {
         "date": "46199",
         "items": [
-          "1.更正NANO I5 6/7代处理器为D3内存"
-        ]
-      },
-      {
-        "date": "46181",
-        "items": [
-          "1.非主推主板更新价格",
-          "1.NANO定制主板更新价格",
-          "1.UNO定制主板更新价格"
-        ]
-      },
-      {
-        "date": "46151",
-        "items": [
-          "1.更新主板、内存价格"
+          "更正NANO I5 6/7代处理器为D3内存"
         ]
       }
     ]
