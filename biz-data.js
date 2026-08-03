@@ -6,7 +6,7 @@
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-07-31 18:27:16",
+  "generatedAt": "2026-08-01 10:31:37",
   "sources": [
     {
       "key": "primary",
@@ -204,7 +204,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -404,7 +404,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -623,7 +623,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -783,7 +783,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -1050,7 +1050,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -1362,7 +1362,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -1669,7 +1669,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -1861,7 +1861,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -2124,7 +2124,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -2288,7 +2288,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -2555,7 +2555,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -2744,7 +2744,7 @@ var QUOTE_DATA = {
               "options": []
             },
             {
-              "name": "WIFI 安卓",
+              "name": "WIFI安卓",
               "options": [
                 {
                   "name": "WIFI6",
@@ -2946,7 +2946,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -3229,7 +3229,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -3413,7 +3413,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -3656,7 +3656,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -3856,7 +3856,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -4152,7 +4152,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -4322,7 +4322,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -4452,7 +4452,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -4647,7 +4647,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -4865,7 +4865,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -5088,7 +5088,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -5366,7 +5366,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -5596,7 +5596,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -5819,7 +5819,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -6021,7 +6021,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -6478,7 +6478,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -6730,7 +6730,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -6933,7 +6933,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -7145,7 +7145,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -7396,7 +7396,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -7719,7 +7719,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -7963,7 +7963,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -8198,7 +8198,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -8414,7 +8414,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -8669,7 +8669,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -8913,7 +8913,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -9156,7 +9156,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -9392,7 +9392,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -9623,7 +9623,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -9911,7 +9911,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -10070,7 +10070,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "WIFI6 安卓",
+                  "name": "WIFI6安卓",
                   "price": 30
                 }
               ]
@@ -10275,7 +10275,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -10401,7 +10401,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -10587,7 +10587,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -10898,7 +10898,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -11116,7 +11116,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -11323,7 +11323,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -11497,7 +11497,7 @@ var QUOTE_DATA = {
               "name": "WIFI",
               "options": [
                 {
-                  "name": "Wi-Fi+BT",
+                  "name": "WiFi+BT",
                   "price": 75
                 },
                 {
@@ -11633,6 +11633,39 @@ var QUOTE_DATA = {
   "updateLogs": {
     "primary": [
       {
+        "date": 46235,
+        "items": [
+          "IPRO(x86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "IPRO(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "IPRO-SE(x86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "IPRO-SE(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "VFACE WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "VFACE-H WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "VOPC(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "VOPC(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "FWS(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "FWS(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "FWE(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "＋ FWE(安卓) 新增配置类「WIFI安卓」",
+          "－ FWE(安卓) 删除配置类「WIFI 安卓」",
+          "AirMax(x86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "DSMB02(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "DSMB02(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "IBOOKHY(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "DMBYH(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "上架式工控机 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "NANO WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "UNO WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "GW系列 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "BPC-101 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "BPC-102 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "BPC-103 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "GBOOK-GPS(DC系列) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "GPS(台式系列) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "IPS系列 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）"
+        ]
+      },
+      {
         "date": 46234,
         "items": [
           "FWS(X86) 其他 4G模块 价格 250→290",
@@ -11668,6 +11701,34 @@ var QUOTE_DATA = {
       }
     ],
     "secondary": [
+      {
+        "date": 46235,
+        "items": [
+          "IPRO(x86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "IPRO(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "IPRO-SE(x86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "IPRO-SE(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "VFACE WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "VOPC(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "VOPC(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "FWS(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "FWS(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "FWE(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "FWE(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "DSMB02(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "DSMB02(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "IBOOKHY(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "上架式工控机 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "ANBOX WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
+          "NANO WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "UNO WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "BPC-101 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "BPC-103 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "GBOOK-GPS(DC系列) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "GPS(台式系列) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
+          "IPS系列 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）"
+        ]
+      },
       {
         "date": 46234,
         "items": [

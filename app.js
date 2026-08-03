@@ -756,13 +756,26 @@ if (typeof module !== 'undefined' && module.exports) {
     renderLog();
   }
 
+  /* 去掉配置里给产线看的技术括号标注 (D3)(D4)(MS)(M.2) 等，
+     兼容半角()与全角（）；括号内可能含 '/'（如 CPU 的 (1*D3/8/MS)），
+     故先全局去括号、再按 '/' 分段清理空段。
+     仅用于对外（合同/发票/复制报价）输出，产线用的生产订单保留括号。 */
+  function stripSpecParens(t) {
+    if (!t) return t;
+    var cleaned = String(t).replace(/[（(][^()（）]*[)）]/g, '');
+    return cleaned.split('/')
+      .map(function (seg) { return seg.trim(); })
+      .filter(function (seg) { return seg.length > 0; })
+      .join('/');
+  }
+
   /* ---------- 报价文本（复制 / 导出共用） ---------- */
   function buildQuoteText() {
     var s = curSeries();
     var z = curSize();
     if (!s || !z) return null;
     var q = currentQuote();
-    var spec = QuoteCore.buildSpecLine(s, state.sizeName, state.sel, state.osLabel, false, false);
+    var spec = stripSpecParens(QuoteCore.buildSpecLine(s, state.sizeName, state.sel, state.osLabel, false, false));
     var d = new Date();
     var dateOnly = d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
     var lines = [
