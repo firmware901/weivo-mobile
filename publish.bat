@@ -63,13 +63,27 @@ if not defined GIT_BIN (
 )
 echo   [INFO] Using git: %GIT_BIN%
 
+:: Add mingw64/bin to PATH so git.exe's MSYS2 runtime DLLs can be resolved.
+:: Without this, cmd-launched git fails silently because it can't find
+:: sibling DLLs when cwd != git.exe directory.
+if /i "%GIT_BIN%"=="C:\Users\gamea\.workbuddy\binaries\PortableGit\versions\1.2.0\cmd\git.exe" set "PATH=C:\Users\gamea\.workbuddy\binaries\PortableGit\versions\1.2.0\mingw64\bin;%PATH%"
+if /i "%GIT_BIN%"=="C:\Program Files\Git\cmd\git.exe"        set "PATH=C:\Program Files\Git\mingw64\bin;%PATH%"
+if /i "%GIT_BIN%"=="C:\Program Files (x86)\Git\cmd\git.exe"  set "PATH=C:\Program Files (x86)\Git\mingw64\bin;%PATH%"
+
 :: Verify git repo using a real git command (more reliable than "if exist .git")
-"%GIT_BIN%" -C "%DST%" rev-parse --is-inside-work-tree >nul 2>nul
+:: Use a temp file to capture rev-parse output, then check if it equals "true".
+:: Avoids if errorlevel / NEQ comparisons which misfire under setlocal.
+set "REV_OUT=%TEMP%\weiwo_revparse_%RANDOM%.txt"
+"%GIT_BIN%" -C "%DST%" rev-parse --is-inside-work-tree > "%REV_OUT%" 2>&1
+findstr /b /c:"true" "%REV_OUT%" >nul
 if errorlevel 1 (
-  echo   [FAIL] %DST% is not a git repo (git rev-parse failed)
+  echo   [FAIL] %DST% is not a git repo. Output:
+  type "%REV_OUT%"
+  del "%REV_OUT%" >nul 2>&1
   pause
   exit /b 1
 )
+del "%REV_OUT%" >nul 2>&1
 echo   OK
 echo.
 
