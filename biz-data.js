@@ -6,13 +6,13 @@
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-08-01 10:31:37",
+  "generatedAt": "2026-09-05 02:20:27",
   "sources": [
     {
       "key": "primary",
       "label": "主推",
-      "version": "2026.07.31",
-      "validUntil": "7月31",
+      "version": "2026.09.08",
+      "validUntil": "9月30",
       "fileName": "主推产品报价表（7月27更新）有效期7月30.xlsx",
       "series": [
         {
@@ -104,10 +104,6 @@ var QUOTE_DATA = {
                   "price": 1380
                 },
                 {
-                  "name": "10代i7-1065G7双网(2*D4/32/M2)",
-                  "price": 2200
-                },
-                {
                   "name": "12代i5-1235U双网(2*D4/32/M2)",
                   "price": 2560
                 },
@@ -142,7 +138,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -561,7 +557,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -950,10 +946,6 @@ var QUOTE_DATA = {
                   "price": 1380
                 },
                 {
-                  "name": "10代i7-1065G7双网(2*D4/32/M2)",
-                  "price": 2200
-                },
-                {
                   "name": "12代i5-1235U双网(2*D4/32/M2)",
                   "price": 2560
                 },
@@ -988,7 +980,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -1300,7 +1292,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -1569,10 +1561,6 @@ var QUOTE_DATA = {
                   "price": 1380
                 },
                 {
-                  "name": "10代i7-1065G7双网(2*D4/32/M2)",
-                  "price": 2200
-                },
-                {
                   "name": "12代i5-1235U双网(2*D4/32/M2)",
                   "price": 2560
                 },
@@ -1607,7 +1595,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -2024,10 +2012,6 @@ var QUOTE_DATA = {
                   "price": 1380
                 },
                 {
-                  "name": "10代i7-1065G7双网(2*D4/32/M2)",
-                  "price": 2200
-                },
-                {
                   "name": "12代i5-1235U双网(2*D4/32/M2)",
                   "price": 2560
                 },
@@ -2062,7 +2046,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -2455,10 +2439,6 @@ var QUOTE_DATA = {
                   "price": 1380
                 },
                 {
-                  "name": "10代i7-1065G7双网(2*D4/32/M2)",
-                  "price": 2200
-                },
-                {
                   "name": "12代i5-1235U双网(2*D4/32/M2)",
                   "price": 2560
                 },
@@ -2493,7 +2473,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -2884,7 +2864,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -3129,10 +3109,6 @@ var QUOTE_DATA = {
                   "price": 1380
                 },
                 {
-                  "name": "10代i7-1065G7双网(2*D4/32/M2)",
-                  "price": 2200
-                },
-                {
                   "name": "12代i5-1235U双网(2*D4/32/M2)",
                   "price": 2560
                 },
@@ -3167,7 +3143,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -3556,10 +3532,6 @@ var QUOTE_DATA = {
                   "price": 1380
                 },
                 {
-                  "name": "10代i7-1065G7双网(2*D4/32/M2)",
-                  "price": 2200
-                },
-                {
                   "name": "12代i5-1235U双网(2*D4/32/M2)",
                   "price": 2560
                 },
@@ -3594,7 +3566,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -4251,7 +4223,7 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "N2840双网(1*D3/8/MS)",
-                  "price": 400
+                  "price": 440
                 },
                 {
                   "name": "J1900双网 for NANO(1*D3/8/MS)",
@@ -4267,7 +4239,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-4500U双网(1*D3/8/MS)",
-                  "price": 840
+                  "price": 880
                 }
               ]
             },
@@ -4373,7 +4345,7 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "I5-6300U双网(1*D3/8/M2)",
-                  "price": 900
+                  "price": 980
                 }
               ]
             },
@@ -4390,7 +4362,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -4585,7 +4557,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -4765,10 +4737,6 @@ var QUOTE_DATA = {
                   "price": 1380
                 },
                 {
-                  "name": "10代i7-1065G7双网(2*D4/32/M2)",
-                  "price": 2200
-                },
-                {
                   "name": "12代i5-1235U双网(2*D4/32/M2)",
                   "price": 2560
                 },
@@ -4803,7 +4771,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -5026,7 +4994,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -5218,10 +5186,6 @@ var QUOTE_DATA = {
                   "price": 1380
                 },
                 {
-                  "name": "10代i7-1065G7双网(2*D4/32/M2)",
-                  "price": 2200
-                },
-                {
                   "name": "12代i5-1235U双网(2*D4/32/M2)",
                   "price": 2560
                 },
@@ -5304,7 +5268,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -5496,10 +5460,6 @@ var QUOTE_DATA = {
                   "price": 1380
                 },
                 {
-                  "name": "10代i7-1065G7双网(2*D4/32/M2)",
-                  "price": 2200
-                },
-                {
                   "name": "12代i5-1235U双网(2*D4/32/M2)",
                   "price": 2560
                 },
@@ -5534,7 +5494,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -6301,8 +6261,8 @@ var QUOTE_DATA = {
     {
       "key": "secondary",
       "label": "非主推",
-      "version": "2026.07.31",
-      "validUntil": "7月31",
+      "version": "2026.09.08",
+      "validUntil": "9月30",
       "fileName": "非主推产品报价表（7月21更新）有效期7月30V1.xlsx",
       "series": [
         {
@@ -6387,11 +6347,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6413双网(1*D4/16/M2)",
-                  "price": 1710
+                  "price": 1920
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 2160
+                  "price": 1980
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -6400,6 +6360,14 @@ var QUOTE_DATA = {
                 {
                   "name": "8代i7-8665U四网(2*D4/16/M2)",
                   "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
                 }
               ]
             },
@@ -6416,7 +6384,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -6850,11 +6818,27 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "4代i3-4005U双网(1*D3/8/MS)",
-                  "price": 620
+                  "price": 660
                 },
                 {
                   "name": "7代i5-7300U 双网(1*D4/8/M2)",
-                  "price": 1050
+                  "price": 1030
+                },
+                {
+                  "name": "6代i5 6200U 双网 for SE（2*D3/16/M2）",
+                  "price": 960
+                },
+                {
+                  "name": "6代i7 6500U 双网 for SE（2*D3/16/M2）",
+                  "price": 1340
+                },
+                {
+                  "name": "8代i5 8250U 双网 for SE（2*D3/16/M2）",
+                  "price": 1360
+                },
+                {
+                  "name": "8代i7 8550U 双网 for SE（2*D3/16/M2）",
+                  "price": 1520
                 }
               ]
             },
@@ -6871,7 +6855,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -7305,11 +7289,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6413双网(1*D4/16/M2)",
-                  "price": 1710
+                  "price": 1920
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 2160
+                  "price": 1980
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -7318,6 +7302,14 @@ var QUOTE_DATA = {
                 {
                   "name": "8代i7-8665U四网(2*D4/16/M2)",
                   "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
                 }
               ]
             },
@@ -7334,7 +7326,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -7608,11 +7600,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6413双网(1*D4/16/M2)",
-                  "price": 1710
+                  "price": 1920
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 2160
+                  "price": 1980
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -7641,6 +7633,14 @@ var QUOTE_DATA = {
                 {
                   "name": "兆芯U6780A双网(2*D4/16/MS)风扇",
                   "price": 2572
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
                 }
               ]
             },
@@ -7657,7 +7657,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -8107,11 +8107,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6413双网(1*D4/16/M2)",
-                  "price": 1710
+                  "price": 1920
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 2160
+                  "price": 1980
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -8120,6 +8120,14 @@ var QUOTE_DATA = {
                 {
                   "name": "8代i7-8665U四网(2*D4/16/M2)",
                   "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
                 }
               ]
             },
@@ -8136,7 +8144,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -8574,11 +8582,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6413双网(1*D4/16/M2)",
-                  "price": 1710
+                  "price": 1920
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 2160
+                  "price": 1980
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -8587,6 +8595,14 @@ var QUOTE_DATA = {
                 {
                   "name": "8代i7-8665U四网(2*D4/16/M2)",
                   "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
                 }
               ]
             },
@@ -8607,7 +8623,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -9061,11 +9077,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6413双网(1*D4/16/M2)",
-                  "price": 1710
+                  "price": 1920
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 2160
+                  "price": 1980
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -9074,6 +9090,14 @@ var QUOTE_DATA = {
                 {
                   "name": "8代i7-8665U四网(2*D4/16/M2)",
                   "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
                 }
               ]
             },
@@ -9094,7 +9118,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -9528,11 +9552,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6413双网(1*D4/16/M2)",
-                  "price": 1710
+                  "price": 1920
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 2160
+                  "price": 1980
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -9541,6 +9565,14 @@ var QUOTE_DATA = {
                 {
                   "name": "8代i7-8665U四网(2*D4/16/M2)",
                   "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
                 }
               ]
             },
@@ -9561,7 +9593,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -10120,27 +10152,27 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "I5-5300U双网(1*D3/8/MS)",
-                  "price": 880
+                  "price": 900
                 },
                 {
                   "name": "I7-5600U双网(1*D3/8/MS)",
-                  "price": 960
+                  "price": 1000
                 },
                 {
                   "name": "I5-6200U双网(1*D3/16/M2)",
-                  "price": 1100
+                  "price": 1040
                 },
                 {
                   "name": "I5-7200U双网(1*D3/16/M2)",
-                  "price": 1140
+                  "price": 1100
                 },
                 {
                   "name": "I3-8130U双网(1*D4/16/M2)",
-                  "price": 960
+                  "price": 1000
                 },
                 {
                   "name": "I5-8250U双网(1*D4/16/M2)",
-                  "price": 1560
+                  "price": 1500
                 },
                 {
                   "name": "i3-1215u双网(1*D4/16/M2)",
@@ -10156,19 +10188,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "N5095双网(1*D4/8/M2)",
-                  "price": 1180
+                  "price": 1200
                 },
                 {
                   "name": "N97双网(1*D4/16/M2)",
-                  "price": 2460
+                  "price": 2720
                 },
                 {
                   "name": "N100双网 for NANO(1*D4/16/M2)",
-                  "price": 1880
+                  "price": 1900
                 },
                 {
                   "name": "N100双网TYPE-C(1*D5/32/M2)",
@@ -10176,23 +10208,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N150双网(1*D4/16/M2)",
-                  "price": 2140
+                  "price": 1940
                 },
                 {
                   "name": "N305双网(1*D4/16/M2)",
-                  "price": 4100
+                  "price": 3160
                 },
                 {
                   "name": "J6412六网i226(1*D4/16/M2)",
-                  "price": 2300
+                  "price": 2100
                 },
                 {
                   "name": "N100六网i226(1*D4/16/M2)",
-                  "price": 2120
+                  "price": 2040
                 },
                 {
                   "name": "N150四网i226(1*D4/16/M2)",
-                  "price": 2200
+                  "price": 2080
                 },
                 {
                   "name": "N305四网i226(1*D4/16/M2)",
@@ -10213,7 +10245,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -10325,16 +10357,24 @@ var QUOTE_DATA = {
               "name": "CPU",
               "options": [
                 {
+                  "name": "5200U（赛扬）",
+                  "price": 890
+                },
+                {
                   "name": "I7-6600U双网(1*D3/8/M2)",
-                  "price": 1250
+                  "price": 1290
                 },
                 {
                   "name": "i5-8250U双网(1*D3/8/M2)",
-                  "price": 1240
+                  "price": 1280
                 },
                 {
                   "name": "i7-8550U双网(1*D3/8/M2)",
-                  "price": 1400
+                  "price": 1420
+                },
+                {
+                  "name": "i5-1235U四网(2*D4/32/M2/GPIO8)",
+                  "price": 3100
                 }
               ]
             },
@@ -10496,11 +10536,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6413双网(1*D4/16/M2)",
-                  "price": 1710
+                  "price": 1920
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 2160
+                  "price": 1980
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -10509,6 +10549,14 @@ var QUOTE_DATA = {
                 {
                   "name": "8代i7-8665U四网(2*D4/16/M2)",
                   "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
                 }
               ]
             },
@@ -10525,7 +10573,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -10735,11 +10783,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6413双网(1*D4/16/M2)",
-                  "price": 1710
+                  "price": 1920
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 2160
+                  "price": 1980
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -10816,6 +10864,14 @@ var QUOTE_DATA = {
                 {
                   "name": "I7-9700",
                   "price": 1590
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
                 }
               ]
             },
@@ -10836,7 +10892,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -11021,11 +11077,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6413双网(1*D4/16/M2)",
-                  "price": 1710
+                  "price": 1920
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 2160
+                  "price": 1980
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -11034,6 +11090,14 @@ var QUOTE_DATA = {
                 {
                   "name": "8代i7-8665U四网(2*D4/16/M2)",
                   "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
                 }
               ]
             },
@@ -11054,7 +11118,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "4G(D4)",
-                  "price": 310
+                  "price": 365
                 },
                 {
                   "name": "8G(D4)",
@@ -11633,6 +11697,40 @@ var QUOTE_DATA = {
   "updateLogs": {
     "primary": [
       {
+        "date": 46270,
+        "items": [
+          "－ IPRO(x86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
+          "IPRO(x86) 内存 4G(D4) 价格 310→365",
+          "IPRO-SE(x86) 内存 4G(D4) 价格 310→365",
+          "－ VFACE CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
+          "VFACE 内存 4G(D4) 价格 310→365",
+          "VFACE-H 内存 4G(D4) 价格 310→365",
+          "－ VOPC(X86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
+          "VOPC(X86) 内存 4G(D4) 价格 310→365",
+          "－ FWS(X86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
+          "FWS(X86) 内存 4G(D4) 价格 310→365",
+          "－ FWE(X86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
+          "FWE(X86) 内存 4G(D4) 价格 310→365",
+          "AirMax(x86) 内存 4G(D4) 价格 310→365",
+          "－ DSMB02(X86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
+          "DSMB02(X86) 内存 4G(D4) 价格 310→365",
+          "－ IBOOKHY(X86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
+          "IBOOKHY(X86) 内存 4G(D4) 价格 310→365",
+          "NANO CPU N2840双网(1*D3/8/MS) 价格 400→440",
+          "NANO CPU I7-4500U双网(1*D3/8/MS) 价格 840→880",
+          "UNO CPU I5-6300U双网(1*D3/8/M2) 价格 900→980",
+          "UNO 内存 4G(D4) 价格 310→365",
+          "GW系列 内存 4G(D4) 价格 310→365",
+          "－ BPC-101 CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
+          "BPC-101 内存 4G(D4) 价格 310→365",
+          "BPC-102 内存 4G(D4) 价格 310→365",
+          "－ BPC-103 CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
+          "BPC-103 内存 4G(D4) 价格 310→365",
+          "－ GBOOK-GPS(DC系列) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
+          "GBOOK-GPS(DC系列) 内存 4G(D4) 价格 310→365"
+        ]
+      },
+      {
         "date": 46235,
         "items": [
           "IPRO(x86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
@@ -11691,16 +11789,34 @@ var QUOTE_DATA = {
         "items": [
           "更正DMBYH(安卓)选择RK3566/2/16价格不变问题"
         ]
-      },
-      {
-        "date": "46224",
-        "items": [
-          "1.更正RK3588安卓主板存储大小",
-          "2.DSMB02增加安卓主板报价"
-        ]
       }
     ],
     "secondary": [
+      {
+        "date": 46270,
+        "items": [
+          "＋ IPRO(x86) CPU 新增：12代i5-1235U四网(2*D4/32/m2/4COM)（¥3100）",
+          "＋ IPRO(x86) CPU 新增：10代I7-1065G7双网(2*d4/32/m2)（¥2360）",
+          "＋ VFACE CPU 新增：12代i5-1235U四网(2*D4/32/m2/4COM)（¥3100）",
+          "＋ VFACE CPU 新增：10代I7-1065G7双网(2*d4/32/m2)（¥2360）",
+          "＋ VOPC(X86) CPU 新增：12代i5-1235U四网(2*D4/32/m2/4COM)（¥3100）",
+          "＋ VOPC(X86) CPU 新增：10代I7-1065G7双网(2*d4/32/m2)（¥2360）",
+          "＋ FWS(X86) CPU 新增：12代i5-1235U四网(2*D4/32/m2/4COM)（¥3100）",
+          "＋ FWS(X86) CPU 新增：10代I7-1065G7双网(2*d4/32/m2)（¥2360）",
+          "＋ FWE(X86) CPU 新增：12代i5-1235U四网(2*D4/32/m2/4COM)（¥3100）",
+          "＋ FWE(X86) CPU 新增：10代I7-1065G7双网(2*d4/32/m2)（¥2360）",
+          "＋ DSMB02(X86) CPU 新增：12代i5-1235U四网(2*D4/32/m2/4COM)（¥3100）",
+          "＋ DSMB02(X86) CPU 新增：10代I7-1065G7双网(2*d4/32/m2)（¥2360）",
+          "＋ IBOOKHY(X86) CPU 新增：12代i5-1235U四网(2*D4/32/m2/4COM)（¥3100）",
+          "＋ IBOOKHY(X86) CPU 新增：10代I7-1065G7双网(2*d4/32/m2)（¥2360）",
+          "＋ BPC-101 CPU 新增：12代i5-1235U四网(2*D4/32/m2/4COM)（¥3100）",
+          "＋ BPC-101 CPU 新增：10代I7-1065G7双网(2*d4/32/m2)（¥2360）",
+          "＋ BPC-103 CPU 新增：12代i5-1235U四网(2*D4/32/m2/4COM)（¥3100）",
+          "＋ BPC-103 CPU 新增：10代I7-1065G7双网(2*d4/32/m2)（¥2360）",
+          "＋ GBOOK-GPS(DC系列) CPU 新增：12代i5-1235U四网(2*D4/32/m2/4COM)（¥3100）",
+          "＋ GBOOK-GPS(DC系列) CPU 新增：10代I7-1065G7双网(2*d4/32/m2)（¥2360）"
+        ]
+      },
       {
         "date": 46235,
         "items": [
@@ -11755,12 +11871,6 @@ var QUOTE_DATA = {
           "1.BPC-103增加5网口主板配置",
           "2.更新一体机、NANO、UNO、IPRO-ES、安卓主板价格",
           "3.删除DMBYH(安卓)非主推报价"
-        ]
-      },
-      {
-        "date": "46199",
-        "items": [
-          "更正NANO I5 6/7代处理器为D3内存"
         ]
       }
     ]
