@@ -6,7 +6,7 @@
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-09-05 21:39:15",
+  "generatedAt": "2026-09-08 09:30:52",
   "sources": [
     {
       "key": "primary",
@@ -313,6 +313,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -485,6 +493,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -704,6 +720,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -844,6 +868,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -1159,6 +1191,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -1459,6 +1499,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -1754,6 +1802,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -1914,6 +1970,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -2201,6 +2265,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -2337,6 +2409,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -2632,6 +2712,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -2792,6 +2880,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -3019,6 +3115,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -3306,6 +3410,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -3454,6 +3566,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -3741,6 +3861,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -3913,6 +4041,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -3957,6 +4093,15 @@ var QUOTE_DATA = {
                 {
                   "name": "N10A/赛扬N5100/8G/256G/单网/WIFI",
                   "price": 5560
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
                 }
               ]
             }
@@ -6140,6 +6285,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -6251,6 +6404,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -6559,6 +6720,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -6783,6 +6952,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -7002,6 +7179,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -7194,6 +7379,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -7505,6 +7698,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -7816,6 +8017,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -8028,6 +8237,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -8299,6 +8516,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -8487,6 +8712,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -8782,6 +9015,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -8994,6 +9235,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -9281,6 +9530,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -9481,6 +9738,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -9768,6 +10033,14 @@ var QUOTE_DATA = {
                 {
                   "name": "大K底坐",
                   "price": 700
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
                 }
               ]
             }
@@ -11697,6 +11970,14 @@ var QUOTE_DATA = {
   "updateLogs": {
     "primary": [
       {
+        "date": 46273,
+        "items": [
+          "＋ 三防平板 新增配置类「支架」",
+          "＋ 支架 新增：CR-05悬臂支架（¥100，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
+          "＋ 支架 新增：W01悬臂支架（¥160，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）"
+        ]
+      },
+      {
         "date": 46270,
         "items": [
           "－ IPRO(x86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
@@ -11783,15 +12064,16 @@ var QUOTE_DATA = {
           "2.BPC-103「含主板」改为按CPU配置决定D3/D4、MS/M2",
           "3.BPC-103删除BPC-103(G)尺寸型号"
         ]
-      },
-      {
-        "date": "46230",
-        "items": [
-          "更正DMBYH(安卓)选择RK3566/2/16价格不变问题"
-        ]
       }
     ],
     "secondary": [
+      {
+        "date": 46273,
+        "items": [
+          "＋ 支架 新增：CR-05悬臂支架（¥100，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
+          "＋ 支架 新增：W01悬臂支架（¥160，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）"
+        ]
+      },
       {
         "date": 46270,
         "items": [
@@ -11854,14 +12136,6 @@ var QUOTE_DATA = {
         "items": [
           "1.DSMB02增加安卓主板报价",
           "2.一体机、BPC-101、BPC-103、GBOOK-GPS(DC系列)J6412处理器改为J6413"
-        ]
-      },
-      {
-        "date": "46216",
-        "items": [
-          "1.BPC-103增加5网口主板配置",
-          "2.更新一体机、NANO、UNO、IPRO-ES、安卓主板价格",
-          "3.删除DMBYH(安卓)非主推报价"
         ]
       }
     ]
