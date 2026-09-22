@@ -6,7 +6,7 @@
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-09-08 09:30:52",
+  "generatedAt": "2026-09-22 17:24:02",
   "sources": [
     {
       "key": "primary",
@@ -142,7 +142,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -577,7 +577,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -1016,7 +1016,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -1336,7 +1336,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -1647,7 +1647,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -2114,7 +2114,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -2557,7 +2557,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -2964,7 +2964,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -3251,7 +3251,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -3690,7 +3690,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -4223,11 +4223,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)台式机",
-                  "price": 600
+                  "price": 680
                 },
                 {
                   "name": "16G(D4)台式机",
-                  "price": 1200
+                  "price": 1330
                 }
               ]
             },
@@ -4511,7 +4511,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -4706,7 +4706,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -4920,7 +4920,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -5143,7 +5143,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -5417,7 +5417,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -5643,7 +5643,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -5878,11 +5878,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)台式机",
-                  "price": 600
+                  "price": 680
                 },
                 {
                   "name": "16G(D4)台式机",
-                  "price": 1200
+                  "price": 1330
                 }
               ]
             },
@@ -6080,11 +6080,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)台式机",
-                  "price": 600
+                  "price": 680
                 },
                 {
                   "name": "16G(D4)台式机",
-                  "price": 1200
+                  "price": 1330
                 }
               ]
             },
@@ -6549,7 +6549,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -7036,7 +7036,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -7523,7 +7523,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -7862,7 +7862,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -8365,7 +8365,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -8860,7 +8860,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -9371,7 +9371,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -9862,7 +9862,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -10170,11 +10170,11 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "8G(D4)台式机",
-                  "price": 600
+                  "price": 680
                 },
                 {
                   "name": "16G(D4)台式机",
-                  "price": 1200
+                  "price": 1330
                 }
               ]
             },
@@ -10522,7 +10522,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -10850,7 +10850,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -11169,7 +11169,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -11395,7 +11395,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)",
@@ -11614,11 +11614,11 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "8G(D4)台式机",
-                  "price": 600
+                  "price": 680
                 },
                 {
                   "name": "16G(D4)台式机",
-                  "price": 1200
+                  "price": 1330
                 }
               ]
             },
@@ -11780,7 +11780,7 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "8G(D4)笔记本",
-                  "price": 570
+                  "price": 600
                 },
                 {
                   "name": "16G(D4)笔记本",
@@ -11788,11 +11788,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)台式机",
-                  "price": 600
+                  "price": 680
                 },
                 {
                   "name": "16G(D4)台式机",
-                  "price": 1200
+                  "price": 1330
                 }
               ]
             },
@@ -11970,6 +11970,14 @@ var QUOTE_DATA = {
   "updateLogs": {
     "primary": [
       {
+        "date": 46287,
+        "items": [
+          "内存 8G(D4) 价格 570→600（影响 16 个产品：IPRO(x86)、IPRO-SE(x86)、VFACE、VFACE-H、VOPC(X86)、FWS(X86)、FWE(X86)、AirMax(x86)、DSMB02(X86)、IBOOKHY(X86)、UNO、GW系列、BPC-101、BPC-102、BPC-103、GBOOK-GPS(DC系列)）",
+          "内存 8G(D4)台式机 价格 600→680（影响 3 个产品：上架式工控机、GPS(台式系列)、IPS系列）",
+          "内存 16G(D4)台式机 价格 1200→1330（影响 3 个产品：上架式工控机、GPS(台式系列)、IPS系列）"
+        ]
+      },
+      {
         "date": 46273,
         "items": [
           "＋ 三防平板 新增配置类「支架」",
@@ -12056,17 +12064,18 @@ var QUOTE_DATA = {
           "IPS系列 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
           "IPS系列 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）"
         ]
-      },
-      {
-        "date": "46232",
-        "items": [
-          "1.GW-100下架I5-10310U双网、I5-10310U四网",
-          "2.BPC-103「含主板」改为按CPU配置决定D3/D4、MS/M2",
-          "3.BPC-103删除BPC-103(G)尺寸型号"
-        ]
       }
     ],
     "secondary": [
+      {
+        "date": 46287,
+        "items": [
+          "内存 8G(D4) 价格 570→600（影响 12 个产品：IPRO(x86)、IPRO-SE(x86)、VFACE、VOPC(X86)、FWS(X86)、FWE(X86)、DSMB02(X86)、IBOOKHY(X86)、NANO、BPC-101、BPC-103、GBOOK-GPS(DC系列)）",
+          "内存 8G(D4)台式机 价格 600→680（影响 3 个产品：上架式工控机、GPS(台式系列)、IPS系列）",
+          "内存 16G(D4)台式机 价格 1200→1330（影响 3 个产品：上架式工控机、GPS(台式系列)、IPS系列）",
+          "IPS系列 内存 8G(D4)笔记本 价格 570→600"
+        ]
+      },
       {
         "date": 46273,
         "items": [
@@ -12129,13 +12138,6 @@ var QUOTE_DATA = {
           "上架式工控机 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）",
           "GPS(台式系列) 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
           "GPS(台式系列) 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）"
-        ]
-      },
-      {
-        "date": "46224",
-        "items": [
-          "1.DSMB02增加安卓主板报价",
-          "2.一体机、BPC-101、BPC-103、GBOOK-GPS(DC系列)J6412处理器改为J6413"
         ]
       }
     ]
