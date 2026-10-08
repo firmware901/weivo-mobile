@@ -1,8 +1,12 @@
 // ============================================================
-// 威沃商务助手 · 可维护数据文件（biz-data.js）
-// 由维护后台 maintain.html 导入 → 编辑 → 导出 生成。请勿手工修改，改请用维护后台。
-// 本文件为「分发文件」：只含可维护数据（报价/型号配置/乙方主体/业务员/合同号）。
-// 业务员本地客户记忆与合同序号存于浏览器 localStorage，不在此文件内，更新本文件不会冲掉。
+// 威沃商务助手 · 可维护数据文件（biz-data.js）——【报价版】
+// ⚠️ 本文件由 biz-data-审单.js 自动派生，请勿手工修改！
+//    改价流程：维护后台 maintain.html → 导出 biz-data.js（=审单版）
+//              → 放到 E:\业务助手\ 跑「派生报价版.js」→ 本文件自动更新。
+//    限价口径：报价端旧口径（各系列 0.72/0.70/0.73/0.76…），
+//              与「威沃审单系统」的统一 0.7 不同，两边已分家。
+//    面价 / 平台价 / 配件价 / 系统选项 / 主体 / 业务员 与审单版完全一致。
+//    来源数据时间：2026-10-08 18:37:57
 // ============================================================
 
 var QUOTE_DATA = {
@@ -20,7 +24,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -331,7 +335,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -511,7 +515,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "7",
@@ -738,7 +742,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "7",
@@ -886,7 +890,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -1209,7 +1213,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -1517,7 +1521,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "15",
@@ -1820,7 +1824,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "15",
@@ -1988,7 +1992,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.1",
@@ -2283,7 +2287,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.1",
@@ -2427,7 +2431,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -2730,7 +2734,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -2898,7 +2902,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -3133,7 +3137,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "15.6",
@@ -3428,7 +3432,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "15.6",
@@ -3584,7 +3588,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "18.5",
@@ -3879,7 +3883,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.1",
@@ -4112,7 +4116,7 @@ var QUOTE_DATA = {
           "product": "工控机",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "IPC-610B(4U)",
@@ -4303,7 +4307,7 @@ var QUOTE_DATA = {
           "product": "工控机",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "ANBOX",
@@ -5529,7 +5533,7 @@ var QUOTE_DATA = {
           "product": "IP广播服务器",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "GBOOK-150(DR)",
@@ -6171,49 +6175,49 @@ var QUOTE_DATA = {
           "product": "显示器",
           "mode": "raw",
           "discountP": 0.83,
-          "discountL": 0.7,
+          "discountL": 0.76,
           "sizes": [
             {
               "name": "10.4",
               "price": 1050,
               "p": 0.83,
-              "l": 0.7
+              "l": 0.76
             },
             {
               "name": "12.1",
               "price": 1200,
               "p": 0.8,
-              "l": 0.7
+              "l": 0.73
             },
             {
               "name": "15",
               "price": 1230,
               "p": 0.8,
-              "l": 0.7
+              "l": 0.75
             },
             {
               "name": "15.6",
               "price": 1200,
               "p": 0.9,
-              "l": 0.7
+              "l": 0.8
             },
             {
               "name": "17",
               "price": 1200,
               "p": 0.9,
-              "l": 0.7
+              "l": 0.78
             },
             {
               "name": "19",
               "price": 1250,
               "p": 0.9,
-              "l": 0.7
+              "l": 0.75
             },
             {
               "name": "21.5",
               "price": 1250,
               "p": 0.9,
-              "l": 0.7
+              "l": 0.75
             }
           ],
           "categories": [
@@ -6303,61 +6307,61 @@ var QUOTE_DATA = {
           "product": "显示器",
           "mode": "raw",
           "discountP": 0.85,
-          "discountL": 0.7,
+          "discountL": 0.73,
           "sizes": [
             {
               "name": "15",
               "price": 1100,
               "p": 0.85,
-              "l": 0.7
+              "l": 0.73
             },
             {
               "name": "15.6",
               "price": 1100,
               "p": 0.85,
-              "l": 0.7
+              "l": 0.73
             },
             {
               "name": "17",
               "price": 1100,
               "p": 0.85,
-              "l": 0.7
+              "l": 0.73
             },
             {
               "name": "18.5",
               "price": 1100,
               "p": 0.85,
-              "l": 0.7
+              "l": 0.73
             },
             {
               "name": "19",
               "price": 1150,
               "p": 0.85,
-              "l": 0.7
+              "l": 0.73
             },
             {
               "name": "21.5",
               "price": 1200,
               "p": 0.85,
-              "l": 0.7
+              "l": 0.73
             },
             {
               "name": "23.6",
               "price": 1650,
               "p": 0.85,
-              "l": 0.7
+              "l": 0.73
             },
             {
               "name": "27",
               "price": 2050,
               "p": 0.85,
-              "l": 0.7
+              "l": 0.73
             },
             {
               "name": "32",
               "price": 2350,
               "p": 0.85,
-              "l": 0.7
+              "l": 0.73
             }
           ],
           "categories": [
@@ -6431,7 +6435,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -6738,7 +6742,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -6970,7 +6974,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "7",
@@ -7197,7 +7201,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "7",
@@ -7397,7 +7401,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -7716,7 +7720,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "15",
@@ -8035,7 +8039,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "15",
@@ -8255,7 +8259,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.1",
@@ -8534,7 +8538,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.1",
@@ -8730,7 +8734,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -9033,7 +9037,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "10.4",
@@ -9253,7 +9257,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "15.6",
@@ -9548,7 +9552,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "15.6",
@@ -9756,7 +9760,7 @@ var QUOTE_DATA = {
           "product": "工业平板电脑",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "18.5",
@@ -10051,7 +10055,7 @@ var QUOTE_DATA = {
           "product": "工控机",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "IPC-610(4U)",
@@ -10270,7 +10274,7 @@ var QUOTE_DATA = {
           "product": "工控机",
           "mode": "round",
           "discountP": 0.82,
-          "discountL": 0.7,
+          "discountL": 0.72,
           "sizes": [
             {
               "name": "ANBOX",
