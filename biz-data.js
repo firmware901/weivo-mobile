@@ -6,11 +6,11 @@
 //    限价口径：报价端旧口径（各系列 0.72/0.70/0.73/0.76…），
 //              与「威沃审单系统」的统一 0.7 不同，两边已分家。
 //    面价 / 平台价 / 配件价 / 系统选项 / 主体 / 业务员 与审单版完全一致。
-//    来源数据时间：2026-10-09 17:54:46
+//    来源数据时间：2026-10-09 18:02:01
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-10-09 17:54:46",
+  "generatedAt": "2026-10-09 18:02:01",
   "sources": [
     {
       "key": "primary",
@@ -4008,32 +4008,8 @@ var QUOTE_DATA = {
               "name": "支架",
               "options": [
                 {
-                  "name": "桌面支架",
-                  "price": 55
-                },
-                {
-                  "name": "苹果支架",
-                  "price": 110
-                },
-                {
-                  "name": "三角支架",
-                  "price": 200
-                },
-                {
                   "name": "CR-05悬臂支架",
                   "price": 100
-                },
-                {
-                  "name": "W01悬臂支架",
-                  "price": 160
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 700
-                },
-                {
-                  "name": "带键盘托底坐",
-                  "price": 900
                 }
               ]
             }
@@ -11806,15 +11782,10 @@ var QUOTE_DATA = {
           "支架 苹果支架 价格 80→110（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
           "支架 三角支架 价格 65→200（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
           "支架 小K底坐 价格 500→700（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "＋ 支架 新增：带键盘托底坐（¥900，影响 20 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、三防平板、IPM、OPX）",
+          "＋ 支架 新增：带键盘托底坐（¥900，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
           "－ 支架 下架：悬臂支架（原¥100，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
           "－ 支架 下架：中K底坐（原¥600，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "－ 支架 下架：大K底坐（原¥700，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "＋ 三防平板 支架 新增：桌面支架（¥55）",
-          "＋ 三防平板 支架 新增：苹果支架（¥110）",
-          "＋ 三防平板 支架 新增：三角支架（¥200）",
-          "＋ 三防平板 支架 新增：W01悬臂支架（¥160）",
-          "＋ 三防平板 支架 新增：小K底坐（¥700）"
+          "－ 支架 下架：大K底坐（原¥700，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）"
         ]
       },
       {
