@@ -6,11 +6,11 @@
 //    限价口径：报价端旧口径（各系列 0.72/0.70/0.73/0.76…），
 //              与「威沃审单系统」的统一 0.7 不同，两边已分家。
 //    面价 / 平台价 / 配件价 / 系统选项 / 主体 / 业务员 与审单版完全一致。
-//    来源数据时间：2026-10-08 19:46:53
+//    来源数据时间：2026-10-09 17:54:46
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-10-08 19:46:53",
+  "generatedAt": "2026-10-09 17:54:46",
   "sources": [
     {
       "key": "primary",
@@ -292,31 +292,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -325,6 +309,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -472,31 +464,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -505,6 +481,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -699,31 +683,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -732,6 +700,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -847,31 +823,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -880,6 +840,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -1170,31 +1138,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -1203,6 +1155,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -1478,31 +1438,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -1511,6 +1455,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -1781,31 +1733,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -1814,6 +1750,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -1949,31 +1893,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -1982,6 +1910,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -2244,31 +2180,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -2277,6 +2197,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -2388,31 +2316,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -2421,6 +2333,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -2683,6 +2603,26 @@ var QUOTE_DATA = {
                 {
                   "name": "4网升级POE",
                   "price": 200
+                },
+                {
+                  "name": "10.4纯平电阻",
+                  "price": 160
+                },
+                {
+                  "name": "12.1纯平电阻",
+                  "price": 145
+                },
+                {
+                  "name": "15纯平电阻",
+                  "price": 195
+                },
+                {
+                  "name": "17纯平电阻",
+                  "price": 150
+                },
+                {
+                  "name": "19纯平电阻",
+                  "price": 180
                 }
               ]
             },
@@ -2691,31 +2631,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -2724,6 +2648,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -2851,6 +2783,26 @@ var QUOTE_DATA = {
                 {
                   "name": "宽压模块",
                   "price": 120
+                },
+                {
+                  "name": "10.4纯平电阻",
+                  "price": 160
+                },
+                {
+                  "name": "12.1纯平电阻",
+                  "price": 145
+                },
+                {
+                  "name": "15纯平电阻",
+                  "price": 195
+                },
+                {
+                  "name": "17纯平电阻",
+                  "price": 150
+                },
+                {
+                  "name": "19纯平电阻",
+                  "price": 180
                 }
               ]
             },
@@ -2859,31 +2811,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -2892,6 +2828,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -3094,31 +3038,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -3127,6 +3055,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -3389,31 +3325,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -3422,6 +3342,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -3545,31 +3473,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -3578,6 +3490,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -3840,31 +3760,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -3873,6 +3777,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -4020,31 +3932,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -4053,6 +3949,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -4104,8 +4008,32 @@ var QUOTE_DATA = {
               "name": "支架",
               "options": [
                 {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
                   "name": "CR-05悬臂支架",
                   "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -6233,31 +6161,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -6266,6 +6178,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -6352,31 +6272,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -6385,6 +6289,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -6668,31 +6580,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -6701,6 +6597,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -6900,31 +6804,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -6933,6 +6821,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -7127,31 +7023,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -7160,6 +7040,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -7327,31 +7215,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -7360,6 +7232,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -7646,31 +7526,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -7679,6 +7543,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -7965,31 +7837,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -7998,6 +7854,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -8185,31 +8049,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -8218,6 +8066,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -8464,31 +8320,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -8497,6 +8337,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -8660,31 +8508,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -8693,6 +8525,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -8955,6 +8795,26 @@ var QUOTE_DATA = {
                 {
                   "name": "4网升级POE",
                   "price": 200
+                },
+                {
+                  "name": "10.4纯平电阻",
+                  "price": 160
+                },
+                {
+                  "name": "12.1纯平电阻",
+                  "price": 145
+                },
+                {
+                  "name": "15纯平电阻",
+                  "price": 195
+                },
+                {
+                  "name": "17纯平电阻",
+                  "price": 150
+                },
+                {
+                  "name": "19纯平电阻",
+                  "price": 180
                 }
               ]
             },
@@ -8963,31 +8823,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -8996,6 +8840,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -9175,6 +9027,26 @@ var QUOTE_DATA = {
                 {
                   "name": "宽压模块",
                   "price": 120
+                },
+                {
+                  "name": "10.4纯平电阻",
+                  "price": 160
+                },
+                {
+                  "name": "12.1纯平电阻",
+                  "price": 145
+                },
+                {
+                  "name": "15纯平电阻",
+                  "price": 195
+                },
+                {
+                  "name": "17纯平电阻",
+                  "price": 150
+                },
+                {
+                  "name": "19纯平电阻",
+                  "price": 180
                 }
               ]
             },
@@ -9183,31 +9055,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -9216,6 +9072,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -9478,31 +9342,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -9511,6 +9359,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -9686,31 +9542,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -9719,6 +9559,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -9981,31 +9829,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "桌面支架",
-                  "price": 50
-                },
-                {
-                  "name": "悬臂支架",
-                  "price": 100
+                  "price": 55
                 },
                 {
                   "name": "苹果支架",
-                  "price": 80
+                  "price": 110
                 },
                 {
                   "name": "三角支架",
-                  "price": 65
-                },
-                {
-                  "name": "小K底坐",
-                  "price": 500
-                },
-                {
-                  "name": "中K底坐",
-                  "price": 600
-                },
-                {
-                  "name": "大K底坐",
-                  "price": 700
+                  "price": 200
                 },
                 {
                   "name": "CR-05悬臂支架",
@@ -10014,6 +9846,14 @@ var QUOTE_DATA = {
                 {
                   "name": "W01悬臂支架",
                   "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
                 }
               ]
             }
@@ -11955,6 +11795,29 @@ var QUOTE_DATA = {
   "updateLogs": {
     "primary": [
       {
+        "date": 46304,
+        "items": [
+          "＋ 其他 新增：10.4纯平电阻（¥160，影响 2 个产品：FWE(X86)、FWE(安卓)）",
+          "＋ 其他 新增：12.1纯平电阻（¥145，影响 2 个产品：FWE(X86)、FWE(安卓)）",
+          "＋ 其他 新增：15纯平电阻（¥195，影响 2 个产品：FWE(X86)、FWE(安卓)）",
+          "＋ 其他 新增：17纯平电阻（¥150，影响 2 个产品：FWE(X86)、FWE(安卓)）",
+          "＋ 其他 新增：19纯平电阻（¥180，影响 2 个产品：FWE(X86)、FWE(安卓)）",
+          "支架 桌面支架 价格 50→55（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
+          "支架 苹果支架 价格 80→110（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
+          "支架 三角支架 价格 65→200（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
+          "支架 小K底坐 价格 500→700（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
+          "＋ 支架 新增：带键盘托底坐（¥900，影响 20 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、三防平板、IPM、OPX）",
+          "－ 支架 下架：悬臂支架（原¥100，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
+          "－ 支架 下架：中K底坐（原¥600，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
+          "－ 支架 下架：大K底坐（原¥700，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
+          "＋ 三防平板 支架 新增：桌面支架（¥55）",
+          "＋ 三防平板 支架 新增：苹果支架（¥110）",
+          "＋ 三防平板 支架 新增：三角支架（¥200）",
+          "＋ 三防平板 支架 新增：W01悬臂支架（¥160）",
+          "＋ 三防平板 支架 新增：小K底坐（¥700）"
+        ]
+      },
+      {
         "date": 46303,
         "items": [
           "－ GW系列 CPU 下架：I3-5005U双网(2*D3/16/MS)",
@@ -12017,55 +11880,27 @@ var QUOTE_DATA = {
           "－ GBOOK-GPS(DC系列) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
           "GBOOK-GPS(DC系列) 内存 4G(D4) 价格 310→365"
         ]
-      },
-      {
-        "date": 46235,
-        "items": [
-          "IPRO(x86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "IPRO(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
-          "IPRO-SE(x86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "IPRO-SE(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
-          "VFACE WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "VFACE-H WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "VOPC(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "VOPC(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
-          "FWS(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "FWS(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
-          "FWE(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "＋ FWE(安卓) 新增配置类「WIFI安卓」",
-          "－ FWE(安卓) 删除配置类「WIFI 安卓」",
-          "AirMax(x86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "DSMB02(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "DSMB02(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
-          "IBOOKHY(X86) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "DMBYH(安卓) WIFI 「WIFI6安卓」更名自「WIFI6 安卓」（¥30）",
-          "上架式工控机 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "NANO WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "UNO WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "GW系列 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "BPC-101 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "BPC-102 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "BPC-103 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "GBOOK-GPS(DC系列) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "GPS(台式系列) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
-          "IPS系列 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）"
-        ]
-      },
-      {
-        "date": 46234,
-        "items": [
-          "FWS(X86) 其他 4G模块 价格 250→290",
-          "FWS(X86) 其他 5G模块（8代及以上） 价格 1400→1000",
-          "上架式工控机 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
-          "上架式工控机 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）",
-          "GPS(台式系列) 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
-          "GPS(台式系列) 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）",
-          "IPS系列 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
-          "IPS系列 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）"
-        ]
       }
     ],
     "secondary": [
+      {
+        "date": 46304,
+        "items": [
+          "＋ 其他 新增：10.4纯平电阻（¥160，影响 2 个产品：FWE(X86)、FWE(安卓)）",
+          "＋ 其他 新增：12.1纯平电阻（¥145，影响 2 个产品：FWE(X86)、FWE(安卓)）",
+          "＋ 其他 新增：15纯平电阻（¥195，影响 2 个产品：FWE(X86)、FWE(安卓)）",
+          "＋ 其他 新增：17纯平电阻（¥150，影响 2 个产品：FWE(X86)、FWE(安卓)）",
+          "＋ 其他 新增：19纯平电阻（¥180，影响 2 个产品：FWE(X86)、FWE(安卓)）",
+          "支架 桌面支架 价格 50→55（影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
+          "支架 苹果支架 价格 80→110（影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
+          "支架 三角支架 价格 65→200（影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
+          "支架 小K底坐 价格 500→700（影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
+          "＋ 支架 新增：带键盘托底坐（¥900，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
+          "－ 支架 下架：悬臂支架（原¥100，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
+          "－ 支架 下架：中K底坐（原¥600，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
+          "－ 支架 下架：大K底坐（原¥700，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）"
+        ]
+      },
       {
         "date": 46287,
         "items": [
@@ -12124,19 +11959,6 @@ var QUOTE_DATA = {
           "GBOOK-GPS(DC系列) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
           "GPS(台式系列) WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）",
           "IPS系列 WIFI 「WiFi+BT」更名自「Wi-Fi+BT」（¥75）"
-        ]
-      },
-      {
-        "date": 46234,
-        "items": [
-          "IPRO-SE(x86) 固态硬盘 1T(SATA) 价格 1800→1710",
-          "FWS(X86) CPU 4代i3-4005U双网(1*D3/8/MS) 价格 690→620",
-          "FWS(X86) 其他 4G模块 价格 250→290",
-          "FWS(X86) 其他 5G模块（8代及以上） 价格 1400→1000",
-          "上架式工控机 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
-          "上架式工控机 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）",
-          "GPS(台式系列) 内存 「8G(D4)台式机」更名自「8G(D4)」（¥600）",
-          "GPS(台式系列) 内存 「16G(D4)台式机」更名自「16G(D4)」（¥1200）"
         ]
       }
     ]
