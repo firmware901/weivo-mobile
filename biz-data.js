@@ -6,11 +6,11 @@
 //    限价口径：报价端旧口径（各系列 0.72/0.70/0.73/0.76…），
 //              与「威沃审单系统」的统一 0.7 不同，两边已分家。
 //    面价 / 平台价 / 配件价 / 系统选项 / 主体 / 业务员 与审单版完全一致。
-//    来源数据时间：2026-10-13 18:08:18
+//    来源数据时间：2026-10-20 20:50:23
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-10-13 18:08:18",
+  "generatedAt": "2026-10-20 20:50:23",
   "sources": [
     {
       "key": "primary",
@@ -146,11 +146,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -364,7 +364,7 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(2+32)+蓝牙/HDMI IN/单网",
-                  "price": 980
+                  "price": 850
                 },
                 {
                   "name": "RK3568D(2+32)+WIFI6/BT单网",
@@ -372,19 +372,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "公板RK3288(2+32)+WIFI/BT单网",
-                  "price": 790
+                  "price": 650
                 },
                 {
                   "name": "全志H527(2+32)+WIFI6/BT单网",
-                  "price": 890
+                  "price": 840
                 },
                 {
                   "name": "RK3576(4+64)+WIFI6/BT单网",
-                  "price": 1500
+                  "price": 1370
                 },
                 {
                   "name": "RK3588S(4+64)+WIFI6/BT单网",
-                  "price": 2000
+                  "price": 1940
                 }
               ]
             },
@@ -565,11 +565,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -743,7 +743,7 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(2+32)+蓝牙/HDMI IN/单网",
-                  "price": 980
+                  "price": 850
                 },
                 {
                   "name": "RK3568D(2+32)+WIFI6/BT单网",
@@ -751,19 +751,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "公板RK3288(2+32)+WIFI/BT单网",
-                  "price": 790
+                  "price": 650
                 },
                 {
                   "name": "全志H527(2+32)+WIFI6/BT单网",
-                  "price": 890
+                  "price": 840
                 },
                 {
                   "name": "RK3576(4+64)+WIFI6/BT单网",
-                  "price": 1500
+                  "price": 1370
                 },
                 {
                   "name": "RK3588S(4+64)+WIFI6/BT单网",
-                  "price": 2000
+                  "price": 1940
                 }
               ]
             },
@@ -988,11 +988,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -1239,11 +1239,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7 6700",
-                  "price": 670
+                  "price": 610
                 },
                 {
                   "name": "I3-7100",
-                  "price": 120
+                  "price": 90
                 },
                 {
                   "name": "I5-7400",
@@ -1251,7 +1251,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-7700",
-                  "price": 710
+                  "price": 800
                 },
                 {
                   "name": "I3-8100",
@@ -1263,19 +1263,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-8700",
-                  "price": 1190
+                  "price": 1260
                 },
                 {
                   "name": "I3-9100",
-                  "price": 420
+                  "price": 380
                 },
                 {
                   "name": "I5-9400",
-                  "price": 960
+                  "price": 910
                 },
                 {
                   "name": "I7-9700",
-                  "price": 1590
+                  "price": 1480
                 }
               ]
             },
@@ -1300,11 +1300,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -1603,11 +1603,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -1813,7 +1813,7 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(2+32)+蓝牙/HDMI IN/单网",
-                  "price": 980
+                  "price": 850
                 },
                 {
                   "name": "RK3568D(2+32)+WIFI6/BT单网",
@@ -1821,19 +1821,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "公板RK3288(2+32)+WIFI/BT单网",
-                  "price": 790
+                  "price": 650
                 },
                 {
                   "name": "全志H527(2+32)+WIFI6/BT单网",
-                  "price": 890
+                  "price": 840
                 },
                 {
                   "name": "RK3576(4+64)+WIFI6/BT单网",
-                  "price": 1500
+                  "price": 1370
                 },
                 {
                   "name": "RK3588S(4+64)+WIFI6/BT单网",
-                  "price": 2000
+                  "price": 1940
                 }
               ]
             },
@@ -2054,11 +2054,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -2236,7 +2236,7 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(2+32)+蓝牙/HDMI IN/单网",
-                  "price": 980
+                  "price": 850
                 },
                 {
                   "name": "RK3568D(2+32)+WIFI6/BT单网",
@@ -2244,19 +2244,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "公板RK3288(2+32)+WIFI/BT单网",
-                  "price": 790
+                  "price": 650
                 },
                 {
                   "name": "全志H527(2+32)+WIFI6/BT单网",
-                  "price": 890
+                  "price": 840
                 },
                 {
                   "name": "RK3576(4+64)+WIFI6/BT单网",
-                  "price": 1500
+                  "price": 1370
                 },
                 {
                   "name": "RK3588S(4+64)+WIFI6/BT单网",
-                  "price": 2000
+                  "price": 1940
                 }
               ]
             },
@@ -2481,11 +2481,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -2711,7 +2711,7 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(2+32)+蓝牙/HDMI IN/单网",
-                  "price": 980
+                  "price": 850
                 },
                 {
                   "name": "RK3568D(2+32)+WIFI6/BT单网",
@@ -2719,19 +2719,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "公板RK3288(2+32)+WIFI/BT单网",
-                  "price": 790
+                  "price": 650
                 },
                 {
                   "name": "全志H527(2+32)+WIFI6/BT单网",
-                  "price": 890
+                  "price": 840
                 },
                 {
                   "name": "RK3576(4+64)+WIFI6/BT单网",
-                  "price": 1500
+                  "price": 1370
                 },
                 {
                   "name": "RK3588S(4+64)+WIFI6/BT单网",
-                  "price": 2000
+                  "price": 1940
                 }
               ]
             },
@@ -2912,11 +2912,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -3191,11 +3191,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -3393,7 +3393,7 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(2+32)+蓝牙/HDMI IN/单网",
-                  "price": 980
+                  "price": 850
                 },
                 {
                   "name": "RK3568D(2+32)+WIFI6/BT单网",
@@ -3401,19 +3401,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "公板RK3288(2+32)+WIFI/BT单网",
-                  "price": 790
+                  "price": 650
                 },
                 {
                   "name": "全志H527(2+32)+WIFI6/BT单网",
-                  "price": 890
+                  "price": 840
                 },
                 {
                   "name": "RK3576(4+64)+WIFI6/BT单网",
-                  "price": 1500
+                  "price": 1370
                 },
                 {
                   "name": "RK3588S(4+64)+WIFI6/BT单网",
-                  "price": 2000
+                  "price": 1940
                 }
               ]
             },
@@ -3614,11 +3614,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -3852,7 +3852,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "RK3288(4+32)+WIFI/BT单网",
-                  "price": 820
+                  "price": 740
                 }
               ]
             },
@@ -4074,11 +4074,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7 6700",
-                  "price": 670
+                  "price": 610
                 },
                 {
                   "name": "I3-7100",
-                  "price": 120
+                  "price": 90
                 },
                 {
                   "name": "I5-7400",
@@ -4086,7 +4086,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-7700",
-                  "price": 710
+                  "price": 800
                 },
                 {
                   "name": "I3-8100",
@@ -4098,19 +4098,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-8700",
-                  "price": 1190
+                  "price": 1260
                 },
                 {
                   "name": "I3-9100",
-                  "price": 420
+                  "price": 380
                 },
                 {
                   "name": "I5-9400",
-                  "price": 960
+                  "price": 910
                 },
                 {
                   "name": "I7-9700",
-                  "price": 1590
+                  "price": 1480
                 }
               ]
             },
@@ -4224,7 +4224,7 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(2+32)+蓝牙/HDMI IN/单网",
-                  "price": 980
+                  "price": 850
                 },
                 {
                   "name": "RK3568D(2+32)+WIFI6/BT单网",
@@ -4232,19 +4232,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "公板RK3288(2+32)+WIFI/BT单网",
-                  "price": 790
+                  "price": 650
                 },
                 {
                   "name": "全志H527(2+32)+WIFI6/BT单网",
-                  "price": 890
+                  "price": 840
                 },
                 {
                   "name": "RK3576(4+64)+WIFI6/BT单网",
-                  "price": 1500
+                  "price": 1370
                 },
                 {
                   "name": "RK3588S(4+64)+WIFI6/BT单网",
-                  "price": 2000
+                  "price": 1940
                 }
               ]
             }
@@ -4284,7 +4284,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I3-5005U双网(1*D3/8/MS)",
-                  "price": 580
+                  "price": 620
                 },
                 {
                   "name": "I5-4200U双网(1*D3/8/MS)",
@@ -4419,11 +4419,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -4591,11 +4591,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -4797,11 +4797,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -4959,11 +4959,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7 6700",
-                  "price": 670
+                  "price": 610
                 },
                 {
                   "name": "I3-7100",
-                  "price": 120
+                  "price": 90
                 },
                 {
                   "name": "I5-7400",
@@ -4971,7 +4971,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-7700",
-                  "price": 710
+                  "price": 800
                 },
                 {
                   "name": "I3-8100",
@@ -4983,19 +4983,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-8700",
-                  "price": 1190
+                  "price": 1260
                 },
                 {
                   "name": "I3-9100",
-                  "price": 420
+                  "price": 380
                 },
                 {
                   "name": "I5-9400",
-                  "price": 960
+                  "price": 910
                 },
                 {
                   "name": "I7-9700",
-                  "price": 1590
+                  "price": 1480
                 }
               ]
             },
@@ -5020,11 +5020,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -5233,11 +5233,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7 6700",
-                  "price": 670
+                  "price": 610
                 },
                 {
                   "name": "I3-7100",
-                  "price": 120
+                  "price": 90
                 },
                 {
                   "name": "I5-7400",
@@ -5245,7 +5245,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-7700",
-                  "price": 710
+                  "price": 800
                 },
                 {
                   "name": "I3-8100",
@@ -5257,19 +5257,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-8700",
-                  "price": 1190
+                  "price": 1260
                 },
                 {
                   "name": "I3-9100",
-                  "price": 420
+                  "price": 380
                 },
                 {
                   "name": "I5-9400",
-                  "price": 960
+                  "price": 910
                 },
                 {
                   "name": "I7-9700",
-                  "price": 1590
+                  "price": 1480
                 }
               ]
             },
@@ -5294,11 +5294,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -5520,11 +5520,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -5698,11 +5698,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7 6700",
-                  "price": 670
+                  "price": 610
                 },
                 {
                   "name": "I3-7100",
-                  "price": 120
+                  "price": 90
                 },
                 {
                   "name": "I5-7400",
@@ -5710,7 +5710,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-7700",
-                  "price": 710
+                  "price": 800
                 },
                 {
                   "name": "I3-8100",
@@ -5722,19 +5722,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-8700",
-                  "price": 1190
+                  "price": 1260
                 },
                 {
                   "name": "I3-9100",
-                  "price": 420
+                  "price": 380
                 },
                 {
                   "name": "I5-9400",
-                  "price": 960
+                  "price": 910
                 },
                 {
                   "name": "I7-9700",
-                  "price": 1590
+                  "price": 1480
                 }
               ]
             },
@@ -5900,11 +5900,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7 6700",
-                  "price": 670
+                  "price": 610
                 },
                 {
                   "name": "I3-7100",
-                  "price": 120
+                  "price": 90
                 },
                 {
                   "name": "I5-7400",
@@ -5912,7 +5912,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-7700",
-                  "price": 710
+                  "price": 800
                 },
                 {
                   "name": "I3-8100",
@@ -5924,19 +5924,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-8700",
-                  "price": 1190
+                  "price": 1260
                 },
                 {
                   "name": "I3-9100",
-                  "price": 420
+                  "price": 380
                 },
                 {
                   "name": "I5-9400",
-                  "price": 960
+                  "price": 910
                 },
                 {
                   "name": "I7-9700",
-                  "price": 1590
+                  "price": 1480
                 }
               ]
             },
@@ -6329,18 +6329,18 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "3代i5-3210M单网(1*D3/8/MS)",
-                  "price": 480
+                  "price": 550
                 },
                 {
                   "name": "3代i5-3317U双网(1*D3/8/MS)",
                   "price": 590
                 },
                 {
-                  "name": "6代i3-6100U双网(2*D4/32/M2)",
+                  "name": "6代i3-6100U双网(2*D3/32/M2)",
                   "price": 740
                 },
                 {
-                  "name": "7代I3-7100U 双网(2*D4/32/M2)",
+                  "name": "7代I3-7100U 双网(2*D3/32/M2)",
                   "price": 820
                 },
                 {
@@ -6365,15 +6365,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1270
+                  "price": 1230
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1920
+                  "price": 1700
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -6390,6 +6390,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "6代I7-6600U双网(3*D3/32/M2)",
+                  "price": 1250
                 }
               ]
             },
@@ -6410,11 +6414,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -6628,27 +6632,23 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(4+32)+WIFI6/BT单网",
-                  "price": 850
+                  "price": 670
                 },
                 {
                   "name": "RK3566(8+64)+WIFI6/BT单网",
-                  "price": 1440
+                  "price": 1170
                 },
                 {
                   "name": "RK3568D(4+32)+WIFI6/BT单网",
-                  "price": 930
+                  "price": 760
                 },
                 {
                   "name": "RK3568D(8+64)+WIFI6/BT单网",
-                  "price": 1500
-                },
-                {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
-                  "price": 740
+                  "price": 1310
                 },
                 {
                   "name": "RK3288(4+32)+WIFI/BT单网",
-                  "price": 820
+                  "price": 740
                 },
                 {
                   "name": "RK3568GK(2+32)+WIFI6/BT双网",
@@ -6660,47 +6660,43 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "全志H527(4+32)+WIFI6/BT单网",
-                  "price": 1180
+                  "price": 1020
                 },
                 {
                   "name": "RK3576(8+64)+WIFI6/BT单网",
-                  "price": 1700
-                },
-                {
-                  "name": "RK3588S(4+64)+WIFI/BT单网",
-                  "price": 2200
+                  "price": 1530
                 },
                 {
                   "name": "RK3588S(8+64)+WIFI/BT单网",
-                  "price": 2700
+                  "price": 2320
                 },
                 {
                   "name": "RK3588S(8+128)+WIFI/BT单网",
-                  "price": 2900
+                  "price": 2420
                 },
                 {
                   "name": "RK3588A(4+64)+WIFI/BT双网",
-                  "price": 2500
+                  "price": 2100
                 },
                 {
                   "name": "RK3588A(8+64)+WIFI/BT双网",
-                  "price": 2900
+                  "price": 2460
                 },
                 {
                   "name": "RK3588A(8+128)+WIFI/BT双网",
-                  "price": 3040
+                  "price": 2600
                 },
                 {
                   "name": "RK3588A(8+256)+WIFI/BT双网",
-                  "price": 3900
+                  "price": 3250
                 },
                 {
                   "name": "RK3588A(16+128)+WIFI/BT双网",
-                  "price": 3600
+                  "price": 2890
                 },
                 {
                   "name": "RK3588A(16+256)+WIFI/BT双网",
-                  "price": 4100
+                  "price": 3610
                 }
               ]
             },
@@ -6848,19 +6844,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "6代i5 6200U 双网 for SE（2*D3/16/M2）",
-                  "price": 960
+                  "price": 1000
                 },
                 {
                   "name": "6代i7 6500U 双网 for SE（2*D3/16/M2）",
-                  "price": 1340
+                  "price": 1300
                 },
                 {
                   "name": "8代i5 8250U 双网 for SE（2*D3/16/M2）",
-                  "price": 1360
+                  "price": 1260
                 },
                 {
                   "name": "8代i7 8550U 双网 for SE（2*D3/16/M2）",
-                  "price": 1520
+                  "price": 1390
                 }
               ]
             },
@@ -6881,11 +6877,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -7059,27 +7055,23 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(4+32)+WIFI6/BT单网",
-                  "price": 850
+                  "price": 670
                 },
                 {
                   "name": "RK3566(8+64)+WIFI6/BT单网",
-                  "price": 1440
+                  "price": 1170
                 },
                 {
                   "name": "RK3568D(4+32)+WIFI6/BT单网",
-                  "price": 930
+                  "price": 760
                 },
                 {
                   "name": "RK3568D(8+64)+WIFI6/BT单网",
-                  "price": 1500
-                },
-                {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
-                  "price": 740
+                  "price": 1310
                 },
                 {
                   "name": "RK3288(4+32)+WIFI/BT单网",
-                  "price": 820
+                  "price": 740
                 },
                 {
                   "name": "RK3568GK(2+32)+WIFI6/BT双网",
@@ -7091,47 +7083,43 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "全志H527(4+32)+WIFI6/BT单网",
-                  "price": 1180
+                  "price": 1020
                 },
                 {
                   "name": "RK3576(8+64)+WIFI6/BT单网",
-                  "price": 1700
-                },
-                {
-                  "name": "RK3588S(4+64)+WIFI/BT单网",
-                  "price": 2200
+                  "price": 1530
                 },
                 {
                   "name": "RK3588S(8+64)+WIFI/BT单网",
-                  "price": 2700
+                  "price": 2320
                 },
                 {
                   "name": "RK3588S(8+128)+WIFI/BT单网",
-                  "price": 2900
+                  "price": 2420
                 },
                 {
                   "name": "RK3588A(4+64)+WIFI/BT双网",
-                  "price": 2500
+                  "price": 2100
                 },
                 {
                   "name": "RK3588A(8+64)+WIFI/BT双网",
-                  "price": 2900
+                  "price": 2460
                 },
                 {
                   "name": "RK3588A(8+128)+WIFI/BT双网",
-                  "price": 3040
+                  "price": 2600
                 },
                 {
                   "name": "RK3588A(8+256)+WIFI/BT双网",
-                  "price": 3900
+                  "price": 3250
                 },
                 {
                   "name": "RK3588A(16+128)+WIFI/BT双网",
-                  "price": 3600
+                  "price": 2890
                 },
                 {
                   "name": "RK3588A(16+256)+WIFI/BT双网",
-                  "price": 4100
+                  "price": 3610
                 }
               ]
             },
@@ -7271,18 +7259,18 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "3代i5-3210M单网(1*D3/8/MS)",
-                  "price": 480
+                  "price": 550
                 },
                 {
                   "name": "3代i5-3317U双网(1*D3/8/MS)",
                   "price": 590
                 },
                 {
-                  "name": "6代i3-6100U双网(2*D4/32/M2)",
+                  "name": "6代i3-6100U双网(2*D3/32/M2)",
                   "price": 740
                 },
                 {
-                  "name": "7代I3-7100U 双网(2*D4/32/M2)",
+                  "name": "7代I3-7100U 双网(2*D3/32/M2)",
                   "price": 820
                 },
                 {
@@ -7307,15 +7295,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1270
+                  "price": 1230
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1920
+                  "price": 1700
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -7332,6 +7320,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "6代I7-6600U双网(3*D3/32/M2)",
+                  "price": 1250
                 }
               ]
             },
@@ -7352,11 +7344,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -7582,18 +7574,18 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "3代i5-3210M单网(1*D3/8/MS)",
-                  "price": 480
+                  "price": 550
                 },
                 {
                   "name": "3代i5-3317U双网(1*D3/8/MS)",
                   "price": 590
                 },
                 {
-                  "name": "6代i3-6100U双网(2*D4/32/M2)",
+                  "name": "6代i3-6100U双网(2*D3/32/M2)",
                   "price": 740
                 },
                 {
-                  "name": "7代I3-7100U 双网(2*D4/32/M2)",
+                  "name": "7代I3-7100U 双网(2*D3/32/M2)",
                   "price": 820
                 },
                 {
@@ -7618,15 +7610,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1270
+                  "price": 1230
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1920
+                  "price": 1700
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -7663,6 +7655,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "6代I7-6600U双网(3*D3/32/M2)",
+                  "price": 1250
                 }
               ]
             },
@@ -7683,11 +7679,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -7893,27 +7889,23 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(4+32)+WIFI6/BT单网",
-                  "price": 850
+                  "price": 670
                 },
                 {
                   "name": "RK3566(8+64)+WIFI6/BT单网",
-                  "price": 1440
+                  "price": 1170
                 },
                 {
                   "name": "RK3568D(4+32)+WIFI6/BT单网",
-                  "price": 930
+                  "price": 760
                 },
                 {
                   "name": "RK3568D(8+64)+WIFI6/BT单网",
-                  "price": 1500
-                },
-                {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
-                  "price": 740
+                  "price": 1310
                 },
                 {
                   "name": "RK3288(4+32)+WIFI/BT单网",
-                  "price": 820
+                  "price": 740
                 },
                 {
                   "name": "RK3568GK(2+32)+WIFI6/BT双网",
@@ -7925,47 +7917,43 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "全志H527(4+32)+WIFI6/BT单网",
-                  "price": 1180
+                  "price": 1020
                 },
                 {
                   "name": "RK3576(8+64)+WIFI6/BT单网",
-                  "price": 1700
-                },
-                {
-                  "name": "RK3588S(4+64)+WIFI/BT单网",
-                  "price": 2200
+                  "price": 1530
                 },
                 {
                   "name": "RK3588S(8+64)+WIFI/BT单网",
-                  "price": 2700
+                  "price": 2320
                 },
                 {
                   "name": "RK3588S(8+128)+WIFI/BT单网",
-                  "price": 2900
+                  "price": 2420
                 },
                 {
                   "name": "RK3588A(4+64)+WIFI/BT双网",
-                  "price": 2500
+                  "price": 2100
                 },
                 {
                   "name": "RK3588A(8+64)+WIFI/BT双网",
-                  "price": 2900
+                  "price": 2460
                 },
                 {
                   "name": "RK3588A(8+128)+WIFI/BT双网",
-                  "price": 3040
+                  "price": 2600
                 },
                 {
                   "name": "RK3588A(8+256)+WIFI/BT双网",
-                  "price": 3900
+                  "price": 3250
                 },
                 {
                   "name": "RK3588A(16+128)+WIFI/BT双网",
-                  "price": 3600
+                  "price": 2890
                 },
                 {
                   "name": "RK3588A(16+256)+WIFI/BT双网",
-                  "price": 4100
+                  "price": 3610
                 }
               ]
             },
@@ -8089,18 +8077,18 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "3代i5-3210M单网(1*D3/8/MS)",
-                  "price": 480
+                  "price": 550
                 },
                 {
                   "name": "3代i5-3317U双网(1*D3/8/MS)",
                   "price": 590
                 },
                 {
-                  "name": "6代i3-6100U双网(2*D4/32/M2)",
+                  "name": "6代i3-6100U双网(2*D3/32/M2)",
                   "price": 740
                 },
                 {
-                  "name": "7代I3-7100U 双网(2*D4/32/M2)",
+                  "name": "7代I3-7100U 双网(2*D3/32/M2)",
                   "price": 820
                 },
                 {
@@ -8125,15 +8113,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1270
+                  "price": 1230
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1920
+                  "price": 1700
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -8150,6 +8138,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "6代I7-6600U双网(3*D3/32/M2)",
+                  "price": 1250
                 }
               ]
             },
@@ -8170,11 +8162,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -8352,27 +8344,23 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(4+32)+WIFI6/BT单网",
-                  "price": 850
+                  "price": 670
                 },
                 {
                   "name": "RK3566(8+64)+WIFI6/BT单网",
-                  "price": 1440
+                  "price": 1170
                 },
                 {
                   "name": "RK3568D(4+32)+WIFI6/BT单网",
-                  "price": 930
+                  "price": 760
                 },
                 {
                   "name": "RK3568D(8+64)+WIFI6/BT单网",
-                  "price": 1500
-                },
-                {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
-                  "price": 740
+                  "price": 1310
                 },
                 {
                   "name": "RK3288(4+32)+WIFI/BT单网",
-                  "price": 820
+                  "price": 740
                 },
                 {
                   "name": "RK3568GK(2+32)+WIFI6/BT双网",
@@ -8384,47 +8372,43 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "全志H527(4+32)+WIFI6/BT单网",
-                  "price": 1180
+                  "price": 1020
                 },
                 {
                   "name": "RK3576(8+64)+WIFI6/BT单网",
-                  "price": 1700
-                },
-                {
-                  "name": "RK3588S(4+64)+WIFI/BT单网",
-                  "price": 2200
+                  "price": 1530
                 },
                 {
                   "name": "RK3588S(8+64)+WIFI/BT单网",
-                  "price": 2700
+                  "price": 2320
                 },
                 {
                   "name": "RK3588S(8+128)+WIFI/BT单网",
-                  "price": 2900
+                  "price": 2420
                 },
                 {
                   "name": "RK3588A(4+64)+WIFI/BT双网",
-                  "price": 2500
+                  "price": 2100
                 },
                 {
                   "name": "RK3588A(8+64)+WIFI/BT双网",
-                  "price": 2900
+                  "price": 2460
                 },
                 {
                   "name": "RK3588A(8+128)+WIFI/BT双网",
-                  "price": 3040
+                  "price": 2600
                 },
                 {
                   "name": "RK3588A(8+256)+WIFI/BT双网",
-                  "price": 3900
+                  "price": 3250
                 },
                 {
                   "name": "RK3588A(16+128)+WIFI/BT双网",
-                  "price": 3600
+                  "price": 2890
                 },
                 {
                   "name": "RK3588A(16+256)+WIFI/BT双网",
-                  "price": 4100
+                  "price": 3610
                 }
               ]
             },
@@ -8564,18 +8548,18 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "3代i5-3210M单网(1*D3/8/MS)",
-                  "price": 480
+                  "price": 550
                 },
                 {
                   "name": "3代i5-3317U双网(1*D3/8/MS)",
                   "price": 590
                 },
                 {
-                  "name": "6代i3-6100U双网(2*D4/32/M2)",
+                  "name": "6代i3-6100U双网(2*D3/32/M2)",
                   "price": 740
                 },
                 {
-                  "name": "7代I3-7100U 双网(2*D4/32/M2)",
+                  "name": "7代I3-7100U 双网(2*D3/32/M2)",
                   "price": 820
                 },
                 {
@@ -8600,15 +8584,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1270
+                  "price": 1230
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1920
+                  "price": 1700
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -8625,6 +8609,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "6代I7-6600U双网(3*D3/32/M2)",
+                  "price": 1250
                 }
               ]
             },
@@ -8649,11 +8637,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -8879,27 +8867,23 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(4+32)+WIFI6/BT单网",
-                  "price": 850
+                  "price": 670
                 },
                 {
                   "name": "RK3566(8+64)+WIFI6/BT单网",
-                  "price": 1440
+                  "price": 1170
                 },
                 {
                   "name": "RK3568D(4+32)+WIFI6/BT单网",
-                  "price": 930
+                  "price": 760
                 },
                 {
                   "name": "RK3568D(8+64)+WIFI6/BT单网",
-                  "price": 1500
-                },
-                {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
-                  "price": 740
+                  "price": 1310
                 },
                 {
                   "name": "RK3288(4+32)+WIFI/BT单网",
-                  "price": 820
+                  "price": 740
                 },
                 {
                   "name": "RK3568GK(2+32)+WIFI6/BT双网",
@@ -8911,47 +8895,43 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "全志H527(4+32)+WIFI6/BT单网",
-                  "price": 1180
+                  "price": 1020
                 },
                 {
                   "name": "RK3576(8+64)+WIFI6/BT单网",
-                  "price": 1700
-                },
-                {
-                  "name": "RK3588S(4+64)+WIFI/BT单网",
-                  "price": 2200
+                  "price": 1530
                 },
                 {
                   "name": "RK3588S(8+64)+WIFI/BT单网",
-                  "price": 2700
+                  "price": 2320
                 },
                 {
                   "name": "RK3588S(8+128)+WIFI/BT单网",
-                  "price": 2900
+                  "price": 2420
                 },
                 {
                   "name": "RK3588A(4+64)+WIFI/BT双网",
-                  "price": 2500
+                  "price": 2100
                 },
                 {
                   "name": "RK3588A(8+64)+WIFI/BT双网",
-                  "price": 2900
+                  "price": 2460
                 },
                 {
                   "name": "RK3588A(8+128)+WIFI/BT双网",
-                  "price": 3040
+                  "price": 2600
                 },
                 {
                   "name": "RK3588A(8+256)+WIFI/BT双网",
-                  "price": 3900
+                  "price": 3250
                 },
                 {
                   "name": "RK3588A(16+128)+WIFI/BT双网",
-                  "price": 3600
+                  "price": 2890
                 },
                 {
                   "name": "RK3588A(16+256)+WIFI/BT双网",
-                  "price": 4100
+                  "price": 3610
                 }
               ]
             },
@@ -9099,18 +9079,18 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "3代i5-3210M单网(1*D3/8/MS)",
-                  "price": 480
+                  "price": 550
                 },
                 {
                   "name": "3代i5-3317U双网(1*D3/8/MS)",
                   "price": 590
                 },
                 {
-                  "name": "6代i3-6100U双网(2*D4/32/M2)",
+                  "name": "6代i3-6100U双网(2*D3/32/M2)",
                   "price": 740
                 },
                 {
-                  "name": "7代I3-7100U 双网(2*D4/32/M2)",
+                  "name": "7代I3-7100U 双网(2*D3/32/M2)",
                   "price": 820
                 },
                 {
@@ -9135,15 +9115,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1270
+                  "price": 1230
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1920
+                  "price": 1700
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -9160,6 +9140,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "6代I7-6600U双网(3*D3/32/M2)",
+                  "price": 1250
                 }
               ]
             },
@@ -9184,11 +9168,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -9386,27 +9370,23 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(4+32)+WIFI6/BT单网",
-                  "price": 850
+                  "price": 670
                 },
                 {
                   "name": "RK3566(8+64)+WIFI6/BT单网",
-                  "price": 1440
+                  "price": 1170
                 },
                 {
                   "name": "RK3568D(4+32)+WIFI6/BT单网",
-                  "price": 930
+                  "price": 760
                 },
                 {
                   "name": "RK3568D(8+64)+WIFI6/BT单网",
-                  "price": 1500
-                },
-                {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
-                  "price": 740
+                  "price": 1310
                 },
                 {
                   "name": "RK3288(4+32)+WIFI/BT单网",
-                  "price": 820
+                  "price": 740
                 },
                 {
                   "name": "RK3568GK(2+32)+WIFI6/BT双网",
@@ -9418,47 +9398,43 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "全志H527(4+32)+WIFI6/BT单网",
-                  "price": 1180
+                  "price": 1020
                 },
                 {
                   "name": "RK3576(8+64)+WIFI6/BT单网",
-                  "price": 1700
-                },
-                {
-                  "name": "RK3588S(4+64)+WIFI/BT单网",
-                  "price": 2200
+                  "price": 1530
                 },
                 {
                   "name": "RK3588S(8+64)+WIFI/BT单网",
-                  "price": 2700
+                  "price": 2320
                 },
                 {
                   "name": "RK3588S(8+128)+WIFI/BT单网",
-                  "price": 2900
+                  "price": 2420
                 },
                 {
                   "name": "RK3588A(4+64)+WIFI/BT双网",
-                  "price": 2500
+                  "price": 2100
                 },
                 {
                   "name": "RK3588A(8+64)+WIFI/BT双网",
-                  "price": 2900
+                  "price": 2460
                 },
                 {
                   "name": "RK3588A(8+128)+WIFI/BT双网",
-                  "price": 3040
+                  "price": 2600
                 },
                 {
                   "name": "RK3588A(8+256)+WIFI/BT双网",
-                  "price": 3900
+                  "price": 3250
                 },
                 {
                   "name": "RK3588A(16+128)+WIFI/BT双网",
-                  "price": 3600
+                  "price": 2890
                 },
                 {
                   "name": "RK3588A(16+256)+WIFI/BT双网",
-                  "price": 4100
+                  "price": 3610
                 }
               ]
             },
@@ -9574,18 +9550,18 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "3代i5-3210M单网(1*D3/8/MS)",
-                  "price": 480
+                  "price": 550
                 },
                 {
                   "name": "3代i5-3317U双网(1*D3/8/MS)",
                   "price": 590
                 },
                 {
-                  "name": "6代i3-6100U双网(2*D4/32/M2)",
+                  "name": "6代i3-6100U双网(2*D3/32/M2)",
                   "price": 740
                 },
                 {
-                  "name": "7代I3-7100U 双网(2*D4/32/M2)",
+                  "name": "7代I3-7100U 双网(2*D3/32/M2)",
                   "price": 820
                 },
                 {
@@ -9610,15 +9586,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1270
+                  "price": 1230
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1920
+                  "price": 1700
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -9635,6 +9611,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "6代I7-6600U双网(3*D3/32/M2)",
+                  "price": 1250
                 }
               ]
             },
@@ -9659,11 +9639,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -9898,6 +9878,10 @@ var QUOTE_DATA = {
                 {
                   "name": "H670/12-14代/8盘600W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网",
                   "price": 2740
+                },
+                {
+                  "name": "H110/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/X4*2/PCI*4)双网",
+                  "price": 1320
                 }
               ]
             },
@@ -9914,11 +9898,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7 6700",
-                  "price": 670
+                  "price": 610
                 },
                 {
                   "name": "I3-7100",
-                  "price": 120
+                  "price": 90
                 },
                 {
                   "name": "I5-7400",
@@ -9926,7 +9910,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-7700",
-                  "price": 710
+                  "price": 800
                 },
                 {
                   "name": "I3-8100",
@@ -9938,19 +9922,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-8700",
-                  "price": 1190
+                  "price": 1260
                 },
                 {
                   "name": "I3-9100",
-                  "price": 420
+                  "price": 380
                 },
                 {
                   "name": "I5-9400",
-                  "price": 960
+                  "price": 910
                 },
                 {
                   "name": "I7-9700",
-                  "price": 1590
+                  "price": 1480
                 }
               ]
             },
@@ -10072,27 +10056,23 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "RK3566(4+32)+WIFI6/BT单网",
-                  "price": 850
+                  "price": 670
                 },
                 {
                   "name": "RK3566(8+64)+WIFI6/BT单网",
-                  "price": 1440
+                  "price": 1170
                 },
                 {
                   "name": "RK3568D(4+32)+WIFI6/BT单网",
-                  "price": 930
+                  "price": 760
                 },
                 {
                   "name": "RK3568D(8+64)+WIFI6/BT单网",
-                  "price": 1500
-                },
-                {
-                  "name": "RK3288(2+32)+WIFI/BT单网",
-                  "price": 740
+                  "price": 1310
                 },
                 {
                   "name": "RK3288(4+32)+WIFI/BT单网",
-                  "price": 820
+                  "price": 740
                 },
                 {
                   "name": "RK3568GK(2+32)+WIFI6/BT双网",
@@ -10104,47 +10084,43 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "全志H527(4+32)+WIFI6/BT单网",
-                  "price": 1180
+                  "price": 1020
                 },
                 {
                   "name": "RK3576(8+64)+WIFI6/BT单网",
-                  "price": 1700
-                },
-                {
-                  "name": "RK3588S(4+64)+WIFI/BT单网",
-                  "price": 2200
+                  "price": 1530
                 },
                 {
                   "name": "RK3588S(8+64)+WIFI/BT单网",
-                  "price": 2700
+                  "price": 2320
                 },
                 {
                   "name": "RK3588S(8+128)+WIFI/BT单网",
-                  "price": 2900
+                  "price": 2420
                 },
                 {
                   "name": "RK3588A(4+64)+WIFI/BT双网",
-                  "price": 2500
+                  "price": 2100
                 },
                 {
                   "name": "RK3588A(8+64)+WIFI/BT双网",
-                  "price": 2900
+                  "price": 2460
                 },
                 {
                   "name": "RK3588A(8+128)+WIFI/BT双网",
-                  "price": 3040
+                  "price": 2600
                 },
                 {
                   "name": "RK3588A(8+256)+WIFI/BT双网",
-                  "price": 3900
+                  "price": 3250
                 },
                 {
                   "name": "RK3588A(16+128)+WIFI/BT双网",
-                  "price": 3600
+                  "price": 2890
                 },
                 {
                   "name": "RK3588A(16+256)+WIFI/BT双网",
-                  "price": 4100
+                  "price": 3610
                 }
               ]
             },
@@ -10222,7 +10198,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I5-6200U双网(1*D3/16/M2)",
-                  "price": 1040
+                  "price": 1100
                 },
                 {
                   "name": "I5-7200U双网(1*D3/16/M2)",
@@ -10250,7 +10226,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6412双网 for NANO(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1580
                 },
                 {
                   "name": "N5095双网(1*D4/8/M2)",
@@ -10262,15 +10238,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N100双网 for NANO(1*D4/16/M2)",
-                  "price": 1900
+                  "price": 1760
                 },
                 {
                   "name": "N100双网TYPE-C(1*D5/32/M2)",
-                  "price": 1920
+                  "price": 1780
                 },
                 {
                   "name": "N150双网(1*D4/16/M2)",
-                  "price": 1940
+                  "price": 1800
                 },
                 {
                   "name": "N305双网(1*D4/16/M2)",
@@ -10278,15 +10254,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "J6412六网i226(1*D4/16/M2)",
-                  "price": 2100
+                  "price": 1900
                 },
                 {
                   "name": "N100六网i226(1*D4/16/M2)",
-                  "price": 2040
+                  "price": 1960
                 },
                 {
                   "name": "N150四网i226(1*D4/16/M2)",
-                  "price": 2080
+                  "price": 1880
                 },
                 {
                   "name": "N305四网i226(1*D4/16/M2)",
@@ -10311,11 +10287,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -10558,18 +10534,18 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "3代i5-3210M单网(1*D3/8/MS)",
-                  "price": 480
+                  "price": 550
                 },
                 {
                   "name": "3代i5-3317U双网(1*D3/8/MS)",
                   "price": 590
                 },
                 {
-                  "name": "6代i3-6100U双网(2*D4/32/M2)",
+                  "name": "6代i3-6100U双网(2*D3/32/M2)",
                   "price": 740
                 },
                 {
-                  "name": "7代I3-7100U 双网(2*D4/32/M2)",
+                  "name": "7代I3-7100U 双网(2*D3/32/M2)",
                   "price": 820
                 },
                 {
@@ -10594,15 +10570,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1270
+                  "price": 1230
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1920
+                  "price": 1700
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -10619,6 +10595,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "6代I7-6600U双网(3*D3/32/M2)",
+                  "price": 1250
                 }
               ]
             },
@@ -10639,11 +10619,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -10805,18 +10785,18 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "3代i5-3210M单网(1*D3/8/MS)",
-                  "price": 480
+                  "price": 550
                 },
                 {
                   "name": "3代i5-3317U双网(1*D3/8/MS)",
                   "price": 590
                 },
                 {
-                  "name": "6代i3-6100U双网(2*D4/32/M2)",
+                  "name": "6代i3-6100U双网(2*D3/32/M2)",
                   "price": 740
                 },
                 {
-                  "name": "7代I3-7100U 双网(2*D4/32/M2)",
+                  "name": "7代I3-7100U 双网(2*D3/32/M2)",
                   "price": 820
                 },
                 {
@@ -10841,15 +10821,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1270
+                  "price": 1230
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1920
+                  "price": 1700
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -10889,11 +10869,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7 6700",
-                  "price": 670
+                  "price": 610
                 },
                 {
                   "name": "I3-7100",
-                  "price": 120
+                  "price": 90
                 },
                 {
                   "name": "I5-7400",
@@ -10901,7 +10881,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-7700",
-                  "price": 710
+                  "price": 800
                 },
                 {
                   "name": "I3-8100",
@@ -10913,19 +10893,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-8700",
-                  "price": 1190
+                  "price": 1260
                 },
                 {
                   "name": "I3-9100",
-                  "price": 420
+                  "price": 380
                 },
                 {
                   "name": "I5-9400",
-                  "price": 960
+                  "price": 910
                 },
                 {
                   "name": "I7-9700",
-                  "price": 1590
+                  "price": 1480
                 },
                 {
                   "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
@@ -10934,6 +10914,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "6代I7-6600U双网(3*D3/32/M2)",
+                  "price": 1250
                 }
               ]
             },
@@ -10958,11 +10942,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -11099,18 +11083,18 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "3代i5-3210M单网(1*D3/8/MS)",
-                  "price": 480
+                  "price": 550
                 },
                 {
                   "name": "3代i5-3317U双网(1*D3/8/MS)",
                   "price": 590
                 },
                 {
-                  "name": "6代i3-6100U双网(2*D4/32/M2)",
+                  "name": "6代i3-6100U双网(2*D3/32/M2)",
                   "price": 740
                 },
                 {
-                  "name": "7代I3-7100U 双网(2*D4/32/M2)",
+                  "name": "7代I3-7100U 双网(2*D3/32/M2)",
                   "price": 820
                 },
                 {
@@ -11135,15 +11119,15 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1270
+                  "price": 1230
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1920
+                  "price": 1700
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1980
+                  "price": 1780
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/16/M2)",
@@ -11160,6 +11144,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "6代I7-6600U双网(3*D3/32/M2)",
+                  "price": 1250
                 }
               ]
             },
@@ -11184,11 +11172,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "8G(D4)",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)",
-                  "price": 1200
+                  "price": 1230
                 }
               ]
             },
@@ -11342,6 +11330,10 @@ var QUOTE_DATA = {
                 {
                   "name": "H670/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网",
                   "price": 1920
+                },
+                {
+                  "name": "H110/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/X4*2/PCI*4)双网",
+                  "price": 1320
                 }
               ]
             },
@@ -11358,11 +11350,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7 6700",
-                  "price": 670
+                  "price": 610
                 },
                 {
                   "name": "I3-7100",
-                  "price": 120
+                  "price": 90
                 },
                 {
                   "name": "I5-7400",
@@ -11370,7 +11362,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-7700",
-                  "price": 710
+                  "price": 800
                 },
                 {
                   "name": "I3-8100",
@@ -11382,19 +11374,19 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I7-8700",
-                  "price": 1190
+                  "price": 1260
                 },
                 {
                   "name": "I3-9100",
-                  "price": 420
+                  "price": 380
                 },
                 {
                   "name": "I5-9400",
-                  "price": 960
+                  "price": 910
                 },
                 {
                   "name": "I7-9700",
-                  "price": 1590
+                  "price": 1480
                 }
               ]
             },
@@ -11569,11 +11561,11 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "8G(D4)笔记本",
-                  "price": 600
+                  "price": 620
                 },
                 {
                   "name": "16G(D4)笔记本",
-                  "price": 1200
+                  "price": 1230
                 },
                 {
                   "name": "8G(D4)台式机",
@@ -11771,6 +11763,27 @@ var QUOTE_DATA = {
   "updateLogs": {
     "primary": [
       {
+        "date": 46315,
+        "items": [
+          "内存 8G(D4) 价格 600→620（影响 16 个产品：IPRO(x86)、IPRO-SE(x86)、VFACE、VFACE-H、VOPC(X86)、FWS(X86)、FWE(X86)、AirMax(x86)、DSMB02(X86)、IBOOKHY(X86)、UNO、GW系列、BPC-101、BPC-102、BPC-103、GBOOK-GPS(DC系列)）",
+          "内存 16G(D4) 价格 1200→1230（影响 16 个产品：IPRO(x86)、IPRO-SE(x86)、VFACE、VFACE-H、VOPC(X86)、FWS(X86)、FWE(X86)、AirMax(x86)、DSMB02(X86)、IBOOKHY(X86)、UNO、GW系列、BPC-101、BPC-102、BPC-103、GBOOK-GPS(DC系列)）",
+          "CPU RK3566(2+32)+蓝牙/HDMI IN/单网 价格 980→850（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU 公板RK3288(2+32)+WIFI/BT单网 价格 790→650（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU 全志H527(2+32)+WIFI6/BT单网 价格 890→840（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3576(4+64)+WIFI6/BT单网 价格 1500→1370（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3588S(4+64)+WIFI6/BT单网 价格 2000→1940（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU I7 6700 价格 670→610（影响 6 个产品：VFACE-H、上架式工控机、BPC-102、BPC-103、GPS(台式系列)、IPS系列）",
+          "CPU I3-7100 价格 120→90（影响 6 个产品：VFACE-H、上架式工控机、BPC-102、BPC-103、GPS(台式系列)、IPS系列）",
+          "CPU I7-7700 价格 710→800（影响 6 个产品：VFACE-H、上架式工控机、BPC-102、BPC-103、GPS(台式系列)、IPS系列）",
+          "CPU I7-8700 价格 1190→1260（影响 6 个产品：VFACE-H、上架式工控机、BPC-102、BPC-103、GPS(台式系列)、IPS系列）",
+          "CPU I3-9100 价格 420→380（影响 6 个产品：VFACE-H、上架式工控机、BPC-102、BPC-103、GPS(台式系列)、IPS系列）",
+          "CPU I5-9400 价格 960→910（影响 6 个产品：VFACE-H、上架式工控机、BPC-102、BPC-103、GPS(台式系列)、IPS系列）",
+          "CPU I7-9700 价格 1590→1480（影响 6 个产品：VFACE-H、上架式工控机、BPC-102、BPC-103、GPS(台式系列)、IPS系列）",
+          "DMBYH(安卓) CPU RK3288(4+32)+WIFI/BT单网 价格 820→740",
+          "NANO CPU I3-5005U双网(1*D3/8/MS) 价格 580→620"
+        ]
+      },
+      {
         "date": 46304,
         "items": [
           "＋ 其他 新增：10.4纯平电阻（¥160，影响 2 个产品：FWE(X86)、FWE(安卓)）",
@@ -11817,43 +11830,80 @@ var QUOTE_DATA = {
           "＋ 支架 新增：CR-05悬臂支架（¥100，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
           "＋ 支架 新增：W01悬臂支架（¥160，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）"
         ]
-      },
-      {
-        "date": 46270,
-        "items": [
-          "－ IPRO(x86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
-          "IPRO(x86) 内存 4G(D4) 价格 310→365",
-          "IPRO-SE(x86) 内存 4G(D4) 价格 310→365",
-          "－ VFACE CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
-          "VFACE 内存 4G(D4) 价格 310→365",
-          "VFACE-H 内存 4G(D4) 价格 310→365",
-          "－ VOPC(X86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
-          "VOPC(X86) 内存 4G(D4) 价格 310→365",
-          "－ FWS(X86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
-          "FWS(X86) 内存 4G(D4) 价格 310→365",
-          "－ FWE(X86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
-          "FWE(X86) 内存 4G(D4) 价格 310→365",
-          "AirMax(x86) 内存 4G(D4) 价格 310→365",
-          "－ DSMB02(X86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
-          "DSMB02(X86) 内存 4G(D4) 价格 310→365",
-          "－ IBOOKHY(X86) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
-          "IBOOKHY(X86) 内存 4G(D4) 价格 310→365",
-          "NANO CPU N2840双网(1*D3/8/MS) 价格 400→440",
-          "NANO CPU I7-4500U双网(1*D3/8/MS) 价格 840→880",
-          "UNO CPU I5-6300U双网(1*D3/8/M2) 价格 900→980",
-          "UNO 内存 4G(D4) 价格 310→365",
-          "GW系列 内存 4G(D4) 价格 310→365",
-          "－ BPC-101 CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
-          "BPC-101 内存 4G(D4) 价格 310→365",
-          "BPC-102 内存 4G(D4) 价格 310→365",
-          "－ BPC-103 CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
-          "BPC-103 内存 4G(D4) 价格 310→365",
-          "－ GBOOK-GPS(DC系列) CPU 下架：10代i7-1065G7双网(2*D4/32/M2)",
-          "GBOOK-GPS(DC系列) 内存 4G(D4) 价格 310→365"
-        ]
       }
     ],
     "secondary": [
+      {
+        "date": 46315,
+        "items": [
+          "IPRO(x86) CPU 「6代i3-6100U双网(2*D3/32/M2)」更名自「6代i3-6100U双网(2*D4/32/M2)」（¥740）",
+          "IPRO(x86) CPU 「7代I3-7100U 双网(2*D3/32/M2)」更名自「7代I3-7100U 双网(2*D4/32/M2)」（¥820）",
+          "VFACE CPU 「6代i3-6100U双网(2*D3/32/M2)」更名自「6代i3-6100U双网(2*D4/32/M2)」（¥740）",
+          "VFACE CPU 「7代I3-7100U 双网(2*D3/32/M2)」更名自「7代I3-7100U 双网(2*D4/32/M2)」（¥820）",
+          "VOPC(X86) CPU 「6代i3-6100U双网(2*D3/32/M2)」更名自「6代i3-6100U双网(2*D4/32/M2)」（¥740）",
+          "VOPC(X86) CPU 「7代I3-7100U 双网(2*D3/32/M2)」更名自「7代I3-7100U 双网(2*D4/32/M2)」（¥820）",
+          "FWS(X86) CPU 「6代i3-6100U双网(2*D3/32/M2)」更名自「6代i3-6100U双网(2*D4/32/M2)」（¥740）",
+          "FWS(X86) CPU 「7代I3-7100U 双网(2*D3/32/M2)」更名自「7代I3-7100U 双网(2*D4/32/M2)」（¥820）",
+          "FWE(X86) CPU 「6代i3-6100U双网(2*D3/32/M2)」更名自「6代i3-6100U双网(2*D4/32/M2)」（¥740）",
+          "FWE(X86) CPU 「7代I3-7100U 双网(2*D3/32/M2)」更名自「7代I3-7100U 双网(2*D4/32/M2)」（¥820）",
+          "DSMB02(X86) CPU 「6代i3-6100U双网(2*D3/32/M2)」更名自「6代i3-6100U双网(2*D4/32/M2)」（¥740）",
+          "DSMB02(X86) CPU 「7代I3-7100U 双网(2*D3/32/M2)」更名自「7代I3-7100U 双网(2*D4/32/M2)」（¥820）",
+          "IBOOKHY(X86) CPU 「6代i3-6100U双网(2*D3/32/M2)」更名自「6代i3-6100U双网(2*D4/32/M2)」（¥740）",
+          "IBOOKHY(X86) CPU 「7代I3-7100U 双网(2*D3/32/M2)」更名自「7代I3-7100U 双网(2*D4/32/M2)」（¥820）",
+          "BPC-101 CPU 「6代i3-6100U双网(2*D3/32/M2)」更名自「6代i3-6100U双网(2*D4/32/M2)」（¥740）",
+          "BPC-101 CPU 「7代I3-7100U 双网(2*D3/32/M2)」更名自「7代I3-7100U 双网(2*D4/32/M2)」（¥820）",
+          "BPC-103 CPU 「6代i3-6100U双网(2*D3/32/M2)」更名自「6代i3-6100U双网(2*D4/32/M2)」（¥740）",
+          "BPC-103 CPU 「7代I3-7100U 双网(2*D3/32/M2)」更名自「7代I3-7100U 双网(2*D4/32/M2)」（¥820）",
+          "GBOOK-GPS(DC系列) CPU 「6代i3-6100U双网(2*D3/32/M2)」更名自「6代i3-6100U双网(2*D4/32/M2)」（¥740）",
+          "GBOOK-GPS(DC系列) CPU 「7代I3-7100U 双网(2*D3/32/M2)」更名自「7代I3-7100U 双网(2*D4/32/M2)」（¥820）",
+          "CPU 3代i5-3210M单网(1*D3/8/MS) 价格 480→550（影响 10 个产品：IPRO(x86)、VFACE、VOPC(X86)、FWS(X86)、FWE(X86)、DSMB02(X86)、IBOOKHY(X86)、BPC-101、BPC-103、GBOOK-GPS(DC系列)）",
+          "CPU N5095双网(1*D4/16/M2) 价格 1270→1230（影响 10 个产品：IPRO(x86)、VFACE、VOPC(X86)、FWS(X86)、FWE(X86)、DSMB02(X86)、IBOOKHY(X86)、BPC-101、BPC-103、GBOOK-GPS(DC系列)）",
+          "CPU J6412双网(1*D4/16/M2) 价格 1920→1700（影响 10 个产品：IPRO(x86)、VFACE、VOPC(X86)、FWS(X86)、FWE(X86)、DSMB02(X86)、IBOOKHY(X86)、BPC-101、BPC-103、GBOOK-GPS(DC系列)）",
+          "CPU N100双网(1*D4/16/M2) 价格 1980→1780（影响 10 个产品：IPRO(x86)、VFACE、VOPC(X86)、FWS(X86)、FWE(X86)、DSMB02(X86)、IBOOKHY(X86)、BPC-101、BPC-103、GBOOK-GPS(DC系列)）",
+          "＋ CPU 新增：6代I7-6600U双网(3*D3/32/M2)（¥1250，影响 10 个产品：IPRO(x86)、VFACE、VOPC(X86)、FWS(X86)、FWE(X86)、DSMB02(X86)、IBOOKHY(X86)、BPC-101、BPC-103、GBOOK-GPS(DC系列)）",
+          "内存 8G(D4) 价格 600→620（影响 12 个产品：IPRO(x86)、IPRO-SE(x86)、VFACE、VOPC(X86)、FWS(X86)、FWE(X86)、DSMB02(X86)、IBOOKHY(X86)、NANO、BPC-101、BPC-103、GBOOK-GPS(DC系列)）",
+          "内存 16G(D4) 价格 1200→1230（影响 12 个产品：IPRO(x86)、IPRO-SE(x86)、VFACE、VOPC(X86)、FWS(X86)、FWE(X86)、DSMB02(X86)、IBOOKHY(X86)、NANO、BPC-101、BPC-103、GBOOK-GPS(DC系列)）",
+          "CPU RK3566(4+32)+WIFI6/BT单网 价格 850→670（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3566(8+64)+WIFI6/BT单网 价格 1440→1170（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3568D(4+32)+WIFI6/BT单网 价格 930→760（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3568D(8+64)+WIFI6/BT单网 价格 1500→1310（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3288(4+32)+WIFI/BT单网 价格 820→740（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU 全志H527(4+32)+WIFI6/BT单网 价格 1180→1020（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3576(8+64)+WIFI6/BT单网 价格 1700→1530（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3588S(8+64)+WIFI/BT单网 价格 2700→2320（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3588S(8+128)+WIFI/BT单网 价格 2900→2420（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3588A(4+64)+WIFI/BT双网 价格 2500→2100（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3588A(8+64)+WIFI/BT双网 价格 2900→2460（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3588A(8+128)+WIFI/BT双网 价格 3040→2600（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3588A(8+256)+WIFI/BT双网 价格 3900→3250（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3588A(16+128)+WIFI/BT双网 价格 3600→2890（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "CPU RK3588A(16+256)+WIFI/BT双网 价格 4100→3610（影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "－ CPU 下架：RK3288(2+32)+WIFI/BT单网（原¥740，影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "－ CPU 下架：RK3588S(4+64)+WIFI/BT单网（原¥2200，影响 7 个产品：IPRO(安卓)、IPRO-SE(安卓)、VOPC(安卓)、FWS(安卓)、FWE(安卓)、DSMB02(安卓)、ANBOX）",
+          "IPRO-SE(x86) CPU 6代i5 6200U 双网 for SE（2*D3/16/M2） 价格 960→1000",
+          "IPRO-SE(x86) CPU 6代i7 6500U 双网 for SE（2*D3/16/M2） 价格 1340→1300",
+          "IPRO-SE(x86) CPU 8代i5 8250U 双网 for SE（2*D3/16/M2） 价格 1360→1260",
+          "IPRO-SE(x86) CPU 8代i7 8550U 双网 for SE（2*D3/16/M2） 价格 1520→1390",
+          "＋ 主板 新增：H110/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/X4*2/PCI*4)双网（¥1320，影响 2 个产品：上架式工控机、GPS(台式系列)）",
+          "CPU I7 6700 价格 670→610（影响 3 个产品：上架式工控机、BPC-103、GPS(台式系列)）",
+          "CPU I3-7100 价格 120→90（影响 3 个产品：上架式工控机、BPC-103、GPS(台式系列)）",
+          "CPU I7-7700 价格 710→800（影响 3 个产品：上架式工控机、BPC-103、GPS(台式系列)）",
+          "CPU I7-8700 价格 1190→1260（影响 3 个产品：上架式工控机、BPC-103、GPS(台式系列)）",
+          "CPU I3-9100 价格 420→380（影响 3 个产品：上架式工控机、BPC-103、GPS(台式系列)）",
+          "CPU I5-9400 价格 960→910（影响 3 个产品：上架式工控机、BPC-103、GPS(台式系列)）",
+          "CPU I7-9700 价格 1590→1480（影响 3 个产品：上架式工控机、BPC-103、GPS(台式系列)）",
+          "NANO CPU I5-6200U双网(1*D3/16/M2) 价格 1040→1100",
+          "NANO CPU J6412双网 for NANO(1*D4/16/M2) 价格 1780→1580",
+          "NANO CPU N100双网 for NANO(1*D4/16/M2) 价格 1900→1760",
+          "NANO CPU N100双网TYPE-C(1*D5/32/M2) 价格 1920→1780",
+          "NANO CPU N150双网(1*D4/16/M2) 价格 1940→1800",
+          "NANO CPU J6412六网i226(1*D4/16/M2) 价格 2100→1900",
+          "NANO CPU N100六网i226(1*D4/16/M2) 价格 2040→1960",
+          "NANO CPU N150四网i226(1*D4/16/M2) 价格 2080→1880",
+          "IPS系列 内存 8G(D4)笔记本 价格 600→620",
+          "IPS系列 内存 16G(D4)笔记本 价格 1200→1230"
+        ]
+      },
       {
         "date": 46308,
         "items": [
@@ -11897,22 +11947,6 @@ var QUOTE_DATA = {
         "items": [
           "＋ 支架 新增：CR-05悬臂支架（¥100，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
           "＋ 支架 新增：W01悬臂支架（¥160，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）"
-        ]
-      },
-      {
-        "date": 46270,
-        "items": [
-          "IPRO(x86) CPU 「J6412双网(1*D4/16/M2)」更名自「J6413双网(1*D4/16/M2)」（¥1920）",
-          "VFACE CPU 「J6412双网(1*D4/16/M2)」更名自「J6413双网(1*D4/16/M2)」（¥1920）",
-          "VOPC(X86) CPU 「J6412双网(1*D4/16/M2)」更名自「J6413双网(1*D4/16/M2)」（¥1920）",
-          "FWS(X86) CPU 「J6412双网(1*D4/16/M2)」更名自「J6413双网(1*D4/16/M2)」（¥1920）",
-          "FWE(X86) CPU 「J6412双网(1*D4/16/M2)」更名自「J6413双网(1*D4/16/M2)」（¥1920）",
-          "DSMB02(X86) CPU 「J6412双网(1*D4/16/M2)」更名自「J6413双网(1*D4/16/M2)」（¥1920）",
-          "IBOOKHY(X86) CPU 「J6412双网(1*D4/16/M2)」更名自「J6413双网(1*D4/16/M2)」（¥1920）",
-          "NANO CPU 「J6412双网 for NANO(1*D4/16/M2)」更名自「J6412双网(1*D4/16/M2)」（¥1780）",
-          "BPC-101 CPU 「J6412双网(1*D4/16/M2)」更名自「J6413双网(1*D4/16/M2)」（¥1920）",
-          "BPC-103 CPU 「J6412双网(1*D4/16/M2)」更名自「J6413双网(1*D4/16/M2)」（¥1920）",
-          "GBOOK-GPS(DC系列) CPU 「J6412双网(1*D4/16/M2)」更名自「J6413双网(1*D4/16/M2)」（¥1920）"
         ]
       }
     ]
