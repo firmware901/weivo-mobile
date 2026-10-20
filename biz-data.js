@@ -15,8 +15,8 @@ var QUOTE_DATA = {
     {
       "key": "primary",
       "label": "主推",
-      "version": "2026.09.08",
-      "validUntil": "9月30",
+      "version": "20261020",
+      "validUntil": "10月31日",
       "fileName": "主推产品报价表（7月27更新）有效期7月30.xlsx",
       "series": [
         {
@@ -6283,8 +6283,8 @@ var QUOTE_DATA = {
     {
       "key": "secondary",
       "label": "非主推",
-      "version": "2026.09.08",
-      "validUntil": "9月30",
+      "version": "20261020",
+      "validUntil": "10月31日",
       "fileName": "非主推产品报价表（7月21更新）有效期7月30V1.xlsx",
       "series": [
         {

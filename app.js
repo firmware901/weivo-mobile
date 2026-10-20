@@ -143,10 +143,10 @@ if (typeof module !== 'undefined' && module.exports) {
     vb.innerHTML = '';
     QUOTE_DATA.sources.forEach(function (s, i) {
       var b = el('span', 'ver-badge' + (i === state.srcIdx ? ' active' : ''));
-      var label = el('b', null, s.label + ' ');
+      var label = el('b', null, s.label);
       b.appendChild(label);
       b.appendChild(document.createTextNode(
-        'v' + s.version + '（有效期至 ' + s.validUntil + '）'));
+        'V' + s.version + '（有效期至' + s.validUntil + '）'));
       vb.appendChild(b);
     });
     var gen = el('span', 'ver-badge');
