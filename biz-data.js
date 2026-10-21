@@ -6,11 +6,11 @@
 //    限价口径：报价端旧口径（各系列 0.72/0.70/0.73/0.76…），
 //              与「威沃审单系统」的统一 0.7 不同，两边已分家。
 //    面价 / 平台价 / 配件价 / 系统选项 / 主体 / 业务员 与审单版完全一致。
-//    来源数据时间：2026-10-20 20:50:23
+//    来源数据时间：2026-10-21 11:56:34
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-10-20 20:50:23",
+  "generatedAt": "2026-10-21 11:56:34",
   "sources": [
     {
       "key": "primary",
@@ -2882,6 +2882,10 @@ var QUOTE_DATA = {
               "name": "CPU",
               "options": [
                 {
+                  "name": "I5-3210M双网(2*D3/16/M2)",
+                  "price": 710
+                },
+                {
                   "name": "I5-5200U双网(2*D3/16/MS)",
                   "price": 950
                 },
@@ -4535,6 +4539,7 @@ var QUOTE_DATA = {
               "name": "GW-200",
               "price": 575,
               "cpuOptions": [
+                "I5-3210M双网(2*D3/16/M2)",
                 "I5-5200U双网(2*D3/16/M2)",
                 "I5-7200U双网(2*D3/16/M2)"
               ]
@@ -4544,6 +4549,10 @@ var QUOTE_DATA = {
             {
               "name": "CPU",
               "options": [
+                {
+                  "name": "I5-3210M双网(2*D3/16/M2)",
+                  "price": 710
+                },
                 {
                   "name": "I3-8145U双网(2*D4/32/M2)",
                   "price": 1700
@@ -10197,11 +10206,11 @@ var QUOTE_DATA = {
                   "price": 1000
                 },
                 {
-                  "name": "I5-6200U双网(1*D3/16/M2)",
+                  "name": "I5-6200U双网(1*D3/8/M2)",
                   "price": 1100
                 },
                 {
-                  "name": "I5-7200U双网(1*D3/16/M2)",
+                  "name": "I5-7200U双网(1*D3/8/M2)",
                   "price": 1100
                 },
                 {
@@ -11763,6 +11772,12 @@ var QUOTE_DATA = {
   "updateLogs": {
     "primary": [
       {
+        "date": 46316,
+        "items": [
+          "＋ CPU 新增：I5-3210M双网(2*D3/16/M2)（¥710，影响 2 个产品：AirMax(x86)、GW系列）"
+        ]
+      },
+      {
         "date": 46315,
         "items": [
           "内存 8G(D4) 价格 600→620（影响 16 个产品：IPRO(x86)、IPRO-SE(x86)、VFACE、VFACE-H、VOPC(X86)、FWS(X86)、FWE(X86)、AirMax(x86)、DSMB02(X86)、IBOOKHY(X86)、UNO、GW系列、BPC-101、BPC-102、BPC-103、GBOOK-GPS(DC系列)）",
@@ -11822,17 +11837,16 @@ var QUOTE_DATA = {
           "内存 8G(D4)台式机 价格 600→680（影响 3 个产品：上架式工控机、GPS(台式系列)、IPS系列）",
           "内存 16G(D4)台式机 价格 1200→1330（影响 3 个产品：上架式工控机、GPS(台式系列)、IPS系列）"
         ]
-      },
-      {
-        "date": 46273,
-        "items": [
-          "＋ 三防平板 新增配置类「支架」",
-          "＋ 支架 新增：CR-05悬臂支架（¥100，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "＋ 支架 新增：W01悬臂支架（¥160，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）"
-        ]
       }
     ],
     "secondary": [
+      {
+        "date": 46316,
+        "items": [
+          "NANO CPU 「I5-6200U双网(1*D3/8/M2)」更名自「I5-6200U双网(1*D3/16/M2)」（¥1100）",
+          "NANO CPU 「I5-7200U双网(1*D3/8/M2)」更名自「I5-7200U双网(1*D3/16/M2)」（¥1100）"
+        ]
+      },
       {
         "date": 46315,
         "items": [
@@ -11940,13 +11954,6 @@ var QUOTE_DATA = {
           "内存 8G(D4)台式机 价格 600→680（影响 3 个产品：上架式工控机、GPS(台式系列)、IPS系列）",
           "内存 16G(D4)台式机 价格 1200→1330（影响 3 个产品：上架式工控机、GPS(台式系列)、IPS系列）",
           "IPS系列 内存 8G(D4)笔记本 价格 570→600"
-        ]
-      },
-      {
-        "date": 46273,
-        "items": [
-          "＋ 支架 新增：CR-05悬臂支架（¥100，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
-          "＋ 支架 新增：W01悬臂支架（¥160，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）"
         ]
       }
     ]
