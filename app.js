@@ -314,16 +314,23 @@ if (typeof module !== 'undefined' && module.exports) {
     var sm = name.match(/(\d+)\s*\*\s*D[34]/i);
     if (sm) slots = parseInt(sm[1], 10);
     var storTypes = [];
-    var hasM2 = /M2/i.test(name), hasMS = /MS/i.test(name);
+    /* ★ 2026-11-02 从 V4 同步两处修复（口径与 V4 app.js / 审单 audit-core 一致）：
+       ① M2 有「M2」和「M.2」两种写法（国产平台板写 1*M.2 / 1*M.2 NVME），
+          原来只认 M2，遇到 M.2 会判成「没有 M.2 口」，把 M2 固态反过来全禁掉。
+       ② 国产平台主板（含兆芯 / 飞腾 / 海光 / 龙芯 / 鲲鹏）的 CPU 焊在板上、
+          已含在板价里 —— 不能再另选 CPU，否则重复计价。 */
+    var hasM2 = /M\.?2/i.test(name), hasMS = /MS/i.test(name);
     if (hasM2 && !hasMS) storTypes.push('M2');
     if (hasMS && !hasM2) storTypes.push('MS');
     if (hasM2 && hasMS) { storTypes.push('M2'); storTypes.push('MS'); }
     if (storTypes.length === 0 && genMin !== null && genMin >= 6) storTypes = ['M2']; // 缩写主板（如 B310D/6-9代/D3、H610/12-14代/D4）兜底
+    var cpuIncluded = /含\s*(?:兆芯|飞腾|海光|龙芯|鲲鹏)/.test(name);
     return {
       genMin: genMin, genMax: genMax,
       memType: memType, slots: slots,
       storTypes: storTypes,
-      cpuDisabled: (genMin !== null && genMin >= 12)   // 12-14代 CPU 不在报价器内
+      cpuIncluded: cpuIncluded,
+      cpuDisabled: cpuIncluded || (genMin !== null && genMin >= 12)   // 已含 CPU 或 12-14代 CPU 不在报价器内
     };
   }
 
@@ -381,13 +388,26 @@ if (typeof module !== 'undefined' && module.exports) {
 
     // ---- 主板决定 CPU 下拉 ----
     if (cpuSel) {
+      /* ★ 2026-11-02 从 V4 同步：「已含」标记 —— 占位文本 + 类别名旁的「已含」小标签 */
+      var cpuCell = cpuSel.parentNode;
+      var catName = cpuCell ? cpuCell.querySelector('.cat-name') : null;
+      var hadTag = catName ? catName.querySelector('.inc-tag') : null;
       if (mb && mb.cpuDisabled) {
         cpuSel.disabled = true;
-        cpuSel.title = 'CPU价格请咨询采购。';
+        cpuSel.title = mb.cpuIncluded
+          ? '该主板上已含 CPU（焊在板上），不另选、不计价。'
+          : 'CPU价格请咨询采购。';
+        if (cpuSel.options[0]) cpuSel.options[0].text = mb.cpuIncluded ? '— 主板已含 CPU' : '（不选）';
+        if (mb.cpuIncluded && catName && !hadTag) {
+          var tg = el('span', 'inc-tag', '已含');
+          catName.appendChild(tg);
+        }
         if (cpuSel.value) { cpuSel.value = ''; delete state.sel['CPU']; changed = true; }
       } else {
         cpuSel.disabled = false;
         cpuSel.title = '';
+        if (cpuSel.options[0]) cpuSel.options[0].text = '（不选）';
+        if (hadTag) hadTag.parentNode.removeChild(hadTag);
         if (mb && mb.genMin !== null) {
           for (var c = 0; c < cpuSel.options.length; c++) {
             var co = cpuSel.options[c];

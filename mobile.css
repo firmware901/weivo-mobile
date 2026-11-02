@@ -73,6 +73,9 @@ body{
 .sel-grid{display:flex; flex-direction:column; gap:12px;}
 .sel-cell .cat-name{font-size:13px; font-weight:700; color:var(--sub); margin-bottom:5px;}
 .sel-grid select:disabled{background:#f1f1f1; color:#9a9a9a; cursor:not-allowed;}
+/* ★ 2026-11-02 从 V4 同步：主板已含 CPU 的「已含」小标签 */
+.cat-name .inc-tag{display:inline-block; margin-left:6px; padding:0 5px; border-radius:4px;
+  background:#e6f2ff; color:#0f4c81; font-size:11px; font-weight:700; vertical-align:1px;}
 
 .empty-tip{color:var(--sub); font-size:13px; padding:6px 2px;}
 
