@@ -6,11 +6,11 @@
 //    限价口径：报价端旧口径（各系列 0.72/0.70/0.73/0.76…），
 //              与「威沃审单系统」的统一 0.7 不同，两边已分家。
 //    面价 / 平台价 / 配件价 / 系统选项 / 主体 / 业务员 与审单版完全一致。
-//    来源数据时间：2026-10-22 14:26:11
+//    来源数据时间：2026-11-02 13:45:38
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-10-22 14:26:11",
+  "generatedAt": "2026-11-02 13:45:38",
   "sources": [
     {
       "key": "primary",
@@ -1217,15 +1217,15 @@ var QUOTE_DATA = {
               "name": "主板",
               "options": [
                 {
-                  "name": "B310D/6-9代/D3",
+                  "name": "H310（DC）/6-9代/D3",
                   "price": 960
                 },
                 {
-                  "name": "H610/12-14代/2*D4/32/M2",
+                  "name": "H610/双网（DC）/12-14代/2*D4/32/M2",
                   "price": 1200
                 },
                 {
-                  "name": "H610/3网/12-14代/2*D4/32/M2",
+                  "name": "H610/3网（DC）/12-14代/2*D4/32/M2",
                   "price": 1560
                 }
               ]
@@ -2878,7 +2878,7 @@ var QUOTE_DATA = {
             },
             {
               "name": "21.5",
-              "price": 0
+              "price": 1260
             }
           ],
           "categories": [
@@ -4032,15 +4032,38 @@ var QUOTE_DATA = {
           "sizes": [
             {
               "name": "IPC-610B(4U)",
-              "price": 610
+              "price": 610,
+              "own": "primary"
             },
             {
               "name": "IPC-300",
-              "price": 660
+              "price": 660,
+              "own": "primary"
             },
             {
               "name": "IPC-620(BG)",
-              "price": 630
+              "price": 630,
+              "own": "primary"
+            },
+            {
+              "name": "IPC-610(4U)",
+              "price": 850,
+              "own": "secondary"
+            },
+            {
+              "name": "IPC-810(4U)",
+              "price": 1100,
+              "own": "secondary"
+            },
+            {
+              "name": "IPC-110-650(1U)",
+              "price": 1250,
+              "own": "secondary"
+            },
+            {
+              "name": "IPC-210(2U)",
+              "price": 960,
+              "own": "secondary"
             }
           ],
           "categories": [
@@ -4048,15 +4071,15 @@ var QUOTE_DATA = {
               "name": "主板",
               "options": [
                 {
-                  "name": "B85/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
+                  "name": "B85（ATX）/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
                   "price": 380
                 },
                 {
-                  "name": "H311/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
+                  "name": "H311（ATX）/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
                   "price": 650
                 },
                 {
-                  "name": "H610M/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
+                  "name": "H610M（ATX）/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
                   "price": 670
                 }
               ]
@@ -4950,15 +4973,15 @@ var QUOTE_DATA = {
               "name": "主板",
               "options": [
                 {
-                  "name": "B310D/6-9代/D3",
+                  "name": "H310（DC）/6-9代/D3",
                   "price": 960
                 },
                 {
-                  "name": "H610/12-14代/2*D4/32/M2",
+                  "name": "H610/双网（DC）/12-14代/2*D4/32/M2",
                   "price": 1200
                 },
                 {
-                  "name": "H610/3网/12-14代/2*D4/32/M2",
+                  "name": "H610/3网（DC）/12-14代/2*D4/32/M2",
                   "price": 1560
                 }
               ]
@@ -5164,11 +5187,11 @@ var QUOTE_DATA = {
                   "price": 0
                 },
                 {
-                  "name": "B310D/6-9代/2*D3/16/M2",
+                  "name": "H310（DC）/6-9代/2*D3/16/M2",
                   "price": 960
                 },
                 {
-                  "name": "H610/12-14代/2*D4/32/M2",
+                  "name": "H610/双网（DC）/12-14代/2*D4/32/M2",
                   "price": 1200
                 }
               ]
@@ -5681,15 +5704,15 @@ var QUOTE_DATA = {
               "name": "主板",
               "options": [
                 {
-                  "name": "B85/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
+                  "name": "B85（ATX）/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
                   "price": 380
                 },
                 {
-                  "name": "H311/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
+                  "name": "H311（ATX）/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
                   "price": 650
                 },
                 {
-                  "name": "H610M/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
+                  "name": "H610M（ATX）/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
                   "price": 670
                 }
               ]
@@ -5883,15 +5906,15 @@ var QUOTE_DATA = {
               "name": "主板",
               "options": [
                 {
-                  "name": "B85/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
+                  "name": "B85（ATX）/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
                   "price": 380
                 },
                 {
-                  "name": "H311/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
+                  "name": "H311（ATX）/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
                   "price": 650
                 },
                 {
-                  "name": "H610M/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
+                  "name": "H610M（ATX）/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网",
                   "price": 670
                 }
               ]
@@ -9840,20 +9863,39 @@ var QUOTE_DATA = {
           "discountL": 0.72,
           "sizes": [
             {
+              "name": "IPC-610B(4U)",
+              "price": 610,
+              "own": "primary"
+            },
+            {
+              "name": "IPC-300",
+              "price": 660,
+              "own": "primary"
+            },
+            {
+              "name": "IPC-620(BG)",
+              "price": 630,
+              "own": "primary"
+            },
+            {
               "name": "IPC-610(4U)",
-              "price": 850
+              "price": 850,
+              "own": "secondary"
             },
             {
               "name": "IPC-810(4U)",
-              "price": 1100
+              "price": 1100,
+              "own": "secondary"
             },
             {
               "name": "IPC-110-650(1U)",
-              "price": 1250
+              "price": 1250,
+              "own": "secondary"
             },
             {
               "name": "IPC-210(2U)",
-              "price": 960
+              "price": 960,
+              "own": "secondary"
             }
           ],
           "categories": [
@@ -9861,44 +9903,56 @@ var QUOTE_DATA = {
               "name": "主板",
               "options": [
                 {
-                  "name": "H310/6-9代/300W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2)双网",
+                  "name": "H310（ATX）/6-9代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X4*1/PCI*2)双网",
                   "price": 1180
                 },
                 {
-                  "name": "H310/6-9代/500W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2)双网",
+                  "name": "H310（ATX）/6-9代/500W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X4*1/PCI*2)双网",
                   "price": 1400
                 },
                 {
-                  "name": "H670/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网",
+                  "name": "H670（ATX）/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*2/PCIE X4*3)双网",
                   "price": 1700
                 },
                 {
-                  "name": "H670/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网",
+                  "name": "H670（ATX）/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/PCIE X4*3)双网",
                   "price": 1920
                 },
                 {
-                  "name": "H310/6-9代/250W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2双网)",
-                  "price": 1180
-                },
-                {
-                  "name": "H670/12-14代/250W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网",
-                  "price": 1700
-                },
-                {
-                  "name": "H310/6-9代/300W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2双网)",
-                  "price": 1180
-                },
-                {
-                  "name": "H310/6-9代/8盘600W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2)双网",
-                  "price": 2220
-                },
-                {
-                  "name": "H670/12-14代/8盘600W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网",
-                  "price": 2740
-                },
-                {
-                  "name": "H110/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/X4*2/PCI*4)双网",
+                  "name": "H110（ATX）/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/PCIE X4*2/PCI*4)双网",
                   "price": 1320
+                },
+                {
+                  "name": "H110（ATX）/6-9代/500W(2*D3/4*SA/1*M2/PCIE X16*1/PCIE X4*2/PCI*4)双网",
+                  "price": 1540
+                },
+                {
+                  "name": "B250（ATX）/6-9代/300W(2*D4/4*SA/1*MS/PCIE X16*1/6COM/双网)",
+                  "price": 940
+                },
+                {
+                  "name": "国产ATX（含兆芯U6580/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/单网）",
+                  "price": 2240
+                },
+                {
+                  "name": "国产ATX（含兆芯U6780A/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/单网）",
+                  "price": 2500
+                },
+                {
+                  "name": "国产ATX（含兆芯6640MA/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/双网）",
+                  "price": 2800
+                },
+                {
+                  "name": "国产ATX（含飞腾FT2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/双网）",
+                  "price": 4000
+                },
+                {
+                  "name": "国产ATX（含飞腾D2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/四网）",
+                  "price": 3440
+                },
+                {
+                  "name": "国产ATX（含海光C86-4G 3490 16核 2.8G 135W/4*D4/1*M.2 NVME/4*SATA/PCIE X16*1/PCIE X4*2/10COM/双网/710显卡）",
+                  "price": 11500
                 }
               ]
             },
@@ -10784,19 +10838,19 @@ var QUOTE_DATA = {
                   "price": 0
                 },
                 {
-                  "name": "B310D/6-9代/2*D3/16/M2",
+                  "name": "H310（DC）/6-9代/2*D3/16/M2",
                   "price": 960
                 },
                 {
-                  "name": "H610/12-14代/2*D4/32/M2",
+                  "name": "H610/双网（DC）/12-14代/2*D4/32/M2",
                   "price": 1200
                 },
                 {
-                  "name": "H610/3网/12-14代/2*D4/32/M2",
+                  "name": "H610/3网（DC）/12-14代/2*D4/32/M2",
                   "price": 1560
                 },
                 {
-                  "name": "Z390/6-9代/2*D4/32/M2/五网",
+                  "name": "Z390（DC）/6-9代/2*D4/32/M2/五网",
                   "price": 1440
                 }
               ]
@@ -11337,24 +11391,56 @@ var QUOTE_DATA = {
               "name": "主板",
               "options": [
                 {
-                  "name": "H310/6-9代/300W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2)双网",
+                  "name": "H310（ATX）/6-9代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X4*1/PCI*2)双网",
                   "price": 1180
                 },
                 {
-                  "name": "H310/6-9代/500W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2)双网",
+                  "name": "H310（ATX）/6-9代/500W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X4*1/PCI*2)双网",
                   "price": 1400
                 },
                 {
-                  "name": "H670/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网",
+                  "name": "H670（ATX）/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*2/PCIE X4*3)双网",
                   "price": 1700
                 },
                 {
-                  "name": "H670/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网",
+                  "name": "H670（ATX）/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/PCIE X4*3)双网",
                   "price": 1920
                 },
                 {
-                  "name": "H110/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/X4*2/PCI*4)双网",
+                  "name": "H110（ATX）/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/PCIE X4*2/PCI*4)双网",
                   "price": 1320
+                },
+                {
+                  "name": "H110（ATX）/6-9代/500W(2*D3/4*SA/1*M2/PCIE X16*1/PCIE X4*2/PCI*4)双网",
+                  "price": 1540
+                },
+                {
+                  "name": "B250（ATX）/6-9代/300W(2*D4/4*SA/1*MS/PCIE X16*1/6COM/双网)",
+                  "price": 940
+                },
+                {
+                  "name": "国产ATX（含兆芯U6580/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/单网）",
+                  "price": 2240
+                },
+                {
+                  "name": "国产ATX（含兆芯U6780A/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/单网）",
+                  "price": 2500
+                },
+                {
+                  "name": "国产ATX（含兆芯6640MA/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/双网）",
+                  "price": 2800
+                },
+                {
+                  "name": "国产ATX（含飞腾FT2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/双网）",
+                  "price": 4000
+                },
+                {
+                  "name": "国产ATX（含飞腾D2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/四网）",
+                  "price": 3440
+                },
+                {
+                  "name": "国产ATX（含海光C86-4G 3490 16核 2.8G 135W/4*D4/1*M.2 NVME/4*SATA/PCIE X16*1/PCIE X4*2/10COM/双网/710显卡）",
+                  "price": 11500
                 }
               ]
             },
@@ -11784,6 +11870,41 @@ var QUOTE_DATA = {
   "updateLogs": {
     "primary": [
       {
+        "date": 46328,
+        "items": [
+          "AirMax(x86) 21.5 价格 0→1260"
+        ]
+      },
+      {
+        "date": 46322,
+        "items": [
+          "＋ 上架式工控机 新增尺寸 IPC-610(4U)（¥850）",
+          "＋ 上架式工控机 新增尺寸 IPC-810(4U)（¥1100）",
+          "＋ 上架式工控机 新增尺寸 IPC-110-650(1U)（¥1250）",
+          "＋ 上架式工控机 新增尺寸 IPC-210(2U)（¥960）",
+          "上架式工控机 主板 「B85（ATX）/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」更名自「B85/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」（¥380）",
+          "上架式工控机 主板 「H311（ATX）/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」更名自「H311/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」（¥650）",
+          "上架式工控机 主板 「H610M（ATX）/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」更名自「H610M/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」（¥670）",
+          "GPS(台式系列) 主板 「B85（ATX）/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」更名自「B85/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」（¥380）",
+          "GPS(台式系列) 主板 「H311（ATX）/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」更名自「H311/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」（¥650）",
+          "GPS(台式系列) 主板 「H610M（ATX）/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」更名自「H610M/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」（¥670）",
+          "IPS系列 主板 「B85（ATX）/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」更名自「B85/4代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」（¥380）",
+          "IPS系列 主板 「H311（ATX）/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」更名自「H311/6-9代/300W(2*D3/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」（¥650）",
+          "IPS系列 主板 「H610M（ATX）/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」更名自「H610M/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X1*1)单网」（¥670）",
+          "VFACE-H 主板 「H310（DC）/6-9代/D3」更名自「B310D/6-9代/D3」（¥960）",
+          "VFACE-H 主板 「H610（DC）/12-14代/2*D4/32/M2」更名自「H610/12-14代/2*D4/32/M2」（¥1200）",
+          "VFACE-H 主板 「H610/3网（DC）/12-14代/2*D4/32/M2」更名自「H610/3网/12-14代/2*D4/32/M2」（¥1560）",
+          "BPC-102 主板 「H310（DC）/6-9代/D3」更名自「B310D/6-9代/D3」（¥960）",
+          "BPC-102 主板 「H610（DC）/12-14代/2*D4/32/M2」更名自「H610/12-14代/2*D4/32/M2」（¥1200）",
+          "BPC-102 主板 「H610/3网（DC）/12-14代/2*D4/32/M2」更名自「H610/3网/12-14代/2*D4/32/M2」（¥1560）",
+          "BPC-103 主板 「H310（DC）/6-9代/2*D3/16/M2」更名自「B310D/6-9代/2*D3/16/M2」（¥960）",
+          "BPC-103 主板 「H610（DC）/12-14代/2*D4/32/M2」更名自「H610/12-14代/2*D4/32/M2」（¥1200）",
+          "VFACE-H 主板 「H610/双网（DC）/12-14代/2*D4/32/M2」更名自「H610（DC）/12-14代/2*D4/32/M2」（¥1200）",
+          "BPC-102 主板 「H610/双网（DC）/12-14代/2*D4/32/M2」更名自「H610（DC）/12-14代/2*D4/32/M2」（¥1200）",
+          "BPC-103 主板 「H610/双网（DC）/12-14代/2*D4/32/M2」更名自「H610（DC）/12-14代/2*D4/32/M2」（¥1200）"
+        ]
+      },
+      {
         "date": 46317,
         "items": [
           "DMBYH(安卓) 10.1 价格 0→556",
@@ -11816,41 +11937,45 @@ var QUOTE_DATA = {
           "DMBYH(安卓) CPU RK3288(4+32)+WIFI/BT单网 价格 820→740",
           "NANO CPU I3-5005U双网(1*D3/8/MS) 价格 580→620"
         ]
-      },
-      {
-        "date": 46304,
-        "items": [
-          "＋ 其他 新增：10.4纯平电阻（¥160，影响 2 个产品：FWE(X86)、FWE(安卓)）",
-          "＋ 其他 新增：12.1纯平电阻（¥145，影响 2 个产品：FWE(X86)、FWE(安卓)）",
-          "＋ 其他 新增：15纯平电阻（¥195，影响 2 个产品：FWE(X86)、FWE(安卓)）",
-          "＋ 其他 新增：17纯平电阻（¥150，影响 2 个产品：FWE(X86)、FWE(安卓)）",
-          "＋ 其他 新增：19纯平电阻（¥180，影响 2 个产品：FWE(X86)、FWE(安卓)）",
-          "支架 桌面支架 价格 50→55（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "支架 苹果支架 价格 80→110（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "支架 三角支架 价格 65→200（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "支架 小K底坐 价格 500→700（影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "＋ 支架 新增：带键盘托底坐（¥900，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "－ 支架 下架：悬臂支架（原¥100，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "－ 支架 下架：中K底坐（原¥600，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）",
-          "－ 支架 下架：大K底坐（原¥700，影响 19 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VFACE-H、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、AirMax(x86)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)、DMBYH(安卓)、IPM、OPX）"
-        ]
-      },
-      {
-        "date": 46303,
-        "items": [
-          "－ GW系列 CPU 下架：I3-5005U双网(2*D3/16/MS)",
-          "－ GW系列 CPU 下架：I5-5200U双网 for GW100(2*D3/16/MS)",
-          "－ GW系列 CPU 下架：I5-10310U双网(2*D4/32/M2)",
-          "－ GW系列 CPU 下架：I5-10310U四网(2*D4/32/M2)",
-          "－ GW系列 CPU 下架：I7-10710U四网(2*D4/32/M2)",
-          "GW系列 CPU「I5-8257U四网(2*D4/32/M2)」更名自「I5-8265U四网(2*D4/32/M2)」（¥2500）",
-          "GW系列 CPU「I5-5200U双网(2*D3/16/M2)」更名自「I5-5200U双网(2*D3/16/MS)」（¥950）",
-          "GW系列 尺寸 CPU 白名单：GW-100 限 4 款（I3-8145U双网 1700 / I7-8565U双网 2880 / I5-8257U四网 2500 / I5-7200U双网 1400，D4），GW-200 限 2 款（I5-5200U双网 950 / I5-7200U双网 1280，D3）",
-          "－ GW系列 删除配置类「新配置类」"
-        ]
       }
     ],
     "secondary": [
+      {
+        "date": 46322,
+        "items": [
+          "上架式工控机 主板 「H310（ATX）/6-9代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X4*1/PCI*2)双网」更名自「H310/6-9代/300W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2)双网」（¥1180）",
+          "上架式工控机 主板 「H310（ATX）/6-9代/500W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X4*1/PCI*2)双网」更名自「H310/6-9代/500W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2)双网」（¥1400）",
+          "上架式工控机 主板 「H670（ATX）/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*2/PCIE X4*3)双网」更名自「H670/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网」（¥1700）",
+          "上架式工控机 主板 「H670（ATX）/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/PCIE X4*3)双网」更名自「H670/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网」（¥1920）",
+          "上架式工控机 主板 「H110（ATX）/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/PCIE X4*2/PCI*4)双网」更名自「H110/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/X4*2/PCI*4)双网」（¥1320）",
+          "GPS(台式系列) 主板 「H310（ATX）/6-9代/300W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X4*1/PCI*2)双网」更名自「H310/6-9代/300W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2)双网」（¥1180）",
+          "GPS(台式系列) 主板 「H310（ATX）/6-9代/500W(2*D4/3*SA/1*M2/PCIE X16*1/PCIE X4*1/PCI*2)双网」更名自「H310/6-9代/500W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2)双网」（¥1400）",
+          "GPS(台式系列) 主板 「H670（ATX）/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*2/PCIE X4*3)双网」更名自「H670/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网」（¥1700）",
+          "GPS(台式系列) 主板 「H670（ATX）/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/PCIE X4*3)双网」更名自「H670/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网」（¥1920）",
+          "GPS(台式系列) 主板 「H110（ATX）/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/PCIE X4*2/PCI*4)双网」更名自「H110/6-9代/300W(2*D3/4*SA/1*M2/PCIE X16*1/X4*2/PCI*4)双网」（¥1320）",
+          "＋ 主板 新增：H110（ATX）/6-9代/500W(2*D3/4*SA/1*M2/PCIE X16*1/PCIE X4*2/PCI*4)双网（¥1540，影响 2 个产品：上架式工控机、GPS(台式系列)）",
+          "－ 上架式工控机 主板 下架：H310/6-9代/250W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2双网)",
+          "－ 上架式工控机 主板 下架：H670/12-14代/250W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网",
+          "－ 上架式工控机 主板 下架：H310/6-9代/300W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2双网)",
+          "－ 上架式工控机 主板 下架：H310/6-9代/8盘600W(2*D4/3*SA/1*M2/PCIE X16*1/X4*1/PCI*2)双网",
+          "－ 上架式工控机 主板 下架：H670/12-14代/8盘600W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网",
+          "＋ 主板 新增：B250（ATX）/6-9代/300W(2*D4/4*SA/1*MS/PCIE X16*1/6COM/双网)（¥940，影响 2 个产品：上架式工控机、GPS(台式系列)）",
+          "＋ 主板 新增：国产ATX（含兆芯U6580/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/单网）（¥2240，影响 2 个产品：上架式工控机、GPS(台式系列)）",
+          "＋ 主板 新增：国产ATX（含兆芯U6780A/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/单网）（¥2500，影响 2 个产品：上架式工控机、GPS(台式系列)）",
+          "＋ 主板 新增：国产ATX（含兆芯6640MA/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/双网）（¥2800，影响 2 个产品：上架式工控机、GPS(台式系列)）",
+          "＋ 主板 新增：国产ATX（含飞腾FT2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/双网）（¥4000，影响 2 个产品：上架式工控机、GPS(台式系列)）",
+          "＋ 主板 新增：国产ATX（含飞腾D2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/四网）（¥3440，影响 2 个产品：上架式工控机、GPS(台式系列)）",
+          "＋ 主板 新增：国产ATX（含海光C86-4G 3490 16核 2.8G 135W/4*D4/1*M.2 NVME/4*SATA/PCIE X16*1/PCIE X4*2/10COM/双网/710显卡）（¥11500，影响 2 个产品：上架式工控机、GPS(台式系列)）",
+          "＋ 上架式工控机 新增尺寸 IPC-610B(4U)（¥610）",
+          "＋ 上架式工控机 新增尺寸 IPC-300（¥660）",
+          "＋ 上架式工控机 新增尺寸 IPC-620(BG)（¥630）",
+          "BPC-103 主板 「H310（DC）/6-9代/2*D3/16/M2」更名自「B310D/6-9代/2*D3/16/M2」（¥960）",
+          "BPC-103 主板 「H610（DC）/12-14代/2*D4/32/M2」更名自「H610/12-14代/2*D4/32/M2」（¥1200）",
+          "BPC-103 主板 「H610/3网（DC）/12-14代/2*D4/32/M2」更名自「H610/3网/12-14代/2*D4/32/M2」（¥1560）",
+          "BPC-103 主板 「Z390（DC）/6-9代/2*D4/32/M2/五网」更名自「Z390/6-9代/2*D4/32/M2/五网」（¥1440）",
+          "BPC-103 主板 「H610/双网（DC）/12-14代/2*D4/32/M2」更名自「H610（DC）/12-14代/2*D4/32/M2」（¥1200）"
+        ]
+      },
       {
         "date": 46317,
         "items": [
@@ -12007,24 +12132,6 @@ var QUOTE_DATA = {
           "上架式工控机 主板 「H670/12-14代/8盘600W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网」更名自「H610/12-14代/8盘600W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网」（¥2740）",
           "GPS(台式系列) 主板 「H670/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网」更名自「H610/12-14代/300W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网」（¥1700）",
           "GPS(台式系列) 主板 「H670/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网」更名自「H610/12-14代/500W(2*D4/3*SA/1*M2/PCIE X16*2/X4*3)双网」（¥1920）"
-        ]
-      },
-      {
-        "date": 46304,
-        "items": [
-          "＋ 其他 新增：10.4纯平电阻（¥160，影响 2 个产品：FWE(X86)、FWE(安卓)）",
-          "＋ 其他 新增：12.1纯平电阻（¥145，影响 2 个产品：FWE(X86)、FWE(安卓)）",
-          "＋ 其他 新增：15纯平电阻（¥195，影响 2 个产品：FWE(X86)、FWE(安卓)）",
-          "＋ 其他 新增：17纯平电阻（¥150，影响 2 个产品：FWE(X86)、FWE(安卓)）",
-          "＋ 其他 新增：19纯平电阻（¥180，影响 2 个产品：FWE(X86)、FWE(安卓)）",
-          "支架 桌面支架 价格 50→55（影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
-          "支架 苹果支架 价格 80→110（影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
-          "支架 三角支架 价格 65→200（影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
-          "支架 小K底坐 价格 500→700（影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
-          "＋ 支架 新增：带键盘托底坐（¥900，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
-          "－ 支架 下架：悬臂支架（原¥100，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
-          "－ 支架 下架：中K底坐（原¥600，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）",
-          "－ 支架 下架：大K底坐（原¥700，影响 14 个产品：IPRO(x86)、IPRO(安卓)、IPRO-SE(x86)、IPRO-SE(安卓)、VFACE、VOPC(X86)、VOPC(安卓)、FWS(X86)、FWS(安卓)、FWE(X86)、FWE(安卓)、DSMB02(X86)、DSMB02(安卓)、IBOOKHY(X86)）"
         ]
       }
     ]
