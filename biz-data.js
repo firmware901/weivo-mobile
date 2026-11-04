@@ -10,7 +10,7 @@
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-11-04 13:54:07",
+  "generatedAt": "2026-11-05 00:08:08",
   "sources": [
     {
       "key": "primary",
@@ -191,12 +191,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -610,12 +610,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -1033,12 +1033,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -1349,12 +1349,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -1652,12 +1652,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -2110,12 +2110,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -2537,12 +2537,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -2972,12 +2972,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -3251,12 +3251,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -3674,12 +3674,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -4202,12 +4202,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -4372,12 +4372,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -4502,12 +4502,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -4679,12 +4679,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -4885,12 +4885,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -5112,12 +5112,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -5386,12 +5386,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -5612,12 +5612,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -5835,12 +5835,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -6037,12 +6037,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -6506,12 +6506,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -6969,12 +6969,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -7436,12 +7436,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -7771,12 +7771,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -8254,12 +8254,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -8729,12 +8729,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -9260,12 +9260,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -9731,12 +9731,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -10054,12 +10054,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -10410,12 +10410,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -10544,12 +10544,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -10742,12 +10742,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -11069,12 +11069,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -11299,12 +11299,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -11542,12 +11542,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -11716,12 +11716,12 @@ var QUOTE_DATA = {
               "name": "机械硬盘",
               "options": [
                 {
-                  "name": "西数1T",
-                  "price": 740
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
                 },
                 {
-                  "name": "西数2T",
-                  "price": 950
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
                 }
               ]
             },
@@ -11877,6 +11877,12 @@ var QUOTE_DATA = {
   "updateLogs": {
     "primary": [
       {
+        "date": 46331,
+        "items": [
+          "机械硬盘 西数1T / 西数2T 改为「咨询采购」（选配不再计价，面价不含硬盘，需另询采购报价）"
+        ]
+      },
+      {
         "date": 46330,
         "items": [
           "IPRO-SE(x86) CPU 「6代i5-6200U双网(1*D3/8/M2)」更名自「6代i5-6200U双网(1*D4/16/M2)」（¥1000）",
@@ -11943,6 +11949,12 @@ var QUOTE_DATA = {
       }
     ],
     "secondary": [
+      {
+        "date": 46331,
+        "items": [
+          "机械硬盘 西数1T / 西数2T 改为「咨询采购」（选配不再计价，面价不含硬盘，需另询采购报价）"
+        ]
+      },
       {
         "date": 46322,
         "items": [

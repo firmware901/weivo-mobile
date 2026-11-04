@@ -489,7 +489,9 @@ if (typeof module !== 'undefined' && module.exports) {
         }
       }
       opts.forEach(function (opt) {
-        var o = new Option(opt.name + '  +¥' + QuoteCore.fmtMoney(opt.price), opt.name);
+        /* 「咨询采购」选项（机械硬盘 西数1T/2T）：价格面议，不显示 +¥ 后缀（选配价 0） */
+        var suffix = /咨询采购/.test(opt.name) ? '' : '  +¥' + QuoteCore.fmtMoney(opt.price);
+        var o = new Option(opt.name + suffix, opt.name);
         if (state.sel[cat.name] === opt.name) o.selected = true;
         sel.appendChild(o);
       });
@@ -574,7 +576,9 @@ if (typeof module !== 'undefined' && module.exports) {
       var name = state.sel[cat.name];
       if (!name) return;
       var opt = QuoteCore.findOption(cat, name);
-      if (opt) parts.push(cat.name + ' ' + QuoteCore.fmtMoney(opt.price));
+      if (!opt) return;
+      /* 「咨询采购」选项（价 0）：构成里只点名不计 0 */
+      parts.push(cat.name + (/咨询采购/.test(name) ? '（咨询采购）' : ' ' + QuoteCore.fmtMoney(opt.price)));
     });
     if (q.os) parts.push('系统 ' + QuoteCore.fmtMoney(q.os));
     bdEl.textContent = '面价构成：' + parts.join(' + ') + ' = ' + QuoteCore.fmtMoney(q.face);
