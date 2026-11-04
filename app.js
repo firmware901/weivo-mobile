@@ -489,9 +489,11 @@ if (typeof module !== 'undefined' && module.exports) {
         }
       }
       opts.forEach(function (opt) {
-        /* 「咨询采购」选项（机械硬盘 西数1T/2T）：价格面议，不显示 +¥ 后缀（选配价 0） */
-        var suffix = /咨询采购/.test(opt.name) ? '' : '  +¥' + QuoteCore.fmtMoney(opt.price);
+        /* 「咨询采购」选项（机械硬盘 西数1T/2T）：灰色不可选——价格面议，需另询采购 */
+        var isAsk = /咨询采购/.test(opt.name);
+        var suffix = isAsk ? '' : '  +¥' + QuoteCore.fmtMoney(opt.price);
         var o = new Option(opt.name + suffix, opt.name);
+        if (isAsk) o.disabled = true;
         if (state.sel[cat.name] === opt.name) o.selected = true;
         sel.appendChild(o);
       });
