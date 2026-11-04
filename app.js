@@ -585,11 +585,23 @@ if (typeof module !== 'undefined' && module.exports) {
   }
 
   /* ---------- 更新日志 ---------- */
+  /* 只留「业务有感」的变更：价格调整 / 上架 / 下架 / 新增系列·尺寸·配置类。
+   * 改名不记录（与 V4/维护后台同口径）：生成端已不再产生「更名自」，
+   * 这里再过滤一道，历史库里已存的改名条目也不会显示（整组全是改名则整组隐藏）。 */
+  function filterLogs(logs) {
+    var out = [];
+    (logs || []).forEach(function (g) {
+      var items = (g.items || []).filter(function (t) { return String(t).indexOf('更名自') < 0; });
+      if (items.length) out.push({ date: g.date, items: items });
+    });
+    return out;
+  }
+
   function renderLog() {
     var box = $('logPanel');
     box.innerHTML = '';
     var key = src().key;
-    var logs = (QUOTE_DATA.updateLogs && QUOTE_DATA.updateLogs[key]) || [];
+    var logs = filterLogs((QUOTE_DATA.updateLogs && QUOTE_DATA.updateLogs[key]) || []);
     var det = el('details');
     var sum = el('summary', null, '近期更新记录（' + src().label + '，最近 ' + logs.length + ' 次）');
     det.appendChild(sum);
