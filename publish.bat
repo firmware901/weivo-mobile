@@ -4,7 +4,7 @@
 ::  2026-09-05 v1.1 (GBK encoding, English UI - safe in any cmd)
 ::
 ::  What it does:
-::    1) Copy E:\业务助手\biz-data.js  ->  E:\work\weivo-mobile-pages\biz-data.js
+::    1) Copy E:\业务助手\biz-data.js  ->  E:\业务助手\weivo-mobile-pages\biz-data.js
 ::    2) Verify git is available
 ::    3) git add + commit + push origin main
 ::    4) Tell you the GitHub Pages URL
@@ -24,7 +24,7 @@ rem ---------- Config ----------
 rem Source: latest biz-data.js exported by maintain console
 set SRC=E:\业务助手\biz-data.js
 rem Git repo root (with .git, remote = firmware901/weivo-mobile)
-set DST=E:\work\weivo-mobile-pages
+set DST=E:\业务助手\weivo-mobile-pages
 rem ----------------------------
 
 echo [1/4] Copy latest biz-data.js ...

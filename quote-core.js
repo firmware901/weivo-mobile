@@ -135,12 +135,24 @@ var QuoteCore = (function () {
     var parts = [];
     if (includeProduct) parts.push(series.product);
     if (includeSeries) parts.push(series.name);
-    if (sizeName) parts.push(sizeLabel(sizeName));
+    /* 尺寸段：一般系列是「12寸」；三防这类「尺寸层即型号」的系列，sizeName 本身就是型号。
+       此时 CPU 选项名（RT-12C/I7-1255U/...）以型号开头，会与尺寸段重复 ——
+       所以先占位，循环里遇到「以型号开头」的选项时用整个选项名替换掉这一位。 */
+    var sizeStr = sizeName ? sizeLabel(sizeName) : '';
+    var sizeIdx = -1;
+    if (sizeStr) { sizeIdx = parts.length; parts.push(sizeStr); }
     var cats = orderedCategories(series);
     for (var i = 0; i < cats.length; i++) {
       var name = selections[cats[i].name];
       /* 与计价口径一致：表中不存在的选项名不进规格行（IFERROR 语义） */
-      if (name && findOption(cats[i], name)) parts.push(name);
+      if (name && findOption(cats[i], name)) {
+        if (sizeIdx >= 0 && (name === sizeStr || name.indexOf(sizeStr + '/') === 0)) {
+          parts[sizeIdx] = name;        /* 型号段用选项全名顶上，不再重复列尺寸 */
+          sizeIdx = -1;
+        } else {
+          parts.push(name);
+        }
+      }
     }
     if (osLabel) parts.push(osLabel);
     return parts.join('/');
@@ -224,7 +236,7 @@ function assembleQuoteText(ctx) {
   var d = new Date();
   var dateOnly = d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
   return [
-    '产品名称：' + series.product,
+    '产品名称：' + (ctx.productName || series.product),
     '型号：' + (model || ''),
     '规格参数：' + spec,
     '报价：¥' + QuoteCore.fmtMoney(quote ? quote.face : 0),

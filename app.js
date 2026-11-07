@@ -42,6 +42,7 @@ if (typeof module !== 'undefined' && module.exports) {
     sel: {},          // {类别名: 选项名}
     osLabel: null,    // 已选系统/软件 label
     productionRemark: '', // ⑥ 生产订单备注（原封不动写入生产订单「备注」U6）
+    customModel: '',      // 报价明细里业务手填的客户型号（默认空，不自动带出）
     rule: 'total'     // 计价规则
   };
 
@@ -116,6 +117,20 @@ if (typeof module !== 'undefined' && module.exports) {
     var i = name.lastIndexOf('(');
     if (i === -1) return name;
     return name.slice(0, i).trim();
+  }
+
+  /* 产品名称对外叫法（与 V4 / 报价单一致）：库里 product 字段写「三防」，报价单上要写「三防平板电脑」 */
+  var PRODUCT_LABELS = { '三防': '三防平板电脑' };
+  function productLabel(p) {
+    var s = String(p == null ? '' : p).trim();
+    return PRODUCT_LABELS[s] || s;
+  }
+
+  /* 公司型号：一般系列取大型号；「尺寸层即型号」的系列（三防）直接取尺寸名（RT-12C） */
+  function companyModel(s, sizeName) {
+    if (!s) return '';
+    if (sizeName && !QuoteCore.isSizeInch(sizeName)) return sizeName;
+    return modelName(s.name);
   }
 
   function nowStr() {
@@ -252,7 +267,9 @@ if (typeof module !== 'undefined' && module.exports) {
       return;
     }
     s.sizes.forEach(function (z) {
-      var opt = new Option(QuoteCore.sizeLabel(z.name) + '  ¥' + QuoteCore.fmtMoney(z.price), z.name);
+      /* 尺寸价 0 = 整机价在配置项里（如三防型号层）：不显示屁股后面的「¥0」 */
+      var txt = QuoteCore.sizeLabel(z.name) + (z.price ? '  ¥' + QuoteCore.fmtMoney(z.price) : '');
+      var opt = new Option(txt, z.name);
       if (z.name === state.sizeName) opt.selected = true;
       sel.appendChild(opt);
     });
@@ -488,11 +505,18 @@ if (typeof module !== 'undefined' && module.exports) {
           if (state.sel['CPU'] && sz.cpuOptions.indexOf(state.sel['CPU']) === -1) delete state.sel['CPU'];
         }
       }
+      var curSz = curSize();
       opts.forEach(function (opt) {
         /* 「咨询采购」选项（机械硬盘 西数1T/2T）：灰色不可选——价格面议，需另询采购 */
         var isAsk = /咨询采购/.test(opt.name);
         var suffix = isAsk ? '' : '  +¥' + QuoteCore.fmtMoney(opt.price);
-        var o = new Option(opt.name + suffix, opt.name);
+        /* 尺寸层即型号的系列（三防）：型号已由「尺寸/型号」栏带出，
+           这里只显示「CPU 及后面的信息」（RT-12C/I7-1255U/… → I7-1255U/…） */
+        var label = opt.name;
+        if (curSz && !QuoteCore.isSizeInch(curSz.name) && label.indexOf(curSz.name + '/') === 0) {
+          label = label.slice(curSz.name.length + 1);
+        }
+        var o = new Option(label + suffix, opt.name);
         if (isAsk) o.disabled = true;
         if (state.sel[cat.name] === opt.name) o.selected = true;
         sel.appendChild(o);
@@ -585,9 +609,73 @@ if (typeof module !== 'undefined' && module.exports) {
     if (q.os) parts.push('系统 ' + QuoteCore.fmtMoney(q.os));
     bdEl.textContent = '面价构成：' + parts.join(' + ') + ' = ' + QuoteCore.fmtMoney(q.face);
 
-    specEl.innerHTML = '<span class="k">产品名称：</span>' + esc(s.product) + '<br>' +
-      '<span class="k">型号：</span>' + esc(modelName(s.name)) + '<br>' +
+    specEl.innerHTML = '<span class="k">产品名称：</span>' + esc(productLabel(s.product)) + '<br>' +
+      '<span class="k">公司型号：</span>' + esc(companyModel(s, state.sizeName)) + '<br>' +
+      '<span class="k">型号：</span><input class="m-model-input" id="customModel" placeholder="客户型号，按实际填写" value="' +
+        esc(state.customModel || '') + '" />' + '<br>' +
       '<span class="k">规格参数：</span>' + esc(QuoteCore.buildSpecLine(s, state.sizeName, state.sel, state.osLabel, false, false));
+    var cm = $('customModel');
+    if (cm) {
+      cm.addEventListener('input', function () { state.customModel = this.value.trim(); });
+    }
+    updateCpuHl();
+  }
+
+  /* ---------- 产品图 / 产品配置 / 产品亮点 ----------
+     只有库里配了 highlights / specs / images 的系列（目前是三防）才出现，其余系列一律不显示。
+     型号代号 = 尺寸/型号栏的值（三防的尺寸层就是型号：RT-08MG）；
+     产品配置按「型号/CPU 类型」精确匹配（RT-10C 选 I5 出 I5 那段）。 */
+  function specKeyOf(optName) {
+    var seg = String(optName == null ? '' : optName).split('/');
+    return seg.length >= 2 ? seg[0] + '/' + seg[1] : seg[0];
+  }
+
+  function openHlZoom(src) {
+    if (!src) return;
+    var box = $('hlZoom');
+    if (!box) {
+      box = el('div', 'hl-zoom');
+      box.id = 'hlZoom';
+      box.innerHTML = '<div class="hz-tip">点任意处关闭</div><img alt="产品图">';
+      document.body.appendChild(box);
+      box.addEventListener('click', function () { box.className = 'hl-zoom'; });
+    }
+    box.querySelector('img').src = src;
+    box.className = 'hl-zoom show';
+  }
+
+  function updateCpuHl() {
+    var box = $('cpuHl');
+    if (!box) return;
+    var s = curSeries();
+    if (!s || !state.sizeName || (!s.highlights && !s.specs && !s.images)) {
+      box.style.display = 'none'; box.innerHTML = ''; return;
+    }
+    var code = String(state.sizeName).split('/')[0].trim();
+    var img = (s.images && s.images[code]) || '';
+    var cpuName = state.sel['CPU'];
+    var cfg = (s.specs && cpuName && s.specs[specKeyOf(cpuName)]) || '';
+    if (!cfg) {
+      cfg = QuoteCore.buildSpecLine(s, state.sizeName, state.sel, state.osLabel, false, false) || cpuName || '';
+    }
+    var txt = (s.highlights && s.highlights[code]) || '';
+    if (!img && !cfg) { box.style.display = 'none'; box.innerHTML = ''; return; }
+    box.style.display = '';
+    /* 行首 ★ = 该行标红加粗（渲染时剥掉 ★） */
+    var body = txt ? txt.split('\n').map(function (ln) {
+      if (ln.charAt(0) === '★') return '<span class="hl-strong">' + esc(ln.slice(1)) + '</span>';
+      return esc(ln);
+    }).join('\n') : '';
+    box.innerHTML =
+      '<div class="hl-title">' + esc(code) + '</div>' +
+      (img ? '<img class="hl-img" src="' + esc(img) + '" alt="' + esc(code) + '">' : '') +
+      (cfg ? '<div class="hl-k">产品配置：</div><div class="hl-cfg">' + esc(cfg) + '</div>' : '') +
+      (txt ? '<div class="hl-k">产品亮点：</div><div class="hl-body">' + body + '</div>' : '');
+    var im = box.querySelector('.hl-img');
+    if (im) {
+      im.addEventListener('error', function () { this.style.display = 'none'; });
+      im.addEventListener('click', function () { openHlZoom(this.getAttribute('src')); });
+    }
   }
 
   /* ---------- 更新日志 ---------- */
@@ -646,7 +734,8 @@ if (typeof module !== 'undefined' && module.exports) {
     return assembleQuoteText({
       series: s, sizeName: state.sizeName, selections: state.sel,
       osLabel: state.osLabel, quote: currentQuote(),
-      model: modelName(s.name)
+      model: state.customModel || companyModel(s, state.sizeName),
+      productName: productLabel(s.product)
     });
   }
 
@@ -668,6 +757,7 @@ if (typeof module !== 'undefined' && module.exports) {
     state.sel = {};
     state.osLabel = null;
     state.productionRemark = '';
+    state.customModel = '';
     var pa = $('prodRemark'); if (pa) pa.value = '';
     renderAll();
     toast('已重置（保留当前目录）');
