@@ -4552,7 +4552,7 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I5-5200U双网(2*D3/16/M2)",
-                  "price": 950
+                  "price": 1030
                 },
                 {
                   "name": "I5-7200U双网(2*D3/16/M2)",
@@ -5125,11 +5125,43 @@ var QUOTE_DATA = {
           "sizes": [
             {
               "name": "BPC-103",
-              "price": 220
+              "price": 220,
+              "lockCats": [
+                "主板"
+              ],
+              "lockNote": {
+                "主板": "主板已含 CPU（板载）"
+              },
+              "banDesktopCpu": true
             },
             {
               "name": "BPC-103(H)",
               "price": 320
+            },
+            {
+              "name": "BPC-103L",
+              "price": 1820,
+              "specNote": "含5网主板",
+              "lockCats": [
+                "主板"
+              ],
+              "lockNote": {
+                "主板": "机箱已含主板（5 网）"
+              },
+              "cpuOptions": [
+                "I3 6100",
+                "I5 6500",
+                "I7 6700",
+                "I3-7100",
+                "I5-7400",
+                "I7-7700",
+                "I3-8100",
+                "I5-8400",
+                "I7-8700",
+                "I3-9100",
+                "I5-9400",
+                "I7-9700"
+              ]
             }
           ],
           "categories": [
@@ -5798,6 +5830,1500 @@ var QUOTE_DATA = {
           }
         },
         {
+          "name": "A8",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "A8 白黑／黑色 15.6单屏外壳+触摸屏",
+              "price": 1050,
+              "modelCode": "A8单屏"
+            },
+            {
+              "name": "A8 白黑／全黑 15.6双屏外壳+触摸屏",
+              "price": 1430,
+              "modelCode": "A8双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "J1800单网(1*D3/8/MS)",
+                  "price": 460
+                },
+                {
+                  "name": "J1900双网(1*D3/8/MS)",
+                  "price": 680
+                },
+                {
+                  "name": "3代i5-3210M双网(1*D3/8/MS)",
+                  "price": 570
+                },
+                {
+                  "name": "5代I3-5005U双网(2*D3/16/MS)",
+                  "price": 720
+                },
+                {
+                  "name": "5代i5-5350U双网(2*D3/16/MS)",
+                  "price": 830
+                },
+                {
+                  "name": "5代i7-5600U双网(2*D3/16/MS)",
+                  "price": 990
+                },
+                {
+                  "name": "6代i5-6300U双网(2*D3/16/M2)",
+                  "price": 900
+                },
+                {
+                  "name": "7代i3-7100U双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代i5-7300U双网(2*D3/16/M2)",
+                  "price": 980
+                },
+                {
+                  "name": "8代i3-8130U双网(2*D3/16/M2)",
+                  "price": 890
+                },
+                {
+                  "name": "8代i5-8250U双网(2*D3/16/M2)",
+                  "price": 1240
+                },
+                {
+                  "name": "8代i7-8550U双网(2*D3/16/M2)",
+                  "price": 1380
+                },
+                {
+                  "name": "12代i5-1235U双网(2*D4/32/M2)",
+                  "price": 2560
+                },
+                {
+                  "name": "7代i5-7200U四网(2*D3/16/M2)",
+                  "price": 1300
+                },
+                {
+                  "name": "8代i5-8250U四网(2*D3/16/M2)",
+                  "price": 1500
+                },
+                {
+                  "name": "8代i7-8550U四网(2*D3/16/M2)",
+                  "price": 1700
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "8+8G(D3)",
+                  "price": 400
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F8",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "F8 白／黑 15.6单屏外壳+触摸屏",
+              "price": 1000,
+              "modelCode": "F8单屏"
+            },
+            {
+              "name": "F8 白／黑 15.6双屏外壳+触摸屏",
+              "price": 1430,
+              "modelCode": "F8双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "J1800单网(1*D3/8/MS)",
+                  "price": 460
+                },
+                {
+                  "name": "J1900双网(1*D3/8/MS)",
+                  "price": 680
+                },
+                {
+                  "name": "3代i5-3210M双网(1*D3/8/MS)",
+                  "price": 570
+                },
+                {
+                  "name": "5代I3-5005U双网(2*D3/16/MS)",
+                  "price": 720
+                },
+                {
+                  "name": "5代i5-5350U双网(2*D3/16/MS)",
+                  "price": 830
+                },
+                {
+                  "name": "5代i7-5600U双网(2*D3/16/MS)",
+                  "price": 990
+                },
+                {
+                  "name": "6代i5-6300U双网(2*D3/16/M2)",
+                  "price": 900
+                },
+                {
+                  "name": "7代i3-7100U双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代i5-7300U双网(2*D3/16/M2)",
+                  "price": 980
+                },
+                {
+                  "name": "8代i3-8130U双网(2*D3/16/M2)",
+                  "price": 890
+                },
+                {
+                  "name": "8代i5-8250U双网(2*D3/16/M2)",
+                  "price": 1240
+                },
+                {
+                  "name": "8代i7-8550U双网(2*D3/16/M2)",
+                  "price": 1380
+                },
+                {
+                  "name": "12代i5-1235U双网(2*D4/32/M2)",
+                  "price": 2560
+                },
+                {
+                  "name": "7代i5-7200U四网(2*D3/16/M2)",
+                  "price": 1300
+                },
+                {
+                  "name": "8代i5-8250U四网(2*D3/16/M2)",
+                  "price": 1500
+                },
+                {
+                  "name": "8代i7-8550U四网(2*D3/16/M2)",
+                  "price": 1700
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "8+8G(D3)",
+                  "price": 400
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E6",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "E6 白／黑 15.6单屏外壳+触摸屏",
+              "price": 1000,
+              "modelCode": "E6单屏"
+            },
+            {
+              "name": "E6 白／黑 15.6双屏外壳+触摸屏",
+              "price": 1430,
+              "modelCode": "E6双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "J1800单网(1*D3/8/MS)",
+                  "price": 460
+                },
+                {
+                  "name": "J1900双网(1*D3/8/MS)",
+                  "price": 680
+                },
+                {
+                  "name": "3代i5-3210M双网(1*D3/8/MS)",
+                  "price": 570
+                },
+                {
+                  "name": "5代I3-5005U双网(2*D3/16/MS)",
+                  "price": 720
+                },
+                {
+                  "name": "5代i5-5350U双网(2*D3/16/MS)",
+                  "price": 830
+                },
+                {
+                  "name": "5代i7-5600U双网(2*D3/16/MS)",
+                  "price": 990
+                },
+                {
+                  "name": "6代i5-6300U双网(2*D3/16/M2)",
+                  "price": 900
+                },
+                {
+                  "name": "7代i3-7100U双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代i5-7300U双网(2*D3/16/M2)",
+                  "price": 980
+                },
+                {
+                  "name": "8代i3-8130U双网(2*D3/16/M2)",
+                  "price": 890
+                },
+                {
+                  "name": "8代i5-8250U双网(2*D3/16/M2)",
+                  "price": 1240
+                },
+                {
+                  "name": "8代i7-8550U双网(2*D3/16/M2)",
+                  "price": 1380
+                },
+                {
+                  "name": "12代i5-1235U双网(2*D4/32/M2)",
+                  "price": 2560
+                },
+                {
+                  "name": "7代i5-7200U四网(2*D3/16/M2)",
+                  "price": 1300
+                },
+                {
+                  "name": "8代i5-8250U四网(2*D3/16/M2)",
+                  "price": 1500
+                },
+                {
+                  "name": "8代i7-8550U四网(2*D3/16/M2)",
+                  "price": 1700
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "8+8G(D3)",
+                  "price": 400
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E9",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "E9 白／黑 15.6单屏外壳+触摸屏",
+              "price": 970,
+              "modelCode": "E9单屏"
+            },
+            {
+              "name": "E9 白／黑 15.6双屏外壳+触摸屏",
+              "price": 1430,
+              "modelCode": "E9双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "J1800单网(1*D3/8/MS)",
+                  "price": 460
+                },
+                {
+                  "name": "J1900双网(1*D3/8/MS)",
+                  "price": 680
+                },
+                {
+                  "name": "3代i5-3210M双网(1*D3/8/MS)",
+                  "price": 570
+                },
+                {
+                  "name": "5代I3-5005U双网(2*D3/16/MS)",
+                  "price": 720
+                },
+                {
+                  "name": "5代i5-5350U双网(2*D3/16/MS)",
+                  "price": 830
+                },
+                {
+                  "name": "5代i7-5600U双网(2*D3/16/MS)",
+                  "price": 990
+                },
+                {
+                  "name": "6代i5-6300U双网(2*D3/16/M2)",
+                  "price": 900
+                },
+                {
+                  "name": "7代i3-7100U双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代i5-7300U双网(2*D3/16/M2)",
+                  "price": 980
+                },
+                {
+                  "name": "8代i3-8130U双网(2*D3/16/M2)",
+                  "price": 890
+                },
+                {
+                  "name": "8代i5-8250U双网(2*D3/16/M2)",
+                  "price": 1240
+                },
+                {
+                  "name": "8代i7-8550U双网(2*D3/16/M2)",
+                  "price": 1380
+                },
+                {
+                  "name": "12代i5-1235U双网(2*D4/32/M2)",
+                  "price": 2560
+                },
+                {
+                  "name": "7代i5-7200U四网(2*D3/16/M2)",
+                  "price": 1300
+                },
+                {
+                  "name": "8代i5-8250U四网(2*D3/16/M2)",
+                  "price": 1500
+                },
+                {
+                  "name": "8代i7-8550U四网(2*D3/16/M2)",
+                  "price": 1700
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "8+8G(D3)",
+                  "price": 400
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "H01",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "H01 白黑／全黑 15.6单屏外壳+触摸屏",
+              "price": 950,
+              "modelCode": "H01单屏"
+            },
+            {
+              "name": "H01 白黑／全黑 15.6双屏外壳+触摸屏",
+              "price": 970,
+              "modelCode": "H01双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "J1800单网(1*D3/8/MS)",
+                  "price": 460
+                },
+                {
+                  "name": "J1900双网(1*D3/8/MS)",
+                  "price": 680
+                },
+                {
+                  "name": "3代i5-3210M双网(1*D3/8/MS)",
+                  "price": 570
+                },
+                {
+                  "name": "5代I3-5005U双网(2*D3/16/MS)",
+                  "price": 720
+                },
+                {
+                  "name": "5代i5-5350U双网(2*D3/16/MS)",
+                  "price": 830
+                },
+                {
+                  "name": "5代i7-5600U双网(2*D3/16/MS)",
+                  "price": 990
+                },
+                {
+                  "name": "6代i5-6300U双网(2*D3/16/M2)",
+                  "price": 900
+                },
+                {
+                  "name": "7代i3-7100U双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代i5-7300U双网(2*D3/16/M2)",
+                  "price": 980
+                },
+                {
+                  "name": "8代i3-8130U双网(2*D3/16/M2)",
+                  "price": 890
+                },
+                {
+                  "name": "8代i5-8250U双网(2*D3/16/M2)",
+                  "price": 1240
+                },
+                {
+                  "name": "8代i7-8550U双网(2*D3/16/M2)",
+                  "price": 1380
+                },
+                {
+                  "name": "12代i5-1235U双网(2*D4/32/M2)",
+                  "price": 2560
+                },
+                {
+                  "name": "7代i5-7200U四网(2*D3/16/M2)",
+                  "price": 1300
+                },
+                {
+                  "name": "8代i5-8250U四网(2*D3/16/M2)",
+                  "price": 1500
+                },
+                {
+                  "name": "8代i7-8550U四网(2*D3/16/M2)",
+                  "price": 1700
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "8+8G(D3)",
+                  "price": 400
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "H02",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "H02 白黑／全黑 15.6单屏外壳+触摸屏",
+              "price": 950,
+              "modelCode": "H02单屏"
+            },
+            {
+              "name": "H02 白黑／全黑 15.6双屏外壳+触摸屏",
+              "price": 970,
+              "modelCode": "H02双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "J1800单网(1*D3/8/MS)",
+                  "price": 460
+                },
+                {
+                  "name": "J1900双网(1*D3/8/MS)",
+                  "price": 680
+                },
+                {
+                  "name": "3代i5-3210M双网(1*D3/8/MS)",
+                  "price": 570
+                },
+                {
+                  "name": "5代I3-5005U双网(2*D3/16/MS)",
+                  "price": 720
+                },
+                {
+                  "name": "5代i5-5350U双网(2*D3/16/MS)",
+                  "price": 830
+                },
+                {
+                  "name": "5代i7-5600U双网(2*D3/16/MS)",
+                  "price": 990
+                },
+                {
+                  "name": "6代i5-6300U双网(2*D3/16/M2)",
+                  "price": 900
+                },
+                {
+                  "name": "7代i3-7100U双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代i5-7300U双网(2*D3/16/M2)",
+                  "price": 980
+                },
+                {
+                  "name": "8代i3-8130U双网(2*D3/16/M2)",
+                  "price": 890
+                },
+                {
+                  "name": "8代i5-8250U双网(2*D3/16/M2)",
+                  "price": 1240
+                },
+                {
+                  "name": "8代i7-8550U双网(2*D3/16/M2)",
+                  "price": 1380
+                },
+                {
+                  "name": "12代i5-1235U双网(2*D4/32/M2)",
+                  "price": 2560
+                },
+                {
+                  "name": "7代i5-7200U四网(2*D3/16/M2)",
+                  "price": 1300
+                },
+                {
+                  "name": "8代i5-8250U四网(2*D3/16/M2)",
+                  "price": 1500
+                },
+                {
+                  "name": "8代i7-8550U四网(2*D3/16/M2)",
+                  "price": 1700
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "8+8G(D3)",
+                  "price": 400
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "GBOOK-GPS(DC系列)",
           "product": "IP广播服务器",
           "mode": "round",
@@ -5810,7 +7336,7 @@ var QUOTE_DATA = {
             },
             {
               "name": "GBOOK-156(DR)",
-              "price": 2088
+              "price": 1988
             },
             {
               "name": "GBOOK-173(DR)",
@@ -6250,7 +7776,7 @@ var QUOTE_DATA = {
             },
             {
               "name": "IPS-156",
-              "price": 2358
+              "price": 2258
             },
             {
               "name": "IPS-173",
@@ -6752,28 +8278,44 @@ var QUOTE_DATA = {
                   "price": 1630
                 },
                 {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
                   "name": "10代I3-10110U双网(2*D4/32/M2)",
                   "price": 1510
                 },
                 {
                   "name": "12代I3-1215U双网(2*D4/32/M2)",
-                  "price": 2310
+                  "price": 2170
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1230
+                  "price": 1190
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1700
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1660
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/32/M2)",
                   "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
                 },
                 {
                   "name": "8代i7-8665U四网(2*D4/32/M2)",
@@ -6786,6 +8328,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
                 },
                 {
                   "name": "6代I7-6600U双网(2*D3/16/M2)",
@@ -7682,28 +9228,44 @@ var QUOTE_DATA = {
                   "price": 1630
                 },
                 {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
                   "name": "10代I3-10110U双网(2*D4/32/M2)",
                   "price": 1510
                 },
                 {
                   "name": "12代I3-1215U双网(2*D4/32/M2)",
-                  "price": 2310
+                  "price": 2170
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1230
+                  "price": 1190
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1700
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1660
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/32/M2)",
                   "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
                 },
                 {
                   "name": "8代i7-8665U四网(2*D4/32/M2)",
@@ -7716,6 +9278,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
                 },
                 {
                   "name": "6代I7-6600U双网(2*D3/16/M2)",
@@ -7997,28 +9563,44 @@ var QUOTE_DATA = {
                   "price": 1630
                 },
                 {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
                   "name": "10代I3-10110U双网(2*D4/32/M2)",
                   "price": 1510
                 },
                 {
                   "name": "12代I3-1215U双网(2*D4/32/M2)",
-                  "price": 2310
+                  "price": 2170
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1230
+                  "price": 1190
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1700
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1660
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/32/M2)",
                   "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
                 },
                 {
                   "name": "8代i7-8665U四网(2*D4/32/M2)",
@@ -8029,20 +9611,16 @@ var QUOTE_DATA = {
                   "price": 2920
                 },
                 {
-                  "name": "飞腾FT2000双网(2*D4/32/MS)风扇",
-                  "price": 3400
+                  "name": "飞腾FT2000双网DC(2*D4/32/MS)风扇",
+                  "price": 3800
                 },
                 {
-                  "name": "兆芯6640MA双网(2*D4/32/MS)风扇",
-                  "price": 2572
+                  "name": "兆芯6640MA双网DC(2*D4/32/MS)风扇",
+                  "price": 2290
                 },
                 {
-                  "name": "兆芯U6580双网(2*D4/32/MS)风扇",
-                  "price": 2220
-                },
-                {
-                  "name": "兆芯U6780A双网(2*D4/32/MS)风扇",
-                  "price": 2572
+                  "name": "兆芯U6780A双网DC(2*D4/32/MS)风扇",
+                  "price": 2200
                 },
                 {
                   "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
@@ -8051,6 +9629,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
                 },
                 {
                   "name": "6代I7-6600U双网(2*D3/16/M2)",
@@ -8500,28 +10082,44 @@ var QUOTE_DATA = {
                   "price": 1630
                 },
                 {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
                   "name": "10代I3-10110U双网(2*D4/32/M2)",
                   "price": 1510
                 },
                 {
                   "name": "12代I3-1215U双网(2*D4/32/M2)",
-                  "price": 2310
+                  "price": 2170
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1230
+                  "price": 1190
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1700
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1660
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/32/M2)",
                   "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
                 },
                 {
                   "name": "8代i7-8665U四网(2*D4/32/M2)",
@@ -8534,6 +10132,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
                 },
                 {
                   "name": "6代I7-6600U双网(2*D3/16/M2)",
@@ -8971,28 +10573,44 @@ var QUOTE_DATA = {
                   "price": 1630
                 },
                 {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
                   "name": "10代I3-10110U双网(2*D4/32/M2)",
                   "price": 1510
                 },
                 {
                   "name": "12代I3-1215U双网(2*D4/32/M2)",
-                  "price": 2310
+                  "price": 2170
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1230
+                  "price": 1190
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1700
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1660
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/32/M2)",
                   "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
                 },
                 {
                   "name": "8代i7-8665U四网(2*D4/32/M2)",
@@ -9005,6 +10623,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
                 },
                 {
                   "name": "6代I7-6600U双网(2*D3/16/M2)",
@@ -9502,28 +11124,44 @@ var QUOTE_DATA = {
                   "price": 1630
                 },
                 {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
                   "name": "10代I3-10110U双网(2*D4/32/M2)",
                   "price": 1510
                 },
                 {
                   "name": "12代I3-1215U双网(2*D4/32/M2)",
-                  "price": 2310
+                  "price": 2170
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1230
+                  "price": 1190
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1700
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1660
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/32/M2)",
                   "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
                 },
                 {
                   "name": "8代i7-8665U四网(2*D4/32/M2)",
@@ -9536,6 +11174,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
                 },
                 {
                   "name": "6代I7-6600U双网(2*D3/16/M2)",
@@ -9973,28 +11615,44 @@ var QUOTE_DATA = {
                   "price": 1630
                 },
                 {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
                   "name": "10代I3-10110U双网(2*D4/32/M2)",
                   "price": 1510
                 },
                 {
                   "name": "12代I3-1215U双网(2*D4/32/M2)",
-                  "price": 2310
+                  "price": 2170
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1230
+                  "price": 1190
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1700
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1660
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/32/M2)",
                   "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
                 },
                 {
                   "name": "8代i7-8665U四网(2*D4/32/M2)",
@@ -10007,6 +11665,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
                 },
                 {
                   "name": "6代I7-6600U双网(2*D3/16/M2)",
@@ -10252,6 +11914,11 @@ var QUOTE_DATA = {
               "name": "IPC-210(2U)",
               "price": 960,
               "own": "secondary"
+            },
+            {
+              "name": "IPC-210(2U)8盘位热插拔",
+              "price": 2000,
+              "own": "secondary"
             }
           ],
           "categories": [
@@ -10288,23 +11955,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "国产ATX（含兆芯U6580/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/单网）",
-                  "price": 2240
+                  "price": 2200
                 },
                 {
                   "name": "国产ATX（含兆芯U6780A/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/单网）",
-                  "price": 2500
+                  "price": 2400
                 },
                 {
                   "name": "国产ATX（含兆芯6640MA/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/双网）",
-                  "price": 2800
+                  "price": 2450
                 },
                 {
                   "name": "国产ATX（含飞腾FT2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/双网）",
-                  "price": 4000
+                  "price": 4500
                 },
                 {
-                  "name": "国产ATX（含飞腾D2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/四网）",
-                  "price": 3440
+                  "name": "国产ATX（含飞腾D2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/双网）",
+                  "price": 4000
                 },
                 {
                   "name": "国产ATX（含海光C86-4G 3490 16核 2.8G 135W/4*D4/1*M.2 NVME/4*SATA/PCIE X16*1/PCIE X4*2/10COM/双网/710显卡）",
@@ -10988,28 +12655,44 @@ var QUOTE_DATA = {
                   "price": 1630
                 },
                 {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
                   "name": "10代I3-10110U双网(2*D4/32/M2)",
                   "price": 1510
                 },
                 {
                   "name": "12代I3-1215U双网(2*D4/32/M2)",
-                  "price": 2310
+                  "price": 2170
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1230
+                  "price": 1190
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1700
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1660
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/32/M2)",
                   "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
                 },
                 {
                   "name": "8代i7-8665U四网(2*D4/32/M2)",
@@ -11022,6 +12705,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
                 },
                 {
                   "name": "6代I7-6600U双网(2*D3/16/M2)",
@@ -11178,11 +12865,43 @@ var QUOTE_DATA = {
           "sizes": [
             {
               "name": "BPC-103",
-              "price": 220
+              "price": 220,
+              "lockCats": [
+                "主板"
+              ],
+              "lockNote": {
+                "主板": "主板已含 CPU（板载）"
+              },
+              "banDesktopCpu": true
             },
             {
               "name": "BPC-103(H)",
               "price": 320
+            },
+            {
+              "name": "BPC-103L",
+              "price": 1820,
+              "specNote": "含5网主板",
+              "lockCats": [
+                "主板"
+              ],
+              "lockNote": {
+                "主板": "机箱已含主板（5 网）"
+              },
+              "cpuOptions": [
+                "I3 6100",
+                "I5 6500",
+                "I7 6700",
+                "I3-7100",
+                "I5-7400",
+                "I7-7700",
+                "I3-8100",
+                "I5-8400",
+                "I7-8700",
+                "I3-9100",
+                "I5-9400",
+                "I7-9700"
+              ]
             }
           ],
           "categories": [
@@ -11243,28 +12962,44 @@ var QUOTE_DATA = {
                   "price": 1630
                 },
                 {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
                   "name": "10代I3-10110U双网(2*D4/32/M2)",
                   "price": 1510
                 },
                 {
                   "name": "12代I3-1215U双网(2*D4/32/M2)",
-                  "price": 2310
+                  "price": 2170
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1230
+                  "price": 1190
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1700
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1660
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/32/M2)",
                   "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
                 },
                 {
                   "name": "8代i7-8665U四网(2*D4/32/M2)",
@@ -11275,20 +13010,16 @@ var QUOTE_DATA = {
                   "price": 2920
                 },
                 {
-                  "name": "飞腾FT2000双网(2*D4/32/MS)风扇",
-                  "price": 3400
+                  "name": "飞腾FT2000双网DC(2*D4/32/MS)风扇",
+                  "price": 3800
                 },
                 {
-                  "name": "兆芯6640MA双网(2*D4/32/MS)风扇",
-                  "price": 2572
+                  "name": "兆芯6640MA双网DC(2*D4/32/MS)风扇",
+                  "price": 2290
                 },
                 {
-                  "name": "兆芯U6580双网(2*D4/32/MS)风扇",
-                  "price": 2220
-                },
-                {
-                  "name": "兆芯U6780A双网(2*D4/32/MS)风扇",
-                  "price": 2572
+                  "name": "兆芯U6780A双网DC(2*D4/32/MS)风扇",
+                  "price": 2200
                 },
                 {
                   "name": "I3 6100",
@@ -11345,6 +13076,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
                 },
                 {
                   "name": "6代I7-6600U双网(2*D3/16/M2)",
@@ -11493,7 +13228,7 @@ var QUOTE_DATA = {
             },
             {
               "name": "GBOOK-156(DR)",
-              "price": 2088
+              "price": 1988
             },
             {
               "name": "GBOOK-173(DR)",
@@ -11541,28 +13276,44 @@ var QUOTE_DATA = {
                   "price": 1630
                 },
                 {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
                   "name": "10代I3-10110U双网(2*D4/32/M2)",
                   "price": 1510
                 },
                 {
                   "name": "12代I3-1215U双网(2*D4/32/M2)",
-                  "price": 2310
+                  "price": 2170
                 },
                 {
                   "name": "N5095双网(1*D4/16/M2)",
-                  "price": 1230
+                  "price": 1190
                 },
                 {
                   "name": "J6412双网(1*D4/16/M2)",
-                  "price": 1700
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
                 },
                 {
                   "name": "N100双网(1*D4/16/M2)",
-                  "price": 1780
+                  "price": 1660
                 },
                 {
                   "name": "7代i5-7300U四网(2*D4/32/M2)",
                   "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
                 },
                 {
                   "name": "8代i7-8665U四网(2*D4/32/M2)",
@@ -11575,6 +13326,10 @@ var QUOTE_DATA = {
                 {
                   "name": "10代I7-1065G7双网(2*d4/32/m2)",
                   "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
                 },
                 {
                   "name": "6代I7-6600U双网(2*D3/16/M2)",
@@ -11776,23 +13531,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "国产ATX（含兆芯U6580/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/单网）",
-                  "price": 2240
+                  "price": 2200
                 },
                 {
                   "name": "国产ATX（含兆芯U6780A/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/单网）",
-                  "price": 2500
+                  "price": 2400
                 },
                 {
                   "name": "国产ATX（含兆芯6640MA/2*D4/1*M.2/3*SATA/PCIE X16*1/PCIE X4*2/PCI*1/6COM/双网）",
-                  "price": 2800
+                  "price": 2450
                 },
                 {
                   "name": "国产ATX（含飞腾FT2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/双网）",
-                  "price": 4000
+                  "price": 4500
                 },
                 {
-                  "name": "国产ATX（含飞腾D2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/四网）",
-                  "price": 3440
+                  "name": "国产ATX（含飞腾D2000 8核/2*D4/1*M.2/3*SATA/PCIE X16*1/6COM/双网）",
+                  "price": 4000
                 },
                 {
                   "name": "国产ATX（含海光C86-4G 3490 16核 2.8G 135W/4*D4/1*M.2 NVME/4*SATA/PCIE X16*1/PCIE X4*2/10COM/双网/710显卡）",
@@ -11982,7 +13737,7 @@ var QUOTE_DATA = {
             },
             {
               "name": "IPS-156",
-              "price": 2358
+              "price": 2258
             },
             {
               "name": "IPS-173",
@@ -11994,24 +13749,24 @@ var QUOTE_DATA = {
               "name": "CPU",
               "options": [
                 {
-                  "name": "飞腾D2000四网(2*D4/32/M2)",
-                  "price": 3440
-                },
-                {
-                  "name": "飞腾FT2000双网(2*D4/32/M2)",
+                  "name": "飞腾D2000双网(2*D4/32/M2)",
                   "price": 4000
                 },
                 {
+                  "name": "飞腾FT2000双网(2*D4/32/M2)",
+                  "price": 4500
+                },
+                {
                   "name": "兆芯U6580单网(2*D4/32/M2)",
-                  "price": 2240
+                  "price": 2200
                 },
                 {
                   "name": "兆芯U6780A单网(2*D4/32/M2)",
-                  "price": 2500
+                  "price": 2400
                 },
                 {
                   "name": "兆芯6640MA双网(2*D4/32/M2)",
-                  "price": 2800
+                  "price": 2450
                 },
                 {
                   "name": "海光C86-4G 3490双网(2*D4/32/M2)",
@@ -12142,6 +13897,1620 @@ var QUOTE_DATA = {
               ]
             }
           ]
+        },
+        {
+          "name": "A8",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "A8 白黑／黑色 15.6单屏外壳+触摸屏",
+              "price": 1050,
+              "modelCode": "A8单屏"
+            },
+            {
+              "name": "A8 白黑／全黑 15.6双屏外壳+触摸屏",
+              "price": 1430,
+              "modelCode": "A8双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "3代i5-3210M单网(1*D3/8/MS)",
+                  "price": 550
+                },
+                {
+                  "name": "3代i5-3317U双网(1*D3/8/MS)",
+                  "price": 590
+                },
+                {
+                  "name": "6代i3-6100U双网(2*D3/16/M2)",
+                  "price": 740
+                },
+                {
+                  "name": "7代I3-7100U 双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代I5-7200U 双网(2*D4/32/M2)",
+                  "price": 1080
+                },
+                {
+                  "name": "8代i3-8145U双网(2*D4/32/M2)",
+                  "price": 1200
+                },
+                {
+                  "name": "8代i5-8257U双网(2*D4/32/M2)",
+                  "price": 1630
+                },
+                {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
+                  "name": "10代I3-10110U双网(2*D4/32/M2)",
+                  "price": 1510
+                },
+                {
+                  "name": "12代I3-1215U双网(2*D4/32/M2)",
+                  "price": 2170
+                },
+                {
+                  "name": "N5095双网(1*D4/16/M2)",
+                  "price": 1190
+                },
+                {
+                  "name": "J6412双网(1*D4/16/M2)",
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
+                },
+                {
+                  "name": "N100双网(1*D4/16/M2)",
+                  "price": 1660
+                },
+                {
+                  "name": "7代i5-7300U四网(2*D4/32/M2)",
+                  "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
+                },
+                {
+                  "name": "8代i7-8665U四网(2*D4/32/M2)",
+                  "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
+                },
+                {
+                  "name": "6代I7-6600U双网(2*D3/16/M2)",
+                  "price": 1250
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F8",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "F8 白／黑 15.6单屏外壳+触摸屏",
+              "price": 1000,
+              "modelCode": "F8单屏"
+            },
+            {
+              "name": "F8 白／黑 15.6双屏外壳+触摸屏",
+              "price": 1430,
+              "modelCode": "F8双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "3代i5-3210M单网(1*D3/8/MS)",
+                  "price": 550
+                },
+                {
+                  "name": "3代i5-3317U双网(1*D3/8/MS)",
+                  "price": 590
+                },
+                {
+                  "name": "6代i3-6100U双网(2*D3/16/M2)",
+                  "price": 740
+                },
+                {
+                  "name": "7代I3-7100U 双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代I5-7200U 双网(2*D4/32/M2)",
+                  "price": 1080
+                },
+                {
+                  "name": "8代i3-8145U双网(2*D4/32/M2)",
+                  "price": 1200
+                },
+                {
+                  "name": "8代i5-8257U双网(2*D4/32/M2)",
+                  "price": 1630
+                },
+                {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
+                  "name": "10代I3-10110U双网(2*D4/32/M2)",
+                  "price": 1510
+                },
+                {
+                  "name": "12代I3-1215U双网(2*D4/32/M2)",
+                  "price": 2170
+                },
+                {
+                  "name": "N5095双网(1*D4/16/M2)",
+                  "price": 1190
+                },
+                {
+                  "name": "J6412双网(1*D4/16/M2)",
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
+                },
+                {
+                  "name": "N100双网(1*D4/16/M2)",
+                  "price": 1660
+                },
+                {
+                  "name": "7代i5-7300U四网(2*D4/32/M2)",
+                  "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
+                },
+                {
+                  "name": "8代i7-8665U四网(2*D4/32/M2)",
+                  "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
+                },
+                {
+                  "name": "6代I7-6600U双网(2*D3/16/M2)",
+                  "price": 1250
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E6",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "E6 白／黑 15.6单屏外壳+触摸屏",
+              "price": 1000,
+              "modelCode": "E6单屏"
+            },
+            {
+              "name": "E6 白／黑 15.6双屏外壳+触摸屏",
+              "price": 1430,
+              "modelCode": "E6双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "3代i5-3210M单网(1*D3/8/MS)",
+                  "price": 550
+                },
+                {
+                  "name": "3代i5-3317U双网(1*D3/8/MS)",
+                  "price": 590
+                },
+                {
+                  "name": "6代i3-6100U双网(2*D3/16/M2)",
+                  "price": 740
+                },
+                {
+                  "name": "7代I3-7100U 双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代I5-7200U 双网(2*D4/32/M2)",
+                  "price": 1080
+                },
+                {
+                  "name": "8代i3-8145U双网(2*D4/32/M2)",
+                  "price": 1200
+                },
+                {
+                  "name": "8代i5-8257U双网(2*D4/32/M2)",
+                  "price": 1630
+                },
+                {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
+                  "name": "10代I3-10110U双网(2*D4/32/M2)",
+                  "price": 1510
+                },
+                {
+                  "name": "12代I3-1215U双网(2*D4/32/M2)",
+                  "price": 2170
+                },
+                {
+                  "name": "N5095双网(1*D4/16/M2)",
+                  "price": 1190
+                },
+                {
+                  "name": "J6412双网(1*D4/16/M2)",
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
+                },
+                {
+                  "name": "N100双网(1*D4/16/M2)",
+                  "price": 1660
+                },
+                {
+                  "name": "7代i5-7300U四网(2*D4/32/M2)",
+                  "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
+                },
+                {
+                  "name": "8代i7-8665U四网(2*D4/32/M2)",
+                  "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
+                },
+                {
+                  "name": "6代I7-6600U双网(2*D3/16/M2)",
+                  "price": 1250
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E9",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "E9 白／黑 15.6单屏外壳+触摸屏",
+              "price": 970,
+              "modelCode": "E9单屏"
+            },
+            {
+              "name": "E9 白／黑 15.6双屏外壳+触摸屏",
+              "price": 1430,
+              "modelCode": "E9双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "3代i5-3210M单网(1*D3/8/MS)",
+                  "price": 550
+                },
+                {
+                  "name": "3代i5-3317U双网(1*D3/8/MS)",
+                  "price": 590
+                },
+                {
+                  "name": "6代i3-6100U双网(2*D3/16/M2)",
+                  "price": 740
+                },
+                {
+                  "name": "7代I3-7100U 双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代I5-7200U 双网(2*D4/32/M2)",
+                  "price": 1080
+                },
+                {
+                  "name": "8代i3-8145U双网(2*D4/32/M2)",
+                  "price": 1200
+                },
+                {
+                  "name": "8代i5-8257U双网(2*D4/32/M2)",
+                  "price": 1630
+                },
+                {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
+                  "name": "10代I3-10110U双网(2*D4/32/M2)",
+                  "price": 1510
+                },
+                {
+                  "name": "12代I3-1215U双网(2*D4/32/M2)",
+                  "price": 2170
+                },
+                {
+                  "name": "N5095双网(1*D4/16/M2)",
+                  "price": 1190
+                },
+                {
+                  "name": "J6412双网(1*D4/16/M2)",
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
+                },
+                {
+                  "name": "N100双网(1*D4/16/M2)",
+                  "price": 1660
+                },
+                {
+                  "name": "7代i5-7300U四网(2*D4/32/M2)",
+                  "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
+                },
+                {
+                  "name": "8代i7-8665U四网(2*D4/32/M2)",
+                  "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
+                },
+                {
+                  "name": "6代I7-6600U双网(2*D3/16/M2)",
+                  "price": 1250
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "H01",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "H01 白黑／全黑 15.6单屏外壳+触摸屏",
+              "price": 950,
+              "modelCode": "H01单屏"
+            },
+            {
+              "name": "H01 白黑／全黑 15.6双屏外壳+触摸屏",
+              "price": 970,
+              "modelCode": "H01双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "3代i5-3210M单网(1*D3/8/MS)",
+                  "price": 550
+                },
+                {
+                  "name": "3代i5-3317U双网(1*D3/8/MS)",
+                  "price": 590
+                },
+                {
+                  "name": "6代i3-6100U双网(2*D3/16/M2)",
+                  "price": 740
+                },
+                {
+                  "name": "7代I3-7100U 双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代I5-7200U 双网(2*D4/32/M2)",
+                  "price": 1080
+                },
+                {
+                  "name": "8代i3-8145U双网(2*D4/32/M2)",
+                  "price": 1200
+                },
+                {
+                  "name": "8代i5-8257U双网(2*D4/32/M2)",
+                  "price": 1630
+                },
+                {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
+                  "name": "10代I3-10110U双网(2*D4/32/M2)",
+                  "price": 1510
+                },
+                {
+                  "name": "12代I3-1215U双网(2*D4/32/M2)",
+                  "price": 2170
+                },
+                {
+                  "name": "N5095双网(1*D4/16/M2)",
+                  "price": 1190
+                },
+                {
+                  "name": "J6412双网(1*D4/16/M2)",
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
+                },
+                {
+                  "name": "N100双网(1*D4/16/M2)",
+                  "price": 1660
+                },
+                {
+                  "name": "7代i5-7300U四网(2*D4/32/M2)",
+                  "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
+                },
+                {
+                  "name": "8代i7-8665U四网(2*D4/32/M2)",
+                  "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
+                },
+                {
+                  "name": "6代I7-6600U双网(2*D3/16/M2)",
+                  "price": 1250
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "H02",
+          "product": "POS机",
+          "mode": "round",
+          "discountP": 0.82,
+          "discountL": 0.72,
+          "sizes": [
+            {
+              "name": "H02 白黑／全黑 15.6单屏外壳+触摸屏",
+              "price": 950,
+              "modelCode": "H02单屏"
+            },
+            {
+              "name": "H02 白黑／全黑 15.6双屏外壳+触摸屏",
+              "price": 970,
+              "modelCode": "H02双屏"
+            }
+          ],
+          "categories": [
+            {
+              "name": "CPU",
+              "options": [
+                {
+                  "name": "3代i5-3210M单网(1*D3/8/MS)",
+                  "price": 550
+                },
+                {
+                  "name": "3代i5-3317U双网(1*D3/8/MS)",
+                  "price": 590
+                },
+                {
+                  "name": "6代i3-6100U双网(2*D3/16/M2)",
+                  "price": 740
+                },
+                {
+                  "name": "7代I3-7100U 双网(2*D3/16/M2)",
+                  "price": 820
+                },
+                {
+                  "name": "7代I5-7200U 双网(2*D4/32/M2)",
+                  "price": 1080
+                },
+                {
+                  "name": "8代i3-8145U双网(2*D4/32/M2)",
+                  "price": 1200
+                },
+                {
+                  "name": "8代i5-8257U双网(2*D4/32/M2)",
+                  "price": 1630
+                },
+                {
+                  "name": "8代I7-8565U双网(2*D4/32/M2)",
+                  "price": 1680
+                },
+                {
+                  "name": "10代I3-10110U双网(2*D4/32/M2)",
+                  "price": 1510
+                },
+                {
+                  "name": "12代I3-1215U双网(2*D4/32/M2)",
+                  "price": 2170
+                },
+                {
+                  "name": "N5095双网(1*D4/16/M2)",
+                  "price": 1190
+                },
+                {
+                  "name": "J6412双网(1*D4/16/M2)",
+                  "price": 1540
+                },
+                {
+                  "name": "N95双网(1*D4/16/M2)",
+                  "price": 1450
+                },
+                {
+                  "name": "N150双网(1*D4/16/M2)",
+                  "price": 1490
+                },
+                {
+                  "name": "N100双网(1*D4/16/M2)",
+                  "price": 1660
+                },
+                {
+                  "name": "7代i5-7300U四网(2*D4/32/M2)",
+                  "price": 1800
+                },
+                {
+                  "name": "I5-8250U四网(2*D4/32/M2)",
+                  "price": 2120
+                },
+                {
+                  "name": "8代i7-8665U四网(2*D4/32/M2)",
+                  "price": 1940
+                },
+                {
+                  "name": "12代i5-1235U四网(2*D4/32/m2/4COM)",
+                  "price": 3100
+                },
+                {
+                  "name": "10代I7-1065G7双网(2*d4/32/m2)",
+                  "price": 2360
+                },
+                {
+                  "name": "11代I7-1195G7单网(2*D4/32/M2)",
+                  "price": 3100
+                },
+                {
+                  "name": "6代I7-6600U双网(2*D3/16/M2)",
+                  "price": 1250
+                }
+              ]
+            },
+            {
+              "name": "内存",
+              "options": [
+                {
+                  "name": "4G(D3)",
+                  "price": 130
+                },
+                {
+                  "name": "8G(D3)",
+                  "price": 200
+                },
+                {
+                  "name": "4G(D4)",
+                  "price": 365
+                },
+                {
+                  "name": "8G(D4)",
+                  "price": 620
+                },
+                {
+                  "name": "16G(D4)",
+                  "price": 1230
+                }
+              ]
+            },
+            {
+              "name": "固态硬盘",
+              "options": [
+                {
+                  "name": "128G(MS)",
+                  "price": 380
+                },
+                {
+                  "name": "256G(MS)",
+                  "price": 730
+                },
+                {
+                  "name": "512G(MS)",
+                  "price": 1190
+                },
+                {
+                  "name": "128(M2)",
+                  "price": 438
+                },
+                {
+                  "name": "256G(M2)",
+                  "price": 750
+                },
+                {
+                  "name": "512G(M2)",
+                  "price": 1140
+                },
+                {
+                  "name": "1T(SATA)",
+                  "price": 1710
+                }
+              ]
+            },
+            {
+              "name": "机械硬盘",
+              "options": [
+                {
+                  "name": "西数1T（咨询采购）",
+                  "price": 0
+                },
+                {
+                  "name": "西数2T（咨询采购）",
+                  "price": 0
+                }
+              ]
+            },
+            {
+              "name": "WIFI",
+              "options": [
+                {
+                  "name": "WiFi+BT",
+                  "price": 75
+                },
+                {
+                  "name": "WiFi6",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "name": "串口",
+              "options": [
+                {
+                  "name": "1-485(X86)",
+                  "price": 30
+                },
+                {
+                  "name": "2-485(X86)",
+                  "price": 60
+                },
+                {
+                  "name": "3-485(X86)",
+                  "price": 90
+                },
+                {
+                  "name": "4-485(X86)",
+                  "price": 120
+                },
+                {
+                  "name": "5-485(X86)",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "name": "其他",
+              "options": [
+                {
+                  "name": "湃达58打印机",
+                  "price": 200
+                },
+                {
+                  "name": "扫描平台",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "name": "支架",
+              "options": [
+                {
+                  "name": "桌面支架",
+                  "price": 55
+                },
+                {
+                  "name": "苹果支架",
+                  "price": 110
+                },
+                {
+                  "name": "三角支架",
+                  "price": 200
+                },
+                {
+                  "name": "CR-05悬臂支架",
+                  "price": 100
+                },
+                {
+                  "name": "W01悬臂支架",
+                  "price": 160
+                },
+                {
+                  "name": "小K底坐",
+                  "price": 700
+                },
+                {
+                  "name": "带键盘托底坐",
+                  "price": 900
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -12225,6 +15594,17 @@ var QUOTE_DATA = {
   ],
   "updateLogs": {
     "primary": [
+      {
+        "date": 46337,
+        "items": [
+          "GBOOK-156(DR) 准系统 价格 2088→1988（GBOOK-GPS(DC系列)；主推与非主推同步改价）",
+          "IPS-156 准系统 价格 2358→2258（IPS系列；主推与非主推同步改价）",
+          "GW系列 CPU「I5-5200U双网(2*D3/16/M2)」价格 950→1030（VW-5200U-MV，excel 面价=清货价=1030）",
+          "＋ BPC-103 新增尺寸 BPC-103L（¥1820，机箱+19V/7.9A电源、含5网主板、独立CPU/6-9代）：主板锁定（提示「机箱已含主板（5 网）」）不用选，CPU 只能选 6-9 代台式；报价单规格里写明「含5网主板」",
+          "＋ 新上 POS机 产品（A8 / F8 / E6 / E9 / H01 / H02 六系列，单双屏 12 个尺寸，准系统面价 950~1430；主推与非主推同步上架）：配置项照各自目录的 IPRO(x86) 复制（主推 16 颗 CPU / 非主推 22 颗），「其他」只留 湃达58打印机 ¥200、扫描平台 ¥240（其余配件用「其他配件报价」自填）",
+          "BPC-103（¥220）改为板载 CPU 机型：主板锁定（提示「主板已含 CPU（板载）」），不选、其价格不计入面价；台式 CPU 12 项（I3 6100~I7-9700）价格不再可选（灰显）。BPC-103(H) ¥320 维持原样"
+        ]
+      },
       {
         "date": 46333,
         "items": [
@@ -12341,6 +15721,20 @@ var QUOTE_DATA = {
       }
     ],
     "secondary": [
+      {
+        "date": 46337,
+        "items": [
+          "CPU 降价 4 款（各影响 10 个 DC 系列）：J6412 1700→1540、N100 1780→1660、N5095 1230→1190、12代I3-1215U 2310→2170",
+          "CPU 新增 5 款（各 10 个 DC 系列）：N95 1450、N150 1490、8代I7-8565U 1680、11代I7-1195G7 3100、I5-8250U四网 2120；NANO 的 N150 维持 1800",
+          "兆芯 ATX 板降价 3 款（上架式工控机、GPS(台式系列)、IPS系列）：6640MA 2800→2450、U6780A 2500→2400、U6580 2240→2200",
+          "兆芯 DC 板更名「双网DC」并降价 2 款（VOPC(X86)、BPC-103）：6640MA 2572→2290、U6780A 2572→2200",
+          "下架 CPU 兆芯U6580双网(2*D4/32/MS)风扇（厂家停产；旧单仍按原配置复购）",
+          "飞腾 ATX 板调价 2 款（各影响 3 个系列）：FT2000 8核 4000→4500；D2000 8核 3440→4000 且网口由四网更正为双网",
+          "飞腾 FT2000 DC 板更名「双网DC」并涨价 3400→3800（VOPC(X86)、BPC-103）",
+          "上架式工控机新增尺寸 IPC-210(2U)8盘位热插拔 2000（非主推源）",
+          "＋ 新上 POS机 6 系列（A8 / F8 / E6 / E9 / H01 / H02，单双屏 12 个尺寸，950~1430）：价格与主推一致，配置项照非主推 IPRO(x86)（CPU 22 颗 / 内存 5 档），「其他」只留 湃达58打印机 200、扫描平台 240"
+        ]
+      },
       {
         "date": 46331,
         "items": [

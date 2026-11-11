@@ -87,14 +87,18 @@ var QuoteCore = (function () {
    * @param selections {类别名: 选项名}
    * @param osPrice  正版系统/软件价格（不选传 0 / null）
    * @param rule     'total' 总价统一打折（默认）| 'baseOnly' 仅基础价打折、选配按面价
-   * @returns {base, optSum, os, face, plat, limit} —— face/plat/limit 均已含系统价
+   * @param acc      其他配件合计价（V3 手动配件行；手机版/对账脚本不传=0）
+   *                 口径（2026-09-08 佳叔确认）：配件参与统一打折，与正版系统/软件一致
+   *                 —— total：并入总价打统一折扣；baseOnly：按面价全额叠加；static：仅进面价
+   * @returns {base, optSum, os, acc, face, plat, limit} —— face/plat/limit 均已含系统价与配件价
    */
-  function computeQuote(series, size, selections, osPrice, rule) {
+  function computeQuote(series, size, selections, osPrice, rule, acc) {
     var base = size ? (Number(size.price) || 0) : 0;
     var optSum = optionSum(series, selections);
     var os = Number(osPrice) || 0;
-    /* 面价 = 基础价 + 选配 + 正版系统/软件；三档价对“含系统的总价”统一打折 */
-    var face = base + optSum + os;
+    var accV = Number(acc) || 0;
+    /* 面价 = 基础价 + 选配 + 正版系统/软件 + 其他配件 */
+    var face = base + optSum + os + accV;
     var plat, limit;
     if (series.mode === 'static') {
       plat = (size && size.plat != null) ? Number(size.plat) : face;
@@ -103,8 +107,8 @@ var QuoteCore = (function () {
       var p = (size && size.p != null) ? Number(size.p) : Number(series.discountP);
       var l = (size && size.l != null) ? Number(size.l) : Number(series.discountL);
       if (rule === 'baseOnly') {
-        plat = base * p + optSum + os;
-        limit = base * l + optSum + os;
+        plat = base * p + optSum + os + accV;
+        limit = base * l + optSum + os + accV;
       } else {
         plat = face * p;
         limit = face * l;
@@ -113,8 +117,8 @@ var QuoteCore = (function () {
       var dp = Number(series.discountP);
       var dl = Number(series.discountL);
       if (rule === 'baseOnly') {
-        plat = xround(base * dp) + optSum + os;
-        limit = xround(base * dl) + optSum + os;
+        plat = xround(base * dp) + optSum + os + accV;
+        limit = xround(base * dl) + optSum + os + accV;
       } else {
         plat = xround(face * dp);
         limit = xround(face * dl);
@@ -122,14 +126,47 @@ var QuoteCore = (function () {
     }
 
     return {
-      base: base, optSum: optSum, os: os,
+      base: base, optSum: optSum, os: os, acc: accV,
       face: face, plat: plat, limit: limit
     };
   }
 
+  /* 手动"其他配件"名称 → 目标类别（先到先得，只识别能明确归类的硬件）；
+     识别不出的一律视为杂项 → 规格行整行最末（操作系统之后）。 */
+  var ACC_CATS = [
+    { cat: 'CPU',      re: /(?:cpu|处理器|酷睿|赛扬|奔腾|至强|锐龙|ryzen|atom|i[3579]\b)/i },
+    { cat: '内存',     re: /(?:内存|ddr|ram|金士顿|威刚)/i },
+    { cat: '固态硬盘', re: /(?:固态|ssd|nvme|m\.2|msata)/i },
+    { cat: '机械硬盘', re: /(?:机械|hdd)/i },
+    { cat: 'WIFI',     re: /(?:wifi|wi-?fi|无线(?:网卡|模块|天线|接收器|盒子)|蓝牙|\bbt\b)/i },
+    { cat: '串口',     re: /(?:串口|rs[\s-]?(?:232|485|422))/i },
+    { cat: '支架',     re: /(?:支架|壁挂|挂架|vesa|摇臂)/i }
+  ];
+  function accessoryCat(name) {
+    for (var i = 0; i < ACC_CATS.length; i++) {
+      if (ACC_CATS[i].re.test(String(name))) return ACC_CATS[i].cat;
+    }
+    return null;
+  }
+  /* 配件归类方案：byCat={类别名:[配件名]}（能归位的）+ misc=[配件名]（识别不出/系列无此类） */
+  function accessoryPlan(accessories) {
+    var byCat = {}, misc = [];
+    (accessories || []).forEach(function (a) {
+      if (!a) return;
+      var nm = String(a.name || '').trim();
+      if (!nm) return;
+      var c = accessoryCat(nm);
+      if (c) (byCat[c] = byCat[c] || []).push(nm);
+      else misc.push(nm);
+    });
+    return { byCat: byCat, misc: misc };
+  }
+
   /* 规格参数行：产品名称/系列/尺寸/各已选配置/系统，空字段跳过，'/' 连接
-     includeProduct=false 不带产品名；includeSeries=false 不带系列名（复制/导出文本头部另起两行时两者均 false） */
-  function buildSpecLine(series, sizeName, selections, osLabel, includeProduct, includeSeries) {
+     includeProduct=false 不带产品名；includeSeries=false 不带系列名（复制/导出文本头部另起两行时两者均 false）
+     accessories（可选）：手动配件数组 [{name,price}]，按名称识别归类插到对应类别段之后；
+       识别不出（或系列里没有该类别）的放整行最末（操作系统之后）。不传=完全原行为（手机版/对账脚本兼容）。 */
+  function buildSpecLine(series, sizeName, selections, osLabel, includeProduct, includeSeries, accessories) {
     if (includeProduct === undefined) includeProduct = true;
     if (includeSeries === undefined) includeSeries = true;
     var parts = [];
@@ -141,11 +178,23 @@ var QuoteCore = (function () {
     var sizeStr = sizeName ? sizeLabel(sizeName) : '';
     var sizeIdx = -1;
     if (sizeStr) { sizeIdx = parts.length; parts.push(sizeStr); }
+    /* 尺寸级补充说明（2026-11-11 佳叔：BPC-103L 要写明「含5网主板」）。
+       紧跟尺寸段、**不带括号** —— 合同/发票的规格会过 stripSpecParens 把所有括号段整段删掉，
+       带括号等于白写。数据里没有 specNote 的尺寸完全不受影响。 */
+    var sizeObj = findSize(series, sizeName);
+    if (sizeObj && sizeObj.specNote) {
+      var noteStr = String(sizeObj.specNote).trim();
+      if (noteStr) parts.push(noteStr);
+    }
+
+    var plan = accessoryPlan(accessories);
+    var used = {};
     var cats = orderedCategories(series);
     for (var i = 0; i < cats.length; i++) {
-      var name = selections[cats[i].name];
+      var cat = cats[i];
+      var name = selections[cat.name];
       /* 与计价口径一致：表中不存在的选项名不进规格行（IFERROR 语义） */
-      if (name && findOption(cats[i], name)) {
+      if (name && findOption(cat, name)) {
         if (sizeIdx >= 0 && (name === sizeStr || name.indexOf(sizeStr + '/') === 0)) {
           parts[sizeIdx] = name;        /* 型号段用选项全名顶上，不再重复列尺寸 */
           sizeIdx = -1;
@@ -153,8 +202,18 @@ var QuoteCore = (function () {
           parts.push(name);
         }
       }
+      /* 配件归位：紧跟对应类别之后；类别名支持包含匹配（数据里 "WIFI安卓" 类也能收 WIFI 配件） */
+      for (var k in plan.byCat) {
+        if (!used[k] && (k === cat.name || (String(cat.name).indexOf(k) >= 0 && k.length > 1))) {
+          parts = parts.concat(plan.byCat[k]);
+          used[k] = true;
+        }
+      }
     }
     if (osLabel) parts.push(osLabel);
+    /* 系列里不存在的类别 + 识别不出的 → 整行最末（操作系统之后，按用户口径） */
+    for (var rk in plan.byCat) { if (!used[rk]) parts = parts.concat(plan.byCat[rk]); }
+    for (var m = 0; m < plan.misc.length; m++) parts.push(plan.misc[m]);
     return parts.join('/');
   }
 
@@ -177,6 +236,8 @@ var QuoteCore = (function () {
     optionSum: optionSum,
     computeQuote: computeQuote,
     buildSpecLine: buildSpecLine,
+    accessoryCat: accessoryCat,
+    accessoryPlan: accessoryPlan,
     fmtMoney: fmtMoney
   };
 })();
@@ -232,7 +293,7 @@ function assembleQuoteText(ctx) {
   var series = ctx.series, sizeName = ctx.sizeName, selections = ctx.selections,
       osLabel = ctx.osLabel, quote = ctx.quote, model = ctx.model;
   if (!series) return null;
-  var spec = stripSpecParens(QuoteCore.buildSpecLine(series, sizeName, selections, osLabel, false, false));
+  var spec = stripSpecParens(QuoteCore.buildSpecLine(series, sizeName, selections, osLabel, false, false, ctx.accessories));  // 第7参可选：V3 配件自动归位进规格文本（手机版不传不变）
   var d = new Date();
   var dateOnly = d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
   return [

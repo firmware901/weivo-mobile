@@ -126,9 +126,12 @@ if (typeof module !== 'undefined' && module.exports) {
     return PRODUCT_LABELS[s] || s;
   }
 
-  /* 公司型号：一般系列取大型号；「尺寸层即型号」的系列（三防）直接取尺寸名（RT-12C） */
+  /* 公司型号：尺寸级 modelCode 优先（POS 的 A8单屏/A8双屏）；
+     其次「尺寸层即型号」的系列（三防）取尺寸名（RT-12C）；其余取系列大型号 */
   function companyModel(s, sizeName) {
     if (!s) return '';
+    var z = QuoteCore.findSize(s, sizeName);
+    if (z && z.modelCode) return z.modelCode;
     if (sizeName && !QuoteCore.isSizeInch(sizeName)) return sizeName;
     return modelName(s.name);
   }
