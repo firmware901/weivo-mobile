@@ -78,6 +78,17 @@ if (typeof module !== 'undefined' && module.exports) {
     return s ? QuoteCore.findSize(s, state.sizeName) : null;
   }
 
+  /* 显式禁用项（灰显不可选）：系列级 banOpts + 尺寸级 banOpts 合并。
+     例：BPC-103L 不支持 7 代台式 CPU；AirMax 不能加装扬声器。
+     灰显而不是删掉 —— 业务能看到「有这项但选不了」，PO 反查也还能匹配到。 */
+  function banList(cat) {
+    var s = curSeries(), z = curSize(), out = [];
+    [s && s.banOpts, z && z.banOpts].forEach(function (b) {
+      if (b && b[cat]) out = out.concat(b[cat]);
+    });
+    return out;
+  }
+
   function findOsItem(label) {
     if (!label) return null;
     var g, i;
@@ -476,6 +487,24 @@ if (typeof module !== 'undefined' && module.exports) {
       }
       clearIfBanned(storSel, '固态硬盘');
     }
+    /* banOpts 显式禁用项：上面的约束重算会把 CPU/内存/硬盘的 disabled 放开，
+       所以必须放在最后再压一次，否则 103L 的 7 代 CPU 会被「放开」掉。 */
+    var selCells = document.querySelectorAll('#catList select.sel');
+    for (var ci = 0; ci < selCells.length; ci++) {
+      var sc = selCells[ci], cname = sc.dataset.cat, bl = banList(cname);
+      if (!bl.length) continue;
+      var wiped = false;
+      for (var oi = 0; oi < sc.options.length; oi++) {
+        var op = sc.options[oi];
+        if (op.value && bl.indexOf(op.value) !== -1) {
+          op.disabled = true;
+          op.classList.add('opt-ban');
+          if (op.text.indexOf('（不可选）') < 0) op.text += '  （不可选）';
+          if (state.sel[cname] === op.value) { delete state.sel[cname]; wiped = true; }
+        }
+      }
+      if (wiped) { sc.value = ''; changed = true; }
+    }
     if (changed) renderResult();
   }
 
@@ -521,6 +550,12 @@ if (typeof module !== 'undefined' && module.exports) {
         }
         var o = new Option(label + suffix, opt.name);
         if (isAsk) o.disabled = true;
+        var isBan = banList(cat.name).indexOf(opt.name) !== -1;
+        if (isBan) {
+          o.text = label + suffix + '  （不可选）';
+          o.disabled = true;
+          if (state.sel[cat.name] === opt.name) delete state.sel[cat.name];
+        }
         if (state.sel[cat.name] === opt.name) o.selected = true;
         sel.appendChild(o);
       });

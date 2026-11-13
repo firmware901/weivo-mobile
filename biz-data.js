@@ -1,21 +1,17 @@
 // ============================================================
-// 威沃商务助手 · 可维护数据文件（biz-data.js）——【报价版】
-// ⚠️ 本文件由 biz-data-审单.js 自动派生，请勿手工修改！
-//    改价流程：维护后台 maintain.html → 导出 biz-data.js（=审单版）
-//              → 放到 E:\业务助手\ 跑「报价库工具\一键分发.bat」→ 本文件自动更新。
-//    限价口径：报价端旧口径（各系列 0.72/0.70/0.73/0.76…），
-//              与「威沃审单系统」的统一 0.7 不同，两边已分家。
-//    面价 / 平台价 / 配件价 / 系统选项 / 主体 / 业务员 与审单版完全一致。
-//    来源数据时间：2026-11-12
+// 威沃商务助手 · 可维护数据文件（biz-data.js）
+// 由维护后台 maintain.html 打开 → 编辑 → 直接保存回本文件 生成。请勿手工修改，改请用维护后台。
+// 这是威沃业务助手唯一的报价数据文件：改它就直接生效，不需要再派生、也不用分发到别处。
+// 业务员本地客户记忆与合同序号存于浏览器 localStorage，不在此文件内，更新本文件不会冲掉。
 // ============================================================
 
 var QUOTE_DATA = {
-  "generatedAt": "2026-11-12",
+  "generatedAt": "2026-11-14 09:00:00",
   "sources": [
     {
       "key": "primary",
       "label": "主推",
-      "version": "20261112",
+      "version": "20261114",
       "validUntil": "11月30日",
       "fileName": "主推产品报价表（7月27更新）有效期7月30.xlsx",
       "series": [
@@ -163,23 +159,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -582,23 +578,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -1005,23 +1001,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -1321,23 +1317,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -1624,23 +1620,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -2082,23 +2078,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -2509,23 +2505,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -2858,6 +2854,11 @@ var QUOTE_DATA = {
           "mode": "round",
           "discountP": 0.82,
           "discountL": 0.72,
+          "banOpts": {
+            "其他": [
+              "扬声器"
+            ]
+          },
           "sizes": [
             {
               "name": "10.4",
@@ -2897,7 +2898,7 @@ var QUOTE_DATA = {
                   "price": 710
                 },
                 {
-                  "name": "I5-5200U双网(2*D3/16/MS)",
+                  "name": "I5-5200U双网(2*D3/16/M2)",
                   "price": 950
                 },
                 {
@@ -2944,23 +2945,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -3223,23 +3224,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -3646,23 +3647,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -4129,15 +4130,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -4181,10 +4182,22 @@ var QUOTE_DATA = {
               ]
             },
             {
-              "name": "显卡",
+              "name": "显卡/网卡",
               "options": [
                 {
-                  "name": "710/2G",
+                  "name": "710/2G显卡（X16）",
+                  "price": 600
+                },
+                {
+                  "name": "单口网卡（X1）",
+                  "price": 150
+                },
+                {
+                  "name": "双口网卡（X1）",
+                  "price": 300
+                },
+                {
+                  "name": "四口网卡（X4）",
                   "price": 600
                 }
               ]
@@ -4303,11 +4316,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -4421,23 +4434,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -4552,11 +4565,11 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "I5-5200U双网(2*D3/16/M2)",
-                  "price": 1030
+                  "price": 950
                 },
                 {
                   "name": "I5-7200U双网(2*D3/16/M2)",
-                  "price": 1280
+                  "price": 1080
                 }
               ]
             },
@@ -4598,23 +4611,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -4804,23 +4817,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -5031,23 +5044,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -5161,7 +5174,14 @@ var QUOTE_DATA = {
                 "I3-9100",
                 "I5-9400",
                 "I7-9700"
-              ]
+              ],
+              "banOpts": {
+                "CPU": [
+                  "I3-7100",
+                  "I5-7400",
+                  "I7-7700"
+                ]
+              }
             }
           ],
           "categories": [
@@ -5337,23 +5357,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -5955,23 +5975,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -6204,23 +6224,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -6453,23 +6473,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -6702,23 +6722,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -6951,23 +6971,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -7200,23 +7220,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -7459,23 +7479,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -7690,15 +7710,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -7892,15 +7912,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -8205,7 +8225,7 @@ var QUOTE_DATA = {
     {
       "key": "secondary",
       "label": "非主推",
-      "version": "20261112",
+      "version": "20261114",
       "validUntil": "11月30日",
       "fileName": "非主推产品报价表（7月21更新）有效期7月30V1.xlsx",
       "series": [
@@ -8373,23 +8393,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -8836,23 +8856,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -9323,23 +9343,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -9674,23 +9694,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -10177,23 +10197,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -10672,23 +10692,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -11223,23 +11243,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -11714,23 +11734,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -12050,15 +12070,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -12122,10 +12142,22 @@ var QUOTE_DATA = {
               ]
             },
             {
-              "name": "显卡",
+              "name": "显卡/网卡",
               "options": [
                 {
-                  "name": "710/2G",
+                  "name": "710/2G显卡（X16）",
+                  "price": 600
+                },
+                {
+                  "name": "单口网卡（X1）",
+                  "price": 150
+                },
+                {
+                  "name": "双口网卡（X1）",
+                  "price": 300
+                },
+                {
+                  "name": "四口网卡（X4）",
                   "price": 600
                 }
               ]
@@ -12398,23 +12430,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -12532,23 +12564,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -12750,23 +12782,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -12901,7 +12933,14 @@ var QUOTE_DATA = {
                 "I3-9100",
                 "I5-9400",
                 "I7-9700"
-              ]
+              ],
+              "banOpts": {
+                "CPU": [
+                  "I3-7100",
+                  "I5-7400",
+                  "I7-7700"
+                ]
+              }
             }
           ],
           "categories": [
@@ -13125,23 +13164,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -13375,23 +13414,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -13626,15 +13665,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -13800,15 +13839,15 @@ var QUOTE_DATA = {
               "options": [
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -14044,23 +14083,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -14313,23 +14352,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -14582,23 +14621,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -14851,23 +14890,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -15120,23 +15159,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -15389,23 +15428,23 @@ var QUOTE_DATA = {
                 },
                 {
                   "name": "256G(MS)",
-                  "price": 730
+                  "price": 600
                 },
                 {
                   "name": "512G(MS)",
-                  "price": 1190
+                  "price": 1000
                 },
                 {
                   "name": "128(M2)",
-                  "price": 438
+                  "price": 380
                 },
                 {
                   "name": "256G(M2)",
-                  "price": 750
+                  "price": 600
                 },
                 {
                   "name": "512G(M2)",
-                  "price": 1140
+                  "price": 1000
                 },
                 {
                   "name": "1T(SATA)",
@@ -15595,6 +15634,20 @@ var QUOTE_DATA = {
   "updateLogs": {
     "primary": [
       {
+              "date": 46339,
+              "items": [
+                "GW系列 I5-5200U双网(2*D3/16/M2) 降价 1030→950",
+                "GW系列 I5-7200U双网(2*D3/16/M2) 降价 1280→1080",
+                "AirMax(x86) I5-5200U双网 规格写法更正为 (2*D3/16/M2)，价格 950 不变",
+                "AirMax 与 GW-200 同板同价：I5-3210M 710、I5-5200U 950、I5-7200U 1080",
+                "固态硬盘降价 5 款（影响 42~47 个系列）：128(M2) 438→380、256G(MS) 730→600、256G(M2) 750→600、512G(MS) 1190→1000、512G(M2) 1140→1000；128G(MS) 380、1T(SATA) 1710 未调",
+                "BPC-103L 的 7 代台式 CPU（I3-7100 / I5-7400 / I7-7700）改为灰显不可选（103L 不支持 7 代）",
+                "AirMax(x86) 扬声器改为灰显不可选（不能加装喇叭）",
+                "＋ 上架式工控机「显卡」更名「显卡/网卡」，新增 单口网卡（X1）¥150、双口网卡（X1）¥300、四口网卡（X4）¥600",
+                "显卡 710/2G 更名为 710/2G显卡（X16），价格 600 不变"
+              ]
+            },
+            {
         "date": 46337,
         "items": [
           "GBOOK-156(DR) 准系统 价格 2088→1988（GBOOK-GPS(DC系列)；主推与非主推同步改价）",
@@ -15721,6 +15774,15 @@ var QUOTE_DATA = {
       }
     ],
     "secondary": [
+      {
+        "date": 46339,
+        "items": [
+          "固态硬盘降价 5 款（影响 42~47 个系列）：128(M2) 438→380、256G(MS) 730→600、256G(M2) 750→600、512G(MS) 1190→1000、512G(M2) 1140→1000；128G(MS) 380、1T(SATA) 1710 未调",
+          "BPC-103L 的 7 代台式 CPU（I3-7100 / I5-7400 / I7-7700）改为灰显不可选（103L 不支持 7 代）",
+          "＋ 上架式工控机「显卡」更名「显卡/网卡」，新增 单口网卡（X1）¥150、双口网卡（X1）¥300、四口网卡（X4）¥600",
+          "显卡 710/2G 更名为 710/2G显卡（X16），价格 600 不变"
+        ]
+      },
       {
         "date": 46337,
         "items": [
@@ -16034,18 +16096,6 @@ var SALESPEOPLE = [
     "phone": "18198856265"
   },
   {
-    "name": "韦茂荣",
-    "phone": "18028124576"
-  },
-  {
-    "name": "冯庆欣",
-    "phone": "18922486153"
-  },
-  {
-    "name": "邹顺洪",
-    "phone": "18028124835"
-  },
-  {
     "name": "余志豪",
     "phone": "19928278091"
   },
@@ -16066,8 +16116,24 @@ var SALESPEOPLE = [
     "phone": "18028118654"
   },
   {
-    "name": "陈颖婷",
-    "phone": "19927798042"
+    "name": "杜悦瑶",
+    "phone": "19928279404"
+  },
+  {
+    "name": "何孝铭",
+    "phone": "18123588895"
+  },
+  {
+    "name": "吴穆靖",
+    "phone": "18125773206"
+  },
+  {
+    "name": "钟春华",
+    "phone": "18038853770"
+  },
+  {
+    "name": "袁见兰",
+    "phone": "13922789621"
   }
 ];
 
@@ -16082,27 +16148,27 @@ var CONTRACT_NO = {
   },
   "何孝铭": {
     "prefix": "XS-XM",
-    "suffix": "-S"
+    "suffix": ""
   },
-  "韦茂荣": {
-    "prefix": "XS-MR",
-    "suffix": "-Y"
+  "杜悦瑶": {
+    "prefix": "XS-YY",
+    "suffix": ""
+  },
+  "吴穆靖": {
+    "prefix": "XS-MJ",
+    "suffix": ""
   },
   "章靖雯": {
     "prefix": "XS-JW",
     "suffix": "-Y"
   },
-  "冯庆欣": {
-    "prefix": "XS-QX",
-    "suffix": "-Y"
-  },
-  "邹顺洪": {
-    "prefix": "XS-ZS",
-    "suffix": "-Y"
-  },
   "梁碧映": {
     "prefix": "XS-BY",
     "suffix": "-Y-1"
+  },
+  "钟春华": {
+    "prefix": "XS-H-1-CH",
+    "suffix": ""
   },
   "余志豪": {
     "prefix": "XS-ZH",
@@ -16166,6 +16232,10 @@ var CONTRACT_NO = {
   },
   "曾丽华": {
     "prefix": "XS-H-1-LH",
+    "suffix": ""
+  },
+  "袁见兰": {
+    "prefix": "XS-JL",
     "suffix": ""
   }
 };
